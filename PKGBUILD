@@ -30,12 +30,12 @@ source=(packages-live.lst
         packages-xvid.lst
         packages-desk.lst
         packages-kids.lst)
-md5sums=('54173b65d80e592e70a3d916a16095d8'
+md5sums=('d464513e0182bdcd3990c4b6614bf448'
          '2d898da390b927d6c3ed2a0ad6ab8a59'
          'ebf2b4a88192dec03235fe0fcee93b85'
-         '8e4be5cd4e3818d4b31bdc4982ed53f2'
+         'fe9592a29162e31dbdeb2d56c5b527c5'
          'e37ec3892d3ab88e16094d00ad4b7e90'
-         'b099a94928fc69d5a648210862aa530b'
+         '8851f10725d01d09cbc660931101d59c'
          '5bb2d42ba72f9d3a8833a021cba436cd')
 
 package_meta-unexicon() {
