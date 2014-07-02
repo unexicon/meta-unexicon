@@ -9,7 +9,7 @@ pkgname=(
     'meta-unexicon-desk')
 pkgbase='meta-unexicon'
 pkgver=1.1
-pkgrel=3
+pkgrel=4
 pkgdesc="A collection of meta packages for the unexicon distribution"
 arch=('any')
 url="http://www.unexicon.com"

@@ -123,6 +123,11 @@ ourico
 #Download Size  :  11.06 KiB
 #Installed Size :  69.00 KiB
 
+etwm-git
+#Depends On     : libxinerama  libxrandr  libxmu  libxpm  libjpeg
+#Download Size  : 459.70 KiB
+#Installed Size : 1776.00 KiB
+
 evilwm
 #Depends On     : libxrandr
 #Download Size  :  19.25 KiB

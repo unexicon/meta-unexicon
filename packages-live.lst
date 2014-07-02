@@ -679,6 +679,9 @@ xorg-xsetpointer
 xorg-xwd
 xorg-xwud
 
+# the last cursor theme you will need except for the funky spaceship
+xcursor-bluecurve
+
 xpaint
 #Depends On     : libxaw3dxft  libpgf  libpng  libtiff  libxft  libxpm  openjpeg
 #Download Size  : 482.50 KiB
