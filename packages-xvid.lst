@@ -1,0 +1,428 @@
+xf86-input-acecad
+#Depends On     : sysfsutils
+#Download Size  :  10.23 KiB
+#Installed Size :  64.00 KiB
+xf86-input-aiptek
+#Depends On     : glibc
+#Download Size  :  13.64 KiB
+#Installed Size :  74.00 KiB
+xf86-input-elographics
+#Depends On     : glibc
+#Download Size  :   9.43 KiB
+#Installed Size :  64.00 KiB
+xf86-input-evdev
+#Depends On     : glibc  systemd  mtdev
+#Download Size  :  29.43 KiB
+#Installed Size : 126.00 KiB
+xf86-input-joystick
+#Depends On     : glibc
+#Download Size  :  22.46 KiB
+#Installed Size : 118.00 KiB
+xf86-input-keyboard
+#Depends On     : glibc
+#Download Size  :  11.80 KiB
+#Installed Size :  79.00 KiB
+xf86-input-mouse
+#Depends On     : glibc
+#Download Size  :  25.88 KiB
+#Installed Size : 113.00 KiB
+xf86-input-synaptics
+#Depends On     : libxtst  mtdev
+#Download Size  :  50.02 KiB
+#Installed Size : 192.00 KiB
+xf86-input-vmmouse
+#Depends On     : glibc  sh
+#Download Size  :  11.66 KiB
+#Installed Size :  96.00 KiB
+xf86-input-void
+#Depends On     : glibc
+#Download Size  :   5.34 KiB
+#Installed Size :  54.00 KiB
+xf86-input-wacom
+#Depends On     : libxi  libxinerama  libxrandr  systemd
+#Download Size  :  76.79 KiB
+#Installed Size : 205.00 KiB
+
+xf86-video-apm
+#Depends On     : glibc
+#Download Size  :  17.21 KiB
+#Installed Size :  87.00 KiB
+xf86-video-ark
+#Depends On     : glibc
+#Download Size  :   8.61 KiB
+#Installed Size :  56.00 KiB
+xf86-video-ast
+#Depends On     : glibc
+#Download Size  :  27.70 KiB
+#Installed Size : 111.00 KiB
+xf86-video-ati
+#Depends On     : libdrm>=2.4.41  systemd  ati-dri  glamor-egl
+#Download Size  : 116.64 KiB
+#Installed Size : 440.00 KiB
+xf86-video-chips
+#Depends On     : glibc
+#Download Size  :  45.09 KiB
+#Installed Size : 160.00 KiB
+xf86-video-cirrus
+#Depends On     : glibc
+#Download Size  :  26.24 KiB
+#Installed Size : 126.00 KiB
+xf86-video-dummy
+#Depends On     : glibc
+#Download Size  :   6.87 KiB
+#Installed Size :  55.00 KiB
+xf86-video-fbdev
+#Depends On     : glibc
+#Download Size  :  10.23 KiB
+#Installed Size :  70.00 KiB
+xf86-video-glint
+#Depends On     : glibc
+#Download Size  :  48.19 KiB
+#Installed Size : 183.00 KiB
+xf86-video-i128
+#Depends On     : glibc
+#Download Size  :  20.81 KiB
+#Installed Size : 103.00 KiB
+xf86-video-i740
+#Depends On     : glibc
+#Download Size  :  20.43 KiB
+#Installed Size :  97.00 KiB
+xf86-video-intel
+#Depends On     : intel-dri  libxvmc  pixman  xcb-util>=0.3.9  glamor-egl
+#Download Size  : 577.24 KiB
+#Installed Size : 1950.00 KiB
+xf86-video-mach64
+#Depends On     : glibc
+#Download Size  :  62.49 KiB
+#Installed Size : 212.00 KiB
+xf86-video-mga
+#Depends On     : glibc
+#Download Size  :  59.88 KiB
+#Installed Size : 196.00 KiB
+xf86-video-modesetting
+#Depends On     : libdrm>=2.4.37  systemd
+#Download Size  :  18.33 KiB
+#Installed Size :  91.00 KiB
+xf86-video-neomagic
+#Depends On     : glibc
+#Download Size  :  26.98 KiB
+#Installed Size : 116.00 KiB
+xf86-video-nouveau
+#Depends On     : libdrm  udev  nouveau-dri
+#Download Size  :  72.57 KiB
+#Installed Size : 237.00 KiB
+xf86-video-nv
+#Depends On     : glibc
+#Download Size  :  63.66 KiB
+#Installed Size : 219.00 KiB
+xf86-video-openchrome
+#Depends On     : libdrm  libxvmc  systemd
+#Download Size  : 124.74 KiB
+#Installed Size : 495.00 KiB
+xf86-video-r128
+#Depends On     : glibc
+#Download Size  :  44.75 KiB
+#Installed Size : 158.00 KiB
+xf86-video-rendition
+#Depends On     : glibc
+#Download Size  :  33.08 KiB
+#Installed Size : 146.00 KiB
+xf86-video-s3
+#Depends On     : glibc
+#Download Size  :  27.07 KiB
+#Installed Size : 107.00 KiB
+xf86-video-s3virge
+#Depends On     : glibc
+#Download Size  :  30.87 KiB
+#Installed Size : 119.00 KiB
+xf86-video-savage
+#Depends On     : glibc
+#Download Size  :  57.13 KiB
+#Installed Size : 192.00 KiB
+xf86-video-siliconmotion
+#Depends On     : glibc
+#Download Size  :  44.84 KiB
+#Installed Size : 161.00 KiB
+xf86-video-sis
+#Depends On     : glibc
+#Download Size  : 217.91 KiB
+#Installed Size : 592.00 KiB
+xf86-video-sisimedia
+#Depends On     : glibc
+#Download Size  : 224.59 KiB
+#Installed Size : 604.00 KiB
+xf86-video-sisusb
+#Depends On     : glibc
+#Download Size  :  34.74 KiB
+#Installed Size : 124.00 KiB
+xf86-video-tdfx
+#Depends On     : glibc
+#Download Size  :  26.41 KiB
+#Installed Size : 107.00 KiB
+xf86-video-trident
+#Depends On     : glibc
+#Download Size  :  51.14 KiB
+#Installed Size : 189.00 KiB
+xf86-video-tseng
+#Depends On     : glibc
+#Download Size  :  17.74 KiB
+#Installed Size :  88.00 KiB
+xf86-video-v4l
+#Depends On     : glibc
+#Download Size  :  18.97 KiB
+#Installed Size : 112.00 KiB
+xf86-video-vesa
+#Depends On     : glibc
+#Download Size  :  12.35 KiB
+#Installed Size :  74.00 KiB
+xf86-video-vmware
+#Depends On     : libdrm  svga-dri  mesa>=10.0
+#Download Size  :  61.98 KiB
+#Installed Size : 217.00 KiB
+xf86-video-voodoo
+#Depends On     : glibc
+#Download Size  :  12.04 KiB
+#Installed Size :  71.00 KiB
+
+# X.org Servers
+#
+# On the live image the necessary servers are pulled in by
+# dependencies.  Note that xorg-server-utils is a meta
+# package.
+#
+xorg-server
+#Depends On     : libxdmcp  libxfont  libpciaccess  libdrm  pixman  libgcrypt  libxau  xorg-server-common  xf86-input-evdev  libxshmfence
+#Download Size  : 1137.85 KiB
+#Installed Size : 3290.00 KiB
+xorg-server-common
+#Depends On     : xkeyboard-config  xorg-xkbcomp  xorg-setxkbmap  xorg-fonts-misc
+#Download Size  :  26.00 KiB
+#Installed Size : 132.00 KiB
+xorg-server-devel
+#Depends On     : xproto  randrproto  renderproto  xextproto  inputproto  kbproto  fontsproto  pixman  videoproto  xf86driproto  glproto  mesa  dri2proto  dri3proto  xineramaproto  libpciaccess  resourceproto  scrnsaverproto  presentproto  xorg-util-macros
+#Download Size  : 198.84 KiB
+#Installed Size : 1200.00 KiB
+xorg-server-utils
+#Depends On     : xorg-iceauth  xorg-sessreg  xorg-xcmsdb  xorg-xbacklight  xorg-xgamma  xorg-xhost  xorg-xinput  xorg-xmodmap  xorg-xrandr  xorg-xrdb  xorg-xrefresh  xorg-xset  xorg-xsetroot
+#Download Size  :   0.54 KiB
+#Installed Size :   4.00 KiB
+xorg-server-xdmx
+#Depends On     : libxfont  libxi  libgcrypt  libxaw  libxrender  libdmx  libxfixes  pixman  xorg-server-common
+#Download Size  : 715.21 KiB
+#Installed Size : 1961.00 KiB
+xorg-server-xephyr
+#Depends On     : libxfont  libgl  libgcrypt  libxv  pixman  xorg-server-common  xcb-util-image  xcb-util-wm  xcb-util-keysyms
+#Download Size  : 763.13 KiB
+#Installed Size : 2082.00 KiB
+xorg-server-xnest
+#Depends On     : libxfont  libxext  libgcrypt  pixman  xorg-server-common
+#Download Size  : 556.68 KiB
+#Installed Size : 1442.00 KiB
+xorg-server-xvfb
+#Depends On     : libxfont  libxdmcp  libxau  libgcrypt  pixman  xorg-server-common  xorg-xauth
+#Download Size  : 698.34 KiB
+#Installed Size : 1902.00 KiB
+
+# xf86dgaproto
+# xf86driproto
+# xf86miscproto
+# xf86vidmodeproto
+
+# X.org Fonts
+#
+#
+#
+xorg-bdftopcf
+#Depends On     : libxfont
+#Download Size  :   5.48 KiB
+#Installed Size :  20.00 KiB
+font-misc-ethiopic
+#Depends On     : xorg-mkfontdir  xorg-mkfontscale  fontconfig
+#Download Size  : 126.91 KiB
+#Installed Size : 422.00 KiB
+xorg-fonts-100dpi
+#Depends On     : xorg-fonts-encodings  xorg-fonts-alias  xorg-font-utils  fontconfig
+#Download Size  : 12093.34 KiB
+#Installed Size : 17260.00 KiB
+xorg-fonts-75dpi
+#Depends On     : xorg-fonts-encodings  xorg-fonts-alias  xorg-font-utils  fontconfig
+#Download Size  : 10605.88 KiB
+#Installed Size : 10972.00 KiB
+xorg-fonts-alias
+#Depends On     : None
+#Download Size  :   4.16 KiB
+#Installed Size :  19.00 KiB
+xorg-fonts-cyrillic
+#Depends On     : xorg-fonts-encodings  xorg-fonts-alias  xorg-font-utils  fontconfig
+#Download Size  : 373.00 KiB
+#Installed Size : 583.00 KiB
+xorg-fonts-encodings
+#Depends On     : None
+#Download Size  : 556.25 KiB
+#Installed Size : 796.00 KiB
+xorg-fonts-misc
+#Depends On     : xorg-fonts-encodings  xorg-fonts-alias  xorg-font-utils  fontconfig
+#Download Size  : 5758.23 KiB
+#Installed Size : 8188.00 KiB
+xorg-fonts-type1
+#Depends On     : xorg-fonts-encodings  xorg-fonts-alias  xorg-font-utils  fontconfig
+#Download Size  : 1299.54 KiB
+#Installed Size : 2880.00 KiB
+xorg-font-util
+#Depends On     : None
+#Download Size  :  25.04 KiB
+#Installed Size : 276.00 KiB
+xorg-font-utils
+#Depends On     : xorg-bdftopcf  xorg-mkfontdir  xorg-mkfontscale  xorg-font-util
+#Download Size  :   0.50 KiB
+#Installed Size :   4.00 KiB
+xorg-mkfontdir
+#Depends On     : sh  xorg-mkfontscale
+#Download Size  :   4.39 KiB
+#Installed Size :  12.00 KiB
+xorg-mkfontscale
+#Depends On     : freetype2  libfontenc
+#Download Size  :  15.55 KiB
+#Installed Size :  34.00 KiB
+xorg-xfontsel
+#Depends On     : libxaw  libxmu  libxt  libx11
+#Download Size  :  20.61 KiB
+#Installed Size :  42.00 KiB
+xorg-xlsfonts
+#Depends On     : libx11
+#Download Size  :   8.77 KiB
+#Installed Size :  28.00 KiB
+
+xorg-appres
+xorg-beforelight
+xorg-docs
+xorg-editres
+xorg-grandr-git
+xorg-iceauth		# xorg-server-utils
+xorg-lbxproxy
+xorg-listres
+xorg-luit
+xorg-oclock
+xorg-proxymngr
+xorg-rendercheck
+xorg-rstart
+xorg-sessreg		# xorg-server-utils
+xorg-setxkbmap
+xorg-smproxy
+xorg-transset
+xorg-twm
+xorg-util-macros
+xorg-utils
+xorg-viewres
+xorg-x11perf
+xorg-xauth
+xorg-xbacklight		# xorg-server-utils
+xorg-xbiff
+xorg-xcalc
+xorg-xclipboard
+xorg-xclock
+xorg-xcmsdb		# xorg-server-utils
+xorg-xconsole
+xorg-xcursorgen
+xorg-xdbedizzy
+xorg-xditview
+xorg-xdm-xlogin
+xorg-xdpyinfo
+xorg-xdriinfo
+xorg-xedit
+xorg-xev
+xorg-xeyes
+xorg-xfd
+xorg-xfindproxy
+xorg-xfs
+xorg-xfwp
+xorg-xgamma		# xorg-server-utils
+xorg-xgc
+xorg-xhost		# xorg-server-utils
+xorg-xinit
+xorg-xinput		# xorg-server-utils
+xorg-xkbcomp
+xorg-xkbevd
+xorg-xkbutils
+xorg-xkb-utils
+xorg-xkill
+xorg-xload
+xorg-xlogo
+xorg-xlsatoms
+xorg-xlsclients
+xorg-xmag
+xorg-xman
+xorg-xmessage
+xorg-xmodmap		# xorg-server-utils
+xorg-xmore
+xorg-xpr
+xorg-xprop
+xorg-xrandr		# xorg-server-utils
+xorg-xrdb		# xorg-server-utils
+xorg-xrefresh		# xorg-server-utils
+xorg-xrx
+xorg-xset		# xorg-server-utils
+xorg-xsetmode
+xorg-xsetpointer
+xorg-xsetroot		# xorg-server-utils
+xorg-xsm
+xorg-xtrap
+xorg-xvidtune
+xorg-xvinfo
+xorg-xwd
+xorg-xwininfo
+xorg-xwud
+
+# dri
+
+ati-dri
+#Depends On     : mesa-libgl  libtxc_dxtn  mesa=10.1.3
+#Download Size  : 4856.69 KiB
+#Installed Size : 36947.00 KiB
+i810-dri
+#Depends On     : mesa-libgl
+#Download Size  : 862.04 KiB
+#Installed Size : 3469.00 KiB
+intel-dri
+#Depends On     : mesa-libgl  libtxc_dxtn  mesa=10.1.3
+#Download Size  : 1608.43 KiB
+#Installed Size : 5803.00 KiB
+mach64-dri
+#Depends On     : mesa-libgl
+#Download Size  : 869.67 KiB
+#Installed Size : 3529.00 KiB
+mga-dri
+#Depends On     : mesa-libgl
+#Download Size  : 881.57 KiB
+#Installed Size : 3574.00 KiB
+nouveau-dri
+#Depends On     : mesa-libgl  libtxc_dxtn  mesa=10.1.3
+#Download Size  : 3848.73 KiB
+#Installed Size : 19050.00 KiB
+r128-dri
+#Depends On     : mesa-libgl
+#Download Size  : 858.42 KiB
+#Installed Size : 3453.00 KiB
+savage-dri
+#Depends On     : mesa-libgl
+#Download Size  : 873.65 KiB
+#Installed Size : 3498.00 KiB
+sis-dri
+#Depends On     : mesa-libgl
+#Download Size  : 865.99 KiB
+#Installed Size : 3525.00 KiB
+svga-dri
+#Depends On     : libdrm  expat  llvm-libs
+#Download Size  : 1633.76 KiB
+#Installed Size : 8065.00 KiB
+tdfx-dri
+#Depends On     : mesa-libgl
+#Download Size  : 870.39 KiB
+#Installed Size : 3513.00 KiB
+unichrome-dri
+#Depends On     : mesa-libgl
+#Download Size  : 861.80 KiB
+#Installed Size : 3453.00 KiB
+
+
+

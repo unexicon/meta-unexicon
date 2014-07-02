@@ -1,0 +1,574 @@
+# unexicon
+unexicon-system
+
+#xorg
+
+#xf86-input-acecad
+#xf86-input-aiptek
+#xf86-input-evdev
+#xf86-input-joystick
+xf86-input-keyboard
+xf86-input-mouse
+xf86-input-synaptics
+#xf86-input-vmmouse
+xf86-input-void
+#xf86-video-apm
+#xf86-video-ark
+#			maybe? xf86-video-ast
+#			maybe? xf86-video-ati
+#xf86-video-chips
+#			maybe? xf86-video-cirrus
+xf86-video-dummy
+xf86-video-fbdev
+#xf86-video-glint
+#			maybe? xf86-video-i128
+#			maybe? xf86-video-i740
+#			maybe? xf86-video-intel
+#			maybe? xf86-video-mach64
+#xf86-video-mga
+xf86-video-modesetting
+#xf86-video-neomagic
+#			maybe? xf86-video-nv
+#			maybe? xf86-video-r128
+#xf86-video-rendition
+#xf86-video-s3
+#xf86-video-s3virge
+#xf86-video-savage
+#xf86-video-siliconmotion
+#xf86-video-sis
+#xf86-video-sisusb
+#xf86-video-tdfx
+#xf86-video-trident
+#xf86-video-tseng
+#xf86-video-v4l
+xf86-video-vesa
+#xf86-video-vmware
+#xf86-video-voodoo
+#xf86-video-xgi
+#xf86-video-xgixp
+xorg-bdftopcf
+xorg-xbiff
+xorg-xcalc
+xorg-xclipboard
+xorg-xconsole
+#xorg-docs
+xorg-font-util
+#xorg-fonts-100dpi	# 17.26 MiB
+#xorg-fonts-75dpi	# 15.97 MiB
+#xorg-fonts-encodings
+xorg-iceauth
+xorg-luit
+xorg-mkfontdir
+xorg-mkfontscale
+xorg-server
+xorg-server-utils
+#xorg-server-xnest
+xorg-sessreg
+xorg-setxkbmap
+xorg-utils
+xorg-smproxy
+xorg-x11perf
+xorg-xauth
+xorg-xbacklight
+xorg-xcmsdb
+xorg-xcursorgen
+xorg-xdpyinfo
+xorg-xdriinfo
+xorg-xeyes
+xorg-xev
+xorg-xfontsel
+xorg-xgamma
+xorg-xhost
+xorg-xinit
+xorg-xinput
+#xorg-xkbcomp
+xorg-xkbevd
+xorg-xkbutils
+xorg-xkb-utils
+xorg-xkill
+xorg-xlsatoms
+xorg-xlsclients
+xorg-xload
+xorg-xlogo
+xorg-xmodmap
+xorg-xmore
+xorg-xpr
+xorg-xprop
+#xorg-xrandr
+#xorg-xrdb
+xorg-xrefresh
+#xorg-xset
+xorg-xsetmode
+xorg-xsetpointer
+xorg-xsetroot
+xorg-xvinfo
+xorg-xwd
+xorg-xwininfo
+xorg-xwud
+
+xorg-xman
+xorg-xmag
+xorg-xlsfonts
+
+#xorg-drivers
+
+#xf86-input-acecad
+#xf86-input-aiptek
+#xf86-input-evdev
+#xf86-input-joystick
+#xf86-input-keyboard
+#xf86-input-mouse
+#xf86-input-synaptics
+#xf86-input-vmmouse
+#xf86-input-void
+#xf86-video-apm
+#xf86-video-ark
+#xf86-video-ast
+#xf86-video-ati
+#xf86-video-chips
+#xf86-video-cirrus
+#xf86-video-dummy
+#xf86-video-fbdev
+#xf86-video-glint
+#xf86-video-i128
+#xf86-video-i740
+#xf86-video-intel
+#xf86-video-mach64
+#xf86-video-mga
+#xf86-video-neomagic
+#xf86-video-nv
+#xf86-video-r128
+#xf86-video-rendition
+#xf86-video-s3
+#xf86-video-s3virge
+#xf86-video-savage
+#xf86-video-siliconmotion
+#xf86-video-sis
+#xf86-video-sisusb
+#xf86-video-tdfx
+#xf86-video-trident
+#xf86-video-tseng
+#xf86-video-v4l
+#xf86-video-vesa
+#xf86-video-vmware
+#xf86-video-voodoo
+#xf86-video-xgi
+#xf86-video-xgixp
+
+xorg-apps
+
+#xorg-bdftopcf
+#xorg-iceauth
+#xorg-luit
+#xorg-mkfontdir
+#xorg-mkfontscale
+#xorg-sessreg
+#xorg-setxkbmap
+#xorg-smproxy
+#xorg-x11perf
+#xorg-xauth
+#xorg-xbacklight
+#xorg-xcmsdb
+#xorg-xcursorgen
+#xorg-xdpyinfo
+#xorg-xdriinfo
+#xorg-xev
+#xorg-xgamma
+#xorg-xhost
+#xorg-xinput
+#xorg-xkbcomp
+#xorg-xkbevd
+#xorg-xkbutils
+#xorg-xkill
+#xorg-xlsatoms
+#xorg-xlsclients
+#xorg-xmodmap
+#xorg-xpr
+#xorg-xprop
+#xorg-xrandr
+#xorg-xrdb
+#xorg-xrefresh
+#xorg-xset
+#xorg-xsetroot
+#xorg-xvinfo
+#xorg-xwd
+#xorg-xwininfo
+#xorg-xwud
+
+xorg-fonts
+
+xorg-font-util
+xorg-fonts-encodings
+
+xorg-xinit
+xorg-xmessage
+#xorg-xdm	# not this version
+xorg-xdm-xlogin	# this version
+#xorg-xfs
+
+#dri modules
+#ati-dri	# pulled in by gtk2-perl anyway
+#intel-dri	# pulled in by gtk2-perl anyway
+#mach64-dri
+#r128-dri
+#nouveau-dri
+#svga-dri
+#mga-dri
+#savage-dri
+#sis-dri
+#tdfx-dri
+#unichrome-dri
+
+gconf-gtk2			# replaces gconf
+#gsettings-desktop-schema	# automatic
+gnome-icon-theme		# automatic
+#gnome-icon-theme-symbolic	# automatic
+#hicolor-icon-theme		# automatic
+gtk-engines
+mist-icon-theme
+xdm-unexicon-theme
+#packagekit
+#notification-daemon-gtk2
+libxkbui
+#rp-pppoe-gui
+sbxkb
+xxkb
+xrestop
+
+#bdf-unifont # for lxterminals (we use Liberation mono now)
+#terminus-font
+
+gxmessage-gtk2	# better than xmessage
+sux
+gksu		# requires python2 (not no more)
+#pinentry	# pulled in by gnupg
+x11-ssh-askpass
+gtk-engines
+#gtk-engine-mist
+mist-icon-theme
+#mount-gtk2
+
+# XDE stuff
+archlinux-menus	    # for Archlinux directory
+archlinux-xdg-menu  # for Archlinux branded menu
+mime-archpkg
+xde-icons
+xde-helpers
+xde-styles
+xde-theme
+xdg-launch
+xdg-chooser
+xdg-traymenu
+# these are big and some should be moved to extras
+xde-theme-airforce
+#xde-theme-archlinux
+#xde-theme-atc
+#xde-theme-aviation
+#xde-theme-blackbirds
+#xde-theme-circuits
+#xde-theme-dishes
+xde-theme-pedestals
+xde-theme-penguins
+#xde-theme-radar
+xde-theme-telcom
+xde-theme-towers
+gnome-vfs-nosmb
+libwnck+-git
+perl-gnome2-wnck+
+perlpanel-git
+#perlpanel-light
+
+xorg-twm
+
+#fvwm
+#fvwm-crystal	# requires python2
+fluxbox	    # automatic
+fbautostart
+fbctrl
+fbmenugen
+fbpanel-svn
+fbxkb
+ftmenu
+#unexicon-fluxbox-theme
+unclutter
+#idesk		# pulls in imlib and gtk
+wmctrl
+xdotool
+xli
+#hsetroot	# pulled in by xdm-unexicon-theme
+esetroot	# lighter version from AUR w/o eterm
+#slim		# not this version
+slim-xdm		# xdm version
+unexicon-slim-theme
+#slim-themes
+#archlinux-themes-slim
+blackbox-git
+bbkeys
+bbrun
+bbpager
+#windowmaker-crm-git
+#windowmaker-extra
+icewm
+#icewm-themes
+#icewm-utils	# pulls in qt3, python2
+jwm-git
+jwmtools-git
+pekwm
+#pekwm-themes
+#rox
+#docker		# really need it?
+
+adwm-git
+wmii
+cwm-git
+dwm-git
+dmenu
+i3-wm
+i3lock
+i3status
+flipse
+
+#dockapps from AUR
+wmacpi
+wmappl
+wmbatteries
+wmbattery
+wmbiff
+wmbinclock
+wmblob
+wmbubble
+wmcalc
+wmcalclock
+wmcalclockkbd
+wmcliphist
+wmclock
+wmclockmon
+wmcore
+wmcpu
+wmcpuload
+wmcpumon
+wmcube
+wmdiskmon
+wmfire
+wmix
+#wmmail		# pulls in windowmaker
+wmmixer
+wmnd
+wmnet
+wmpiki
+wmpower
+wmsm.app
+wmsmixer
+#wmspaceclock	# pulls in gtk
+wmsysmon
+wmsystemtray
+wmsystray
+wmtime
+wmtimer
+#wmtrash	# pulls in gtk
+wmudmount
+wmwave
+wmweather
+#wmweather+	# pulls in windomaker
+wmwifi
+
+allin1
+alsamixer.app
+bbdock
+#bubblemon-dockapp  # pulls in gtk
+lal
+temperature.app
+volume-app
+peksystray
+cputnik
+space_dapp
+
+# system tray stuff
+cbatticon
+gatotray
+lalcal
+mailtc
+menutray
+pnmixer
+retrovol
+stalonetray
+trayer
+alltray
+
+#imagemagick	# 9395.00 K
+#gqview		# 2720.00 K
+#geeqie		# 5145.00 K
+xzgv
+qiv
+
+roxterm-gtk2
+#rxvt-unicode
+
+gtk-chtheme	    # pick one to replace lxappearance
+gtk-theme-switch2   # pick one to replace lxappearance
+
+#these are all in lxde but don't want some
+pcmanfm		# pulls in a lot but its a nice package
+xarchiver
+gpicview
+lxappearance	# pulled in by lxappearance-obconf
+#lxde-common
+#lxde-icon-theme	# pulled in by lxde-common
+#lxdm
+#lxinput
+#lxkb_config-git
+#lxlauncher	# pulls in gnome and python
+#lxmenu-data	# pulled in by lxpanel and pcmanfm
+#lxnm
+#lxpanel
+lxpolkit-git
+lxrandr
+#lxsession	# pulled in by lxde-common
+#lxsession-edit	# now part of lxsession
+#lxshortcut
+lxtask
+lxterminal
+#menu-cache	# pulled in by lxpanel and pcmanfm
+#openbox	# pulled in by obconf openbox-themes
+#lxappearance-obconf
+obconf
+#obmenu		# pulls in python2
+obmenu-generator # perl only
+#obtheme	# pulls in python2
+#openbox-themes	# 8284.00 K
+conky
+#human-icon-theme
+
+#for my bluetooth keyboard
+#bluez		# pulls in python2
+#bluez-git	# replaces bluez (doesn't require python)
+#bluez4
+#bluez-utils
+#bluez-firmware
+#bluez-hcidump
+#brians-bluetooth-keyboard
+#bluez-tools
+#dbus-python	-- needed to run bluez-simple-agent
+#pygobject	-- needed to run bluez-simple-agent
+#libusb-compat	-- needed to run bluez-simple-agent
+openobex
+
+#wicd-gtk	# pulls in python2
+
+ethtool
+#ettercap-gtk	# pulls in libtool which pulls in gcc
+#kismet		# 5724.00 K
+#mkpxelinux
+#ntrack		# pulls in qt
+tcpdump
+#arpwatch
+darkstat
+#driftnet	# doesn't exist anymore
+dsniff
+#etherape	# way too big: pulls in all of gnome
+nbtscan
+netwatch
+ngrep
+#snort
+vnstat
+
+perl-net-snmp
+
+xdg-utils
+#rxvt-unicode
+xterm
+#gvim		# extra/gvim version pulls in python2, ruby and lua
+vim-gtk2	# our own version with python2, ruby and lua removed
+vim-fluxkeys
+vim-systemd
+hexedit
+#xfburn		# pulls in gstreamer and libxfcegui4
+#bashburn
+#simpleburn
+#dvd+rw-tools
+#menumaker	# pulls in python2
+
+#putty
+
+#wifi-select
+
+#tcllib
+#tablelist
+#tcl		# pulled in
+#tk		# pulled in
+#expect
+#perl-tk
+#perl-tk-gbarr
+#perl-tk-tablematrix	# pulls in perl-tk
+#ruby-gtk2
+#ruby-ncurses
+gtk2-perl	# automatic
+perl-gtk2-notify
+perl-gtk2-unique
+gtkdialog
+#zenity		# pulls in gtk3
+#zenity-gtk2	# 5.812 MiB
+xdialog
+
+#erlang		# just plain too big
+#ejabberd	# just plain too big
+#yaws		# just plain too big
+
+#sofia-sip
+
+#twinkle	# pulls in qt3
+#opensips
+#libosip2
+#libexosip2
+#ekiga		# pulls in way too much gnome
+#isdn4k-utils
+
+#ortp
+
+#gv		# pulls in ghostscript which is too big
+#xpdf		# pulls in gsfonts and lesstif
+raktpdf
+#zathura
+#zathura-pdf-poppler
+#poppler	# pulled in by zathura
+#poppler-glib	# pulled in by zathura
+#poppler-data
+#zathura-ps	# pulls in ghostscript
+zathura-ypb	# lighter weight
+firefox
+#wireshark-cli	# pulled in
+#wireshark-gtk	# pulls in gtk3
+wireshark-gtk2	# gtk2 only version 60.44 MiB!
+#netperf
+
+#some fonts
+font-bh-ttf
+ttf-bitstream-vera
+#ttf-cheapskate
+#ttf-dejavu
+#ttf-droid
+#ttf-freefont
+#ttf-gentium
+#ttf-inconsolata
+ttf-liberation
+#ttf-linux-libertine
+#ttf-ubuntu-font-family
+
+#vnc clients and servers
+#tightvnc	# only uses xau
+#tigervnc	# pulls in fltk
+x11vnc
+gtk-vnc-gtk2
+novnc
+#remmina-gtk2	# pulls in a lot of stuff
+
+#network-manager-applet-gtk2
+#networkmanager-openconnect-gtk2
+#networkmanager-openvpn-gtk2
+#networkmanager-pptp-gtk2
+#networkmanager-vpnc-gtk2
+
+dhcpcd-dbus	# automatic
+dhcpcd-ui
+
+aumix		# lightweight audio mixer

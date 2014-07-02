@@ -1,0 +1,120 @@
+openss7-keyring
+openss7-cacert
+arch-install-scripts	# very small
+autofs			# extra (pulled in automatically)
+b43-fwcutter
+#btrfs-progs		# maybe
+cpio			# needed?
+crda
+darkhttpd
+ddrescue
+#dialog
+#dmraid
+dnsmasq
+dnsutils
+pdnsd
+dosfstools		# automatic
+eject			# needed?
+#elinks			# pulls in js (already pulled in by polkit) gc tre
+ethtool
+fsarchiver
+#fakechroot
+gnu-netcat
+gptfdisk
+#grml-zsh-config
+gummiboot		# x86_64 only
+haveged
+hdparm
+inetutils		# automatic
+ipw2100-fw
+ipw2200-fw
+#irssi
+#lftp
+#lilo
+#links
+#linux-atm
+lsb-release
+lsof			# automatic
+#lynx			# 4532.00 K
+lzo2			# automatic
+lzop
+#mc			# pulls in slang
+memtest86+
+mkinitcpio-nfs-utils
+#mkpxelinux
+#mtools			#  408.00 K
+nbd
+#netcfg
+net-snmp		# pulled in
+nfs-utils
+#nfsidmap		# pulled in by nfs-utils
+#nilfs-utils
+#nmap			# 14136.00 K
+ntfs-3g			# pulled in by partclone testdisk
+#ntfsprogs		# not needed
+ntp			# pulled in
+openconnect		# pulled in by nm
+#openslp		# automatic
+openssh			# automatic
+#openssl		# automatic
+sslh
+openvpn			# automatic
+partclone
+parted			# pulled in by udisks
+gpart
+#partimage		# pulls in slang and others
+pptpclient		# pulled in
+pptpd			# pulled in
+rfkill
+quagga			# pulled in
+#refind-efi		# x86_64 only
+rp-pppoe		# core was fixed
+accel-ppp		# pulled in by another
+rpcbind
+rsync
+smartmontools
+#speedtouch
+squashfs-tools
+sudo
+#syslinux
+tcpdump
+testdisk
+disktype
+#usb_modeswitch
+vpnc			# pulled in by nm
+wireless_tools
+wpa_actiond
+#wvdial			# don't need it
+xinetd
+xl2tpd
+yp-tools		# pulled in
+ypbind-mt		# pulled in
+ypserv
+zd1211-firmware
+#zsh			# pulled in
+# some ftp servers
+vsftpd
+bftpd
+# openss7
+#custom/openss7
+#custom/openss7-devel
+#custom/openss7-3.0.36-2-lts
+#custom/openss7-3.0.36-2-lts-devel
+#custom/openss7-3.0.38-1-lts
+#custom/openss7-3.0.38-1-lts-devel
+#custom/openss7-3.0.57-1-lts
+#custom/openss7-3.0.57-1-lts-devel
+#dhcpcd-hook-ntp
+#dhcpcd-hook-nis
+#networkmanager-ifupdown
+#networkmanager-dispatchers
+#networkmanager-dispatcher-ntp
+#networkmanager-dispatcher-nis
+#networkmanager-dispatcher-quagga
+openresolv
+partclone
+#dhclient	# automatic
+bsdiff
+vbindiff
+bvi
+bviplus

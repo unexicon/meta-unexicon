@@ -1,0 +1,404 @@
+# packages in archios packages.both but not in our release
+
+btrfs-progs
+
+#Repository     : core
+#Name           : btrfs-progs
+#Version        : 3.14.1-1
+#Description    : Btrfs filesystem utilities
+#Architecture   : i686
+#URL            : http://btrfs.wiki.kernel.org/
+#Licenses       : GPL2
+#Groups         : None
+#Provides       : btrfs-progs-unstable
+#Depends On     : glibc  e2fsprogs  lzo2  zlib
+#Optional Deps  : None
+#Conflicts With : btrfs-progs-unstable
+#Replaces       : btrfs-progs-unstable
+#Download Size  : 383.49 KiB
+#Installed Size : 2978.00 KiB
+#Packager       : Sébastien Luttringer <seblu@seblu.net>
+#Build Date     : Fri 18 Apr 2014 01:11:07 PM MDT
+#Validated By   : MD5 Sum  SHA256 Sum  Signature
+
+clonezilla
+
+#Repository     : community
+#Name           : clonezilla
+#Version        : 3.5.2-1
+#Description    : The Free and Open Source Software for Disk Imaging and Cloning
+#Architecture   : any
+#URL            : http://clonezilla.org
+#Licenses       : GPL
+#Groups         : None
+#Provides       : None
+#Depends On     : drbl  partclone  ntfsprogs  partimage  pigz  sshfs  parted  gptfdisk
+#Optional Deps  : None
+#Conflicts With : None
+#Replaces       : None
+#Download Size  : 913.33 KiB
+#Installed Size : 2283.00 KiB
+#Packager       : Jonathan Steel <mail@jsteel.org>
+#Build Date     : Fri 17 Jan 2014 01:03:40 PM MST
+#Validated By   : MD5 Sum  SHA256 Sum  Signature
+
+dhclient	# we have dhcpcd
+
+#Repository     : extra
+#Name           : dhclient
+#Version        : 4.3.0-1
+#Description    : A standalone DHCP client from the dhcp package
+#Architecture   : i686
+#URL            : https://www.isc.org/software/dhcp
+#Licenses       : custom:isc-dhcp
+#Groups         : None
+#Provides       : dhcp-client
+#Depends On     : glibc  bash  iproute2
+#Optional Deps  : None
+#Conflicts With : None
+#Replaces       : None
+#Download Size  : 627.67 KiB
+#Installed Size : 1919.00 KiB
+#Packager       : Anatol Pomozov <anatol.pomozov@gmail.com>
+#Build Date     : Tue 04 Mar 2014 01:50:14 PM MST
+#Validated By   : MD5 Sum  SHA256 Sum  Signature
+
+dialog
+
+#Repository     : core
+#Name           : dialog
+#Version        : 1:1.2_20140219-1
+#Description    : A tool to display dialog boxes from shell scripts
+#Architecture   : i686
+#URL            : http://invisible-island.net/dialog/
+#Licenses       : LGPL2.1
+#Groups         : None
+#Provides       : None
+#Depends On     : sh  ncurses
+#Optional Deps  : None
+#Conflicts With : None
+#Replaces       : None
+#Download Size  : 182.89 KiB
+#Installed Size : 636.00 KiB
+#Packager       : Evangelos Foutras <evangelos@foutrelis.com>
+#Build Date     : Thu 20 Feb 2014 12:33:07 AM MST
+#Validated By   : MD5 Sum  SHA256 Sum  Signature
+
+dmraid
+
+#Repository     : core
+#Name           : dmraid
+#Version        : 1.0.0.rc16.3-10
+#Description    : Device mapper RAID interface
+#Architecture   : i686
+#URL            : http://people.redhat.com/~heinzm/sw/dmraid/
+#Licenses       : GPL
+#Groups         : None
+#Provides       : None
+#Depends On     : device-mapper>=2.0.54
+#Optional Deps  : None
+#Conflicts With : mkinitcpio<0.7
+#Replaces       : None
+#Download Size  : 111.25 KiB
+#Installed Size : 375.00 KiB
+#Packager       : Tobias Powalowski <tpowa@archlinux.org>
+#Build Date     : Mon 21 Oct 2013 01:26:16 AM MDT
+#Validated By   : MD5 Sum  SHA256 Sum  Signature
+
+elinks
+
+#Repository     : community
+#Name           : elinks
+#Version        : 0.13-15
+#Description    : An advanced and well-established feature-rich text mode web browser.
+#Architecture   : i686
+#URL            : http://elinks.or.cz
+#Licenses       : GPL
+#Groups         : None
+#Provides       : None
+#Depends On     : bzip2  expat>=2.0  gpm>=1.20.4  openssl  lua51  libidn  js185  gc  tre  desktop-file-utils
+#Optional Deps  : None
+#Conflicts With : None
+#Replaces       : None
+#Download Size  : 749.13 KiB
+#Installed Size : 2593.00 KiB
+#Packager       : Kyle Keen <keenerd@gmail.com>
+#Build Date     : Thu 31 Oct 2013 02:44:54 PM MDT
+#Validated By   : MD5 Sum  SHA256 Sum  Signature
+
+f2fs-tools
+
+#Repository     : extra
+#Name           : f2fs-tools
+#Version        : 1.3.0-1
+#Description    : Tools for Flash-Friendly File System (F2FS)
+#Architecture   : i686
+#URL            : http://sourceforge.net/projects/f2fs-tools/
+#Licenses       : GPL
+#Groups         : None
+#Provides       : None
+#Depends On     : util-linux
+#Optional Deps  : None
+#Conflicts With : None
+#Replaces       : None
+#Download Size  :  32.07 KiB
+#Installed Size : 126.00 KiB
+#Packager       : Tobias Powalowski <tpowa@archlinux.org>
+#Build Date     : Wed 12 Feb 2014 12:21:58 AM MST
+#Validated By   : MD5 Sum  SHA256 Sum  Signature
+
+grml-zsh-config
+
+grub		# we (should) have grub-*-2.00-2
+
+#Repository     : custom
+#Name           : grub-common
+#Version        : 2.00-2
+#Description    : GNU GRand Unified Bootloader - Utilities and Common Files
+#Architecture   : i686
+#URL            : https://www.gnu.org/software/grub/
+#Licenses       : GPL3
+#Groups         : None
+#Provides       : grub2-common
+#Depends On     : sh  xz  freetype2  gettext  device-mapper  fuse
+#Optional Deps  : libisoburn: provides xorriso for generating grub rescue iso using grub-mkrescue
+#                 os-prober: to detect other OSes when generating grub.cfg in BIOS systems
+#                 mtools: for grub-mkrescue FAT FS support
+#Conflicts With : grub-legacy  grub
+#Replaces       : grub2-common
+#Download Size  : 3825.95 KiB
+#Installed Size : 13182.00 KiB
+#Packager       : Brian Bidulock <bidulock@openss7.org>
+#Build Date     : Wed 07 May 2014 03:39:27 PM MDT
+#Validated By   : MD5 Sum  SHA256 Sum  Signature
+
+#Repository     : custom
+#Name           : grub-bios
+#Version        : 2.00-2
+#Description    : GNU GRand Unified Bootloader - i386 PC BIOS Modules
+#Architecture   : i686
+#URL            : https://www.gnu.org/software/grub/
+#Licenses       : GPL3
+#Groups         : None
+#Provides       : grub2-bios
+#Depends On     : grub-common=2.00
+#Optional Deps  : None
+#Conflicts With : None
+#Replaces       : grub2-bios
+#Download Size  : 591.54 KiB
+#Installed Size : 1697.00 KiB
+#Packager       : Brian Bidulock <bidulock@openss7.org>
+#Build Date     : Wed 07 May 2014 03:39:55 PM MDT
+#Validated By   : MD5 Sum  SHA256 Sum  Signature
+
+#Repository     : custom
+#Name           : grub-efi-i386
+#Version        : 2.00-2
+#Description    : GNU GRand Unified Bootloader - i386 UEFI Modules
+#Architecture   : i686
+#URL            : https://www.gnu.org/software/grub/
+#Licenses       : GPL3
+#Groups         : None
+#Provides       : grub2-efi-i386
+#Depends On     : grub-common=2.00  dosfstools  efibootmgr
+#Optional Deps  : None
+#Conflicts With : None
+#Replaces       : grub2-efi-i386
+#Download Size  : 565.33 KiB
+#Installed Size : 1634.00 KiB
+#Packager       : Brian Bidulock <bidulock@openss7.org>
+#Build Date     : Wed 07 May 2014 03:40:11 PM MDT
+#Validated By   : MD5 Sum  SHA256 Sum  Signature
+
+#Repository     : custom
+#Name           : grub-efi-x86_64
+#Version        : 2.00-2
+#Description    : GNU GRand Unified Bootloader (2) - x86_64 UEFI Modules
+#Architecture   : any
+#URL            : https://www.gnu.org/software/grub/
+#Licenses       : GPL3
+#Groups         : None
+#Provides       : grub2-efi-x86_64
+#Depends On     : grub-common=2.00  dosfstools  efibootmgr
+#Optional Deps  : None
+#Conflicts With : None
+#Replaces       : grub2-efi-x86_64
+#Download Size  : 586.88 KiB
+#Installed Size : 2279.00 KiB
+#Packager       : Brian Bidulock <bidulock@openss7.org>
+#Build Date     : Wed 07 May 2014 02:16:10 PM MDT
+#Validated By   : MD5 Sum  SHA256 Sum  Signature
+
+intel-ucode
+
+#Repository     : extra
+#Name           : intel-ucode
+#Version        : 20140122-1
+#Description    : Microcode update files for Intel CPUs
+#Architecture   : any
+#URL            : http://downloadcenter.intel.com/SearchResult.aspx?lang=eng&keyword=%22microcode%22
+#Licenses       : custom
+#Groups         : None
+#Provides       : None
+#Depends On     : None
+#Optional Deps  : None
+#Conflicts With : None
+#Replaces       : microcode_ctl
+#Download Size  : 453.74 KiB
+#Installed Size : 595.00 KiB
+#Packager       : Thomas Bächler <thomas@archlinux.org>
+#Build Date     : Sun 02 Feb 2014 04:42:29 AM MST
+#Validated By   : MD5 Sum  SHA256 Sum  Signature
+
+irssi
+
+#Repository     : extra
+#Name           : irssi
+#Version        : 0.8.15-8
+#Description    : Modular text mode IRC client with Perl scripting
+#Architecture   : i686
+#URL            : http://irssi.org/
+#Licenses       : GPL
+#Groups         : None
+#Provides       : None
+#Depends On     : glib2  openssl
+#Optional Deps  : perl-libwww: for the scriptassist script
+#Conflicts With : None
+#Replaces       : None
+#Download Size  : 505.60 KiB
+#Installed Size : 1879.00 KiB
+#Packager       : Allan McRae <allan@archlinux.org>
+#Build Date     : Wed 20 Nov 2013 06:38:54 PM MST
+#Validated By   : MD5 Sum  SHA256 Sum  Signature
+
+lftp
+
+#Repository     : extra
+#Name           : lftp
+#Version        : 4.4.16-1
+#Description    : Sophisticated command line based FTP client
+#Architecture   : i686
+#URL            : http://lftp.yar.ru/
+#Licenses       : GPL3
+#Groups         : None
+#Provides       : None
+#Depends On     : gcc-libs  readline  gnutls  expat  sh
+#Optional Deps  : perl: needed for convert-netscape-cookies and verify-file
+#Conflicts With : None
+#Replaces       : None
+#Download Size  : 543.05 KiB
+#Installed Size : 1834.00 KiB
+#Packager       : Andreas Radke <andyrtr@archlinux.org>
+#Build Date     : Wed 07 May 2014 11:50:50 AM MDT
+#Validated By   : MD5 Sum  SHA256 Sum  Signature
+
+linux-atm
+
+#Repository     : core
+#Name           : linux-atm
+#Version        : 2.5.2-4
+#Description    : Drivers and tools to support ATM networking under Linux.
+#Architecture   : i686
+#URL            : http://linux-atm.sourceforge.net/
+#Licenses       : GPL
+#Groups         : None
+#Provides       : None
+#Depends On     : glibc
+#Optional Deps  : None
+#Conflicts With : None
+#Replaces       : None
+#Download Size  : 265.24 KiB
+#Installed Size : 1044.00 KiB
+#Packager       : Tobias Powalowski <tpowa@archlinux.org>
+#Build Date     : Mon 21 Oct 2013 06:22:07 AM MDT
+#Validated By   : MD5 Sum  SHA256 Sum  Signature
+
+mc
+
+#Repository     : community
+#Name           : mc
+#Version        : 4.8.12-1
+#Description    : Midnight Commander is a text based filemanager/shell that emulates Norton Commander
+#Architecture   : i686
+#URL            : http://www.ibiblio.org/mc/
+#Licenses       : GPL
+#Groups         : None
+#Provides       : None
+#Depends On     : e2fsprogs  glib2  gpm  libssh2  slang
+#Optional Deps  : cabextract: ucab extfs
+#                 cdparanoia: audio extfs
+#                 cdrkit: iso9660 extfs
+#                 gawk: hp48+ extfs
+#                 aspell: spelling corrections
+#                 cvs: CVS support
+#                 mtools: a+ extfs
+#                 perl: needed by several extfs scripts
+#                 python2-boto: s3+ extfs
+#                 python2-pytz: s3+ extfs
+#                 smb: VFS support
+#                 unace: uace extfs
+#                 unarj: uarj extfs
+#                 unrar: urar extfs
+#                 zip: uzip extfs
+#                 p7zip: support for 7zip archives
+#Conflicts With : None
+#Replaces       : None
+#Download Size  : 1562.76 KiB
+#Installed Size : 6620.00 KiB
+#Packager       : schuay <jakob.gruber@gmail.com>
+#Build Date     : Tue 01 Apr 2014 06:30:22 AM MDT
+#Validated By   : MD5 Sum  SHA256 Sum  Signature
+
+mtools
+
+#Repository     : extra
+#Name           : mtools
+#Version        : 4.0.18-1
+#Description    : A collection of utilities to access MS-DOS disks
+#Architecture   : i686
+#URL            : http://www.gnu.org/software/mtools/
+#Licenses       : GPL
+#Groups         : None
+#Provides       : None
+#Depends On     : sh
+#Optional Deps  : libx11: required by floppyd
+#                 libsm: required by floppyd
+#Conflicts With : None
+#Replaces       : None
+#Download Size  : 171.95 KiB
+#Installed Size : 508.00 KiB
+#Packager       : Giovanni Scafora <giovanni@archlinux.org>
+#Build Date     : Sun 27 Jan 2013 03:09:13 AM MST
+#Validated By   : MD5 Sum  SHA256 Sum  Signature
+
+nilfs-utils
+
+#Repository     : core
+#Name           : nilfs-utils
+#Version        : 2.2.0-1
+#Description    : A log-structured file system supporting continuous snapshotting (userspace utils)
+#Architecture   : i686
+#URL            : http://nilfs.sourceforge.net/
+#Licenses       : GPL2  LGPL2.1
+#Groups         : None
+#Provides       : None
+#Depends On     : util-linux
+#Optional Deps  : None
+#Conflicts With : None
+#Replaces       : None
+#Download Size  : 104.92 KiB
+#Installed Size : 337.00 KiB
+#Packager       : Dan McGee <dan@archlinux.org>
+#Build Date     : Sat 12 Apr 2014 01:01:49 PM MDT
+#Validated By   : MD5 Sum  SHA256 Sum  Signature
+
+nmap
+partimage
+speedtouch
+usb_modeswitch
+wvdial
+zsh
+
+
+
+

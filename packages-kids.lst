@@ -1,0 +1,24 @@
+
+#linuxstopmotion-git
+#Depends On     : qt4  sdl_image  libvorbis  libxml2  inotify-tools
+#Download Size  : 2119.64 KiB
+#Installed Size : 4014.00 KiB
+konstruktor
+#Depends On     : kdebase-runtime  glu  povray  ldraw-parts-library
+#Download Size  : 384.36 KiB
+#Installed Size : 1319.00 KiB
+xephem
+#Depends On     : libxmu  lesstif
+#Download Size  : 10763.48 KiB
+#Installed Size : 15822.00 KiB
+scratch
+#Depends On     : squeak-vm  shared-mime-info  desktop-file-utils  pango  gtk-update-icon-cache
+#Download Size  : 33555.96 KiB
+#Installed Size : 57614.00 KiB
+#
+# linuxstopmotion and stopmotion conflict: pick one
+#
+stopmotion
+#Depends On     : qt4  sdl_image  libxml2  libvorbis  inotify-tools  libtar
+#Download Size  : 2107.31 KiB
+#Installed Size : 3880.00 KiB

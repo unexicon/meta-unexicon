@@ -1,0 +1,402 @@
+#bash		# (base) automatic
+dash		# core/ good to have (required by wmii?)
+#binutils	# 18.644 MiB -- pulled in by openss7 when needed
+#bzip2		# (base) automatic
+#coreutils	# (base) automatic
+cronie		# core/
+#cryptsetup	# (base)
+#db		# core/ pulled in by perl
+dbm
+#device-mapper	# (base) automatic
+#dhcpcd		# (base) automatic
+diffstat
+#diffutils	# (base) automatic
+#e2fsprogs	# (base) automatic
+#file		# (base) automatic
+#filesystem	# (base) automatic
+#findutils	# (base) automatic
+#gawk		# (base) automatic
+#gcc-libs	# (base) automatic
+#gettext	# (base) automatic
+#glibc		# (base) automatic
+#grep		# (base) automatic
+#gzip		# (base) automatic
+heirloom-mailx
+#inetutils	# (base) automatic
+#iproute2	# (base) automatic
+#iputils	# (base) automatic
+#jfsutils	# (base)
+#less		# (base) automatic
+libpipeline
+#libutil-linux	# (base) automatic
+#licenses	# (base) automatic
+#linux		# (base) automatic
+#core/linux-lts
+custom/linux-unx
+nouveau-fw
+aic94xx-firmware
+#bfa-firmware	# fibre channel?
+#logrotate	# (base)
+#lvm2		# (base)
+#man-db		# (base) automatic
+#man-pages	# (base) 15.34 MiB
+#mdadm		# (base)
+#nano		# (base)
+#netctl		# (base)
+#pacman		# (base) must be there
+#pciutils	# (base) automatic
+#pcmciautils	# (base)
+#ppp		#
+#procps-ng	# (base) automatic
+#psmisc		# (base) automatic
+#reiserfsprogs	# (base)
+ed
+#sed		# (base) automatic
+#shadow		# (base) automatic
+#s-nail		# (base)
+#sysfsutils	# (base) automatic
+syslog-ng
+#systemd	# pulled in by systemd-sysvcompat
+#systemd-sysvcompat # (base)
+#tar		# (base) automatic
+#texinfo	# (base) automatic
+#usbutils	# (base) automatic
+util-linux	# automatic
+#vi		# (base)
+wget
+#curl		# core/	pulled in by pacman
+#which		# (base) automatic
+wpa_supplicant	# needed by dhcpcd-ui
+#xfsprogs	# (base)
+
+#perl stuff
+#perl		# (base) automatic
+perl-alpm
+perl-audio-mixer	# needed by perlpanel
+#perl-class-gomor
+#perl-common-sense
+#perl-crypt-des
+#perl-curses
+#perl-curses-ui
+#perl-curses-ui-poe
+#perl-data-dump
+#perl-dbd-sqlite
+#perl-dbi
+#perl-digest-hmac
+#perl-digest-sha1
+#perl-extutils-depends
+#perl-extutils-pkgconfig
+perl-geo-coordinates-vandh
+perl-http-date
+perl-io-interface
+#perl-io-tty
+#perl-linux-desktopfiles
+perl-linux-inotify2
+perl-net-dbus-git
+perl-net-dbus-glib
+perl-net-interface
+perl-net-ip
+perl-net-ipaddress
+perl-net-libdnet
+#perl-net-pcap
+perl-net-pcaputils
+#perl-poe
+#perl-term-readkey
+#perl-test-pod
+#perl-text-iconv
+perl-timedate
+perl-xml-dumper
+#perl-xml-namespacesupport
+#perl-xml-parser
+perl-xml-sax
+#perl-xml-sax-base
+#perl-xml-simple
+#perl-xml-twig
+
+#basics
+perl-anyevent
+perl-anyevent-snmp
+perl-coro
+perl-ev
+perl-ev-glib
+perl-event
+perl-file-configdir
+perl-file-homedir
+perl-file-which
+perl-file-listing
+perl-file-remove
+perl-glib-ev
+#perl-goo-canvas
+perl-gtk2-trayicon
+perl-gtk2-traymanager
+#perl-linux-lvm2
+perl-net-dns
+perl-net-frame
+perl-net-http
+perl-net-ipv4addr
+perl-net-ipv6addr
+perl-net-mac
+perl-net-mac-vendor
+perl-net-netmask
+perl-net-packet
+perl-net-ping
+perl-net-ping-external
+perl-net-rawip
+perl-net-snmp-ev
+perl-net-write
+perl-netaddr-ip
+perl-proc-daemon
+#perl-snmp-info
+#perl-sys-run
+perl-uri
+perl-x11-freedesktop-desktopentry
+perl-x11-idletime
+perl-x11-keyboard
+perl-x11-protocol
+perl-x11-protocol-more
+perl-x11-protocol-other
+perl-x11-xcb
+perl-xml-simple
+
+#more base utilities
+bridge-utils	# core/
+ifenslave
+iptables	# automatic
+ebtables	# automatic
+arptables
+vlan
+#links
+lldpd		# automatic
+#lynx
+#mc
+mlocate
+#mutt		# 6971.00 KiB
+#openldap
+rfkill
+sdparm
+#sqlite-doc
+#sqlite-tcl
+sshfs
+whois
+igmpproxy
+mrouted
+smcroute
+pimd
+
+#development programs
+#abs
+#aurget
+#autoconf
+#automake
+#bin86
+#bison
+#cscope
+#ctags
+#cvs
+#diffstat
+#doxygen
+#ed
+#elfutils
+#expect
+#fakeroot
+#flex
+#gettext
+#git
+#gnuplot
+#imagemagick
+#imake
+#indent
+#latex2html
+#libtool
+#linux-headers
+#linux-lts-headers
+#make
+patch
+#swig
+#transfig
+unzip
+zip
+#vbindiff
+#xdelta3
+
+#java development
+#ca-certificates-java
+#classpath
+#fastjar
+#gcc-gcj-ecj
+#java-gcj-compat
+
+#some monitoring programs
+acpi
+acpid
+atop
+dmidecode	# automatic
+#gsmartcontrol
+hal
+#hal-info	# automatic
+htop
+nethogs
+hwdetect
+ibam
+iftop
+lm_sensors
+#lshw		# 6.461 MiB
+lsscsi
+nmon
+#pmtools
+tlp
+procinfo-ng
+yacpi
+iptraf-ng
+iptstate
+#netperf
+pktstat
+
+beep
+ifplugd
+#grub-common
+#grub-bios
+#grub-efi-i386
+#grub-efi-x86_64
+
+#more goodies
+aurget
+yaourt
+
+#mdns stuff
+avahi-gtk2		# pulled in automatically
+nss-mdns
+mdns-scan
+traceroute
+
+#more basic stuff
+setserial
+ckermit
+minicom
+
+#sound
+#			maybe? alsa-firmware
+#alsa-plugins
+#alsa-utils
+
+#more core utilities
+#core/acl		# pulled in by coreutils
+#core/archlinux-keyring	# pulled in by pacman
+#core/attr		# pulled in by acl
+core/b43-fwcutter	#
+core/bridge-utils	#
+#core/btrfs-progs	#
+#core/ca-certificates	# pulled in by curl
+#core/cloog		#
+#core/cracklib		# pulled in by pam
+#core/crda		#
+core/cronie		#
+#core/curl		# pulled in by pacman
+core/dash		#
+#core/db		# pulled in by perl
+#core/dbus		# pulled in by systemd
+#core/dialog		#
+#core/dirmngr		# pulled in by gnupg
+#core/dmraid		#
+#core/dnssec-anchors	#
+#core/dosfstools	# required by grub/syslinux
+core/ed			#
+#core/efibootmgr	# required by grub optional syslinux
+#core/efivar		# required by efibootmgr
+#core/expat		# required by dbus
+#core/gdbm		# required by man-db and perl
+#core/glib2		# required by systemd
+#core/gmp		# required by coreutils
+#core/gnupg		# required by pacman
+#core/gpgme		# required by pacman
+#core/gpm		#
+#core/hdparm		#
+#core/hwids		# required by systemd, pciutils
+#core/iana-etc		# required by filesystem
+core/ifenslave		#
+#core/iptables		# requried by iproute2
+core/ipw2100-fw		#
+core/ipw2200-fw		#
+#core/isdn4k-utils	#
+#core/isl		#
+#core/iw		#
+#core/kbd		# required by systemd
+#core/keyutils		# requried by krb5
+#core/kmod		# required by linux
+#core/krb5		# required by curl
+#core/ldns		# required by openssh
+#core/libarchive	# required by pacman
+#core/libassuan		# required by dirmgr and gnupg
+#core/libcap		# required by coreutils
+#core/libdbus		# required by dbus
+#core/libedit		# required by ntp, openssh
+#core/libevent		# required by nfs-utils
+#core/libffi		# required by glib2
+#core/libgcrypt		# required by cryptsetup
+#core/libgpg-error	# requireb by base stuff
+#core/libgssglue	# required by nfs-utils
+#core/libksba		# required by dirmngr, gnupg
+#core/libldap		# required by e2fsprogs
+#core/libltdl		#
+#core/libmpc		#
+#core/libnl		#
+#core/libpcap		#
+#core/libpipeline	# required by man-db
+#core/librpcsecgss	# required by nfs-utils
+#core/libsasl		# required by libldap
+#core/libseccomp	# required by systemd
+#core/libssh2		# required by curl
+#core/libsystemd	# required by util-linux
+#core/libtirpc		# required by pam
+#core/libusb		# required by usbutils
+#core/links		#
+#core/linux-api-headers	# required by glibc
+#core/linux-atm		#
+#core/linux-docs	#
+core/linux-firmware	#
+#core/linux-headers	#
+#core/linux-lts		#
+#core/linux-lts-headers	#
+#core/lzo2		# required by libarchive <- pacman
+#core/mkinitcpio	# required by linux
+#core/mkinitcpio-busybox # required by linux
+core/mkinitcpio-nfs-utils #
+core/mlocate		#
+#core/mpfr		# required by gawk
+#core/ncurses		# required by less
+core/net-tools		#
+#core/nfsidmap		# required by nfs-utils
+core/nfs-utils		#
+#core/nilfs-utils	# (not needed)
+#core/openldap		# (not needed)
+#core/openresolv	# required by netctl
+core/openssh		#
+#core/openssl		# required by curl
+#core/openvpn		# required by iproute2
+#core/pacman-mirrorlist	# required by pacman
+#core/pam		# required by coreutils
+#core/pambase		# required by pam
+#core/pcre		# required by less, glib2
+#core/pinentry		# required by gnupg
+#core/popt		# required by logrotate, cryptsetup
+core/ppp		#
+core/pptpclient		#
+core/procinfo-ng	#
+#core/pth		# required by dirmngr, gnupg, gpgme
+#core/readline		# required by bash
+core/rfkill		#
+#core/rpcbind		# required by nfs-utils
+#core/run-parts		# required by ca-certificates
+core/sdparm		#
+#core/syslinux		# pulled in with base
+#core/systemd		# required by systemd-sysvcompat
+core/traceroute		#
+#core/tzdata		# required by glibc
+core/wireless-regdb	#
+core/wireless_tools	#
+#core/wpa_actiond	# required by netctl
+core/wpa_supplicant	#
+core/xinetd		#
+#core/xz		# required by systemd
+core/zd1211-firmware	#
+#core/zlib		# requried by curl (and others)

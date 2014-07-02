@@ -1,0 +1,141 @@
+alsaplayer	# nice lightweight audio player
+consonance	# nice lightweight audio player
+flmusic		# CD audio player
+feh		# nice lightweight image viewer
+fontviewer	# tcl/tk font viewer
+gfontview	# a good font viewer
+mount-gtk2	# simple but pulls in udisks2
+geeqie		# image viewer
+gqview		# image viewer
+xv		# image viewer
+icewm-themes
+#icewm-utils	# pulls in qt3, python2
+idesk-extras	# probably don't want idesk anyway
+kismet		# too big for stick
+
+nxproxy
+libisoburn	# to make isos
+
+mc		# midnight commander file manager
+vifm		# vi-like file manager
+emelfm2		#
+
+links		# massive (~5M)
+lynx		# massive (~5M)
+mutt		# massive (~5M)
+
+metacity	# window manager
+mtools		# MS-DOS utilities
+
+mupdf		# other pdf viewers
+gv		# other pdf viewers
+xpdf		# other pdf viewers
+apvlv		# other pdf viewers
+zathura		# other pdf viewers
+zathura-pdf-poppler # other pdf viewers
+zathura-ps	# other pdf viewers
+
+nano		# another editor
+
+network-manager-applet-gtk2
+networkmanager-openconnect-gtk2
+networkmanager-openvpn-gtk2
+networkmanager-pptp-gtk2
+networkmanager-vpnc-gtk2
+
+nmap		# massive, pulls in lua
+snort		# massive, 16M
+ettercap-gtk	# not so big
+
+opennx		# pulls in wxWidgets
+
+openbox-themes	# 8284.00 K
+
+ortp
+
+remind		# calendar program
+tint2		# task manager panel
+unrar		# unpack MSDOS rar files
+xfburn		# ISO burning
+flburn		# ISO burning
+xfe		# file manager
+xgalaga		# game
+xmbmon		# monitor temperatures
+
+fvwm		# a little big
+
+windowmaker-crm-git
+windowmaker-extra
+wmmail
+wmweather+
+
+#bubblemon-dockapp  # pulls in gtk (not any more)
+#wmclockmon	    # pulls in gtk (not any more)
+#wmtrash	    # pulls in gtk (not any more)
+wmspaceclock	    # pulls in gtk
+
+networkmanager-ifupdown
+
+xde-theme-archlinux
+xde-theme-atc
+xde-theme-aviation
+xde-theme-blackbirds
+xde-theme-circuits
+xde-theme-dishes
+xde-theme-radar
+
+zenity-gtk2	# 5.812 MiB
+
+packagekit
+notification-daemon-gtk2
+
+lxde-common
+lxde-icon-theme	# pulled in by lxde-common
+lxpanel
+lxsession
+lxshortcut
+lxappearance-obconf
+lxinput
+lxkb_config-git
+lxnm
+
+alsa-firmware
+alsa-plugins
+
+lshw
+
+rp-pppoe-gui
+
+sofia-sip
+#Depends On     : glib2  openssl
+#Download Size  : 744.41 KiB
+#Installed Size : 4111.00 KiB
+ekiga
+#Depends On     : opal  boost-libs  libxv  libnotify  hicolor-icon-theme  avahi  gtk2  gconf
+#Download Size  : 7458.77 KiB
+#Installed Size : 17279.00 KiB
+
+simpleburn
+
+pekwm
+pekwm-themes
+
+# bluez4	    # now bluez
+bluez-utils
+bluez-firmware
+# bluez-hcidump	    # now in bluez-utils
+# brians-bluetooth-keyboard  # I no longer have this keyboard
+bluez-tools
+
+hardinfo
+inxi
+hddtemp
+ipset
+pmount
+putty
+
+xbrightness
+xcolorsel
+
+tcllib
+tix

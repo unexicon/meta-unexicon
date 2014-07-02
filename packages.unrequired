@@ -1,0 +1,393 @@
+custom/9menu 1.8-5
+custom/aarchup 1.6.8-1
+custom/absolute-theme 0.1-2
+custom/acid-gtk-theme 1.0-1 (xfce)
+community/acpi_call 1.1.0-3
+custom/adwaita-x-dark-and-light-theme 1.3-1
+custom/aero-clone-gtk-theme 57352-3
+extra/alsa-oss 1.0.25-2
+Name           : alsa-oss
+Version        : 1.0.25-2
+Description    : OSS compatibility library
+Architecture   : x86_64
+URL            : http://www.alsa-project.org
+Licenses       : GPL
+Groups         : None
+Provides       : None
+Depends On     : alsa-lib
+Optional Deps  : None
+Required By    : None
+Optional For   : None
+Conflicts With : None
+Replaces       : None
+Installed Size : 101.00 KiB
+Packager       : Tobias Powalowski <tpowa@archlinux.org>
+Build Date     : Mon 21 Oct 2013 01:18:49 AM MDT
+Install Date   : Mon 21 Oct 2013 06:15:06 AM MDT
+Install Reason : Explicitly installed
+Install Script : No
+Validated By   : Signature
+
+custom/anypaper 2.4-1
+community/apvlv 0.1.4.20121023-3
+custom/archlinux-artwork 1.6-3
+extra/archlinux-themes-slim 1.2-3
+extra/archlinux-wallpaper 1.4-1
+community/aria2 1.18.5-1
+Name           : aria2
+Version        : 1.18.5-1
+Description    : Download utility that supports HTTP(S), FTP, BitTorrent, and Metalink
+Architecture   : x86_64
+URL            : http://aria2.sourceforge.net/
+Licenses       : GPL
+Groups         : None
+Provides       : None
+Depends On     : gnutls  libxml2  sqlite  c-ares  ca-certificates
+Optional Deps  : None
+Required By    : None
+Optional For   : midori
+Conflicts With : None
+Replaces       : None
+Installed Size : 4434.00 KiB
+Packager       : Felix Yan <felixonmars@gmail.com>
+Build Date     : Sun 30 Mar 2014 08:10:12 AM MDT
+Install Date   : Mon 07 Apr 2014 10:57:37 PM MDT
+Install Reason : Explicitly installed
+Install Script : No
+Validated By   : Signature
+
+
+community/asciidoc 8.6.9-1
+extra/audacious 3.5-1
+custom/audacious2-plugins 3.2.4-2
+core/autoconf 2.69-1 (base-devel)
+core/automake 1.14.1-1 (base-devel)
+extra/automoc4 0.9.88-4
+custom/bbconf-cvs 20130401-1
+extra/bin86 0.16.21-1
+custom/bmpanel2 2.1pre1-5
+extra/boost 1.55.0-6
+custom/bzrtools 2.6.0-2
+extra/ca-certificates-java 20130815-1
+custom/chbg 1.5-5
+community/chrpath 0.16-1
+community/clusterssh 3.28-4
+extra/cmake 2.8.12.2-2
+custom/cook 2.34-1
+extra/cscope 15.8.a-2
+extra/ctags 5.8-3
+extra/cvs 1.11.23-9
+custom/cvs2svn 2.4.0-2
+custom/cvsps2 2.1-1
+custom/deepin-gtk-theme 20131205094859~95cd257c48-1
+custom/delorean-dark-themes-3.8 10082013-1
+community/dex 0.7-1
+Name           : dex
+Version        : 0.7-1
+Description    : Program to generate and execute DesktopEntry files of type Application
+Architecture   : any
+URL            : https://github.com/jceb/dex
+Licenses       : GPL2
+Groups         : None
+Provides       : None
+Depends On     : python
+Optional Deps  : None
+Required By    : None
+Optional For   : awesome-git
+Conflicts With : None
+Replaces       : None
+Installed Size :  25.00 KiB
+Packager       : Sébastien Luttringer <seblu@seblu.net>
+Build Date     : Thu 14 Nov 2013 12:53:16 PM MST
+Install Date   : Fri 21 Feb 2014 11:00:34 AM MST
+Install Reason : Explicitly installed
+Install Script : No
+Validated By   : Signature
+
+
+custom/dhcpcd-hook-openvpn 0.1.0.r2.gfad14f9-1
+custom/docbook-to-man 2.0.0-5
+extra/doxygen 1.8.7-1
+extra/easy-rsa 2.2.2-2
+custom/easy_spice 0.6.8-4
+custom/ede 2.0-4
+custom/edelib 2.0-3
+extra/enlightenment16 1.0.13-4
+extra/evolution-data-server 3.12.1-2
+extra/fakechroot 2.17.2-1
+extra/fastjar 0.98-2
+extra/fetchmail 6.3.26-1
+custom/flburn 0.0.3-4
+core/flex 2.5.39-1 (base-devel)
+custom/flmusic 1.2.1-1
+extra/fltk-games 1.3.2-5
+community/fortune-mod 1.99.1-6
+extra/freeglut 2.8.1-1
+extra/ftjam 2.5.3rc2-3
+extra/fvwm-crystal 3.3.2-1
+custom/fvwm-icons 20070101-2
+custom/fvwm-themes 0.7.0-1
+custom/fvwm-themes-extra 0.7.0-1
+community/fwbuilder 5.1.0.3599-4
+custom/gaw 20111016-1
+multilib/gcc-fortran-multilib 4.9.0-2
+custom/gcc-gcj 4.8.2-3
+extra/gdb 7.7.1-1
+community/gendesk 0.6.2-1
+custom/geoip-asndata 20131204-1
+custom/geoip-citydata 20140402-1
+extra/git 1.9.2-1
+custom/gksu-polkit-git 1:82-1
+custom/gmt 5.1.1-1
+custom/gmt-coast 2.3.0-1
+extra/gnome-bluetooth 3.12.0-1
+extra/gnome-common 3.12.0-1
+extra/gnome-font-viewer 3.12.0-1 (gnome)
+extra/gnome-keyring 3.12.0-1 (gnome)
+extra/gnome-menus 3.10.1-1
+community/gnome-packagekit 3.12.1-1
+extra/gnome-terminal 3.12.1-1 (gnome)
+community/gnucap 20091207-2
+community/gnuchess 6.1.1-1
+custom/gnulib-git v0.1.98.g24379a9-1
+extra/gob2 2.0.20-1
+community/gogglesmm 0.13.1-1
+extra/graphviz 2.36.0-2
+extra/grilo-plugins 0.2.12-2 (gnome)
+community/gsmartcontrol 0.8.7-4
+custom/gspiceui 1.0.00-1
+extra/gst-libav 1.2.4-1
+extra/gst-plugins-ugly 1.2.4-1
+custom/gst123 0.3.3-1
+extra/gstreamer0.10-ffmpeg 0.10.13-2 (gstreamer0.10-plugins)
+extra/gstreamer0.10-good 0.10.31-6
+extra/gthumb 3.2.7-2
+extra/gtk-doc 1.20-1
+custom/gtk-engine-equinox 1.50-2
+extra/gtk2-xfce-engine 3.0.1-1 (xfce4)
+community/gtk2_prefs 0.4.1-3
+extra/gtk3-xfce-engine 3.0.1-1 (xfce4)
+extra/gtkhtml4 4.8.0-1
+extra/gupnp-av 0.12.5-1
+extra/gvfs-afc 1.20.2-1
+extra/gvfs-afp 1.20.2-1
+extra/gvfs-gphoto2 1.20.2-1
+extra/gvfs-smb 1.20.2-1
+extra/help2man 1.44.1-1
+extra/imake 1.0.6-2
+extra/indent 2.2.11-3
+extra/intltool 0.50.2-1
+extra/itstool 2.0.2-1
+extra/kdebase-runtime 4.13.0-3
+community/kicad 20130518-3
+community/kicad-docs-bzr 352-1
+community/kicad-library-bzr 240-2
+extra/latex2html 2008-2
+custom/ldraw-parts-library 20121228-1
+multilib/lib32-fakeroot 1.20-1 (multilib-devel)
+extra/libbonobo 2.32.1-4
+extra/libcanberra-gstreamer 0.30-4
+extra/libcue 1.4.0-3
+community/libexosip2 1:4.0.0-2
+extra/libgnome-data 2.32.1-5
+extra/libgnomecanvas 2.30.3-2
+extra/liblastfm 1.0.8-1
+extra/liblo 1:0.28-1
+extra/libmtp 1.1.6-6
+extra/libnl1 1.1.4-1
+extra/libpst 0.6.63-1
+custom/libpthread-stubs 0.3-6
+extra/libreoffice-kde4 4.2.4-1 (libreoffice)
+extra/libreoffice-postgresql-connector 4.2.4-1 (libreoffice)
+community/libstatgrab 0.17-4
+extra/libstdc++5 3.3.6-5
+multilib/libtool-multilib 2.4.2-13 (multilib-devel)
+extra/libytnef 1.5-3
+core/linux-docs 3.14.2-1
+core/linux-headers 3.14.2-1
+core/linux-lts 3.10.39-1
+core/linux-lts-headers 3.10.39-1
+custom/linux-unx-headers 3.0.99-1
+community/linuxdoc-tools 0.9.69-1
+extra/lirc-utils 1:0.9.0-71
+local/lostfiles 3.10-1
+community/lxdm 0.4.1-29 (lxde)
+core/make 4.0-2 (base-devel)
+community/menumaker 0.99.7-8
+extra/mercurial 3.0-1
+local/meta-unexicon-arch 1.0-1 (unexicon)
+local/meta-unexicon-desk 1.0-1 (unexicon)
+local/meta-unexicon-live-plus 1.0-1 (unexicon)
+local/meta-unexicon-xtra 1.0-1 (unexicon)
+local/meta-unexicon-xvid 1.0-1 (unexicon)
+extra/mkpxelinux 2013.10-1
+community/mksh 49-1
+extra/modemmanager 1.2.0-3
+custom/monotone 1.0-7
+extra/mutter 3.12.1-1 (gnome)
+extra/namcap 3.2.5-2
+community/netperf 2.6.0-2
+extra/nitrogen 1.5.2-1
+community/notion 20140416-1
+extra/nx-headers 3.5.0.24-1
+custom/obex-data-server 0.4.6-9
+community/opendesktop-fonts 1.4.2-1
+core/openldap 2.4.39-1
+community/opensc 0.13.0-4
+community/os-prober 1.58-1
+extra/p7zip 9.20.1-9
+community/pacgraph 20110629-2
+custom/pacmanexpress 2.4.2-1
+community/pdf2svg 0.2.2-1
+custom/perl-any-moose 0.21-2
+custom/perl-apireference 0.14-1
+custom/perl-c-scan 0.74-2
+custom/perl-convert-color 0.08-2
+community/perl-curses-ui-poe 0.04-1
+custom/perl-data-flow 1.02-2
+custom/perl-data-sexpression 0.41-1
+extra/perl-dbd-sqlite 1.42-1
+custom/perl-devel-findref 1.422-2
+extra/perl-event-execflow 0.64-3
+custom/perl-extutils-cchecker 0.08-1
+community/perl-file-slurp 9999.19-2
+custom/perl-geoip 1.43-1
+custom/perl-goo-canvas 0.06-4
+custom/perl-gtk2-ex-listmodelconcat 10-2
+custom/perl-gtk2-ex-splash 52-1
+community/perl-gtk2-sexy 0.05-8
+custom/perl-gtk3 0.016-1
+custom/perl-hardware-sensorparser 0.01-1
+custom/perl-image-base-x11-protocol 13-1
+extra/perl-io-socket-inet6 2.72-1
+community/perl-json-xs 3.01-2
+custom/perl-linux-lvm2 0.14-1
+custom/perl-linux-smaps 0.12-1
+custom/perl-module-build-xsutil 0.06-2
+custom/perl-module-scandeps 1.13-1
+extra/perl-net-ssleay 1.58-1
+custom/perl-par-dist 0.49-1
+community/perl-path-class 0.33-1
+custom/perl-snmp-info 2.11-1
+custom/perl-spread-client-constant 0.02-3
+custom/perl-spread-message 0.21-2
+custom/perl-spread-messaging 0.03-2
+custom/perl-spread-queue 0.4-2
+custom/perl-spread-session 0.4-2
+custom/perl-sys-gamin 0.1-2
+community/perl-test-deep 0.112-1
+community/perl-test-exception 0.32-2
+community/perl-test-requires 0.07-1
+community/perl-test-warn 0.24-1
+custom/perl-test-without-module 0.17-4
+custom/perl-tk-gbarr 2.08-2
+community/perl-tk-tablematrix 1.23-10
+custom/perl-xs-object-magic 0.04-4
+custom/perl-yaml-tiny 1.61-2
+community/pingus 0.7.6-11
+custom/pkgman r184-1
+community/plank-config 1.2-3
+community/po4a 0.45-1
+community/polkit-gnome 0.105-2
+extra/poppler-data 0.4.6-1
+extra/potrace 1.11-1
+community/povray 1:3.7-4
+extra/ppl 1.1-1
+community/projectm 2.1.0-8
+extra/psutils 1.17-4
+extra/python-lxml 3.3.5-1
+extra/python2-dbus 1.2.0-3
+extra/python2-gobject 3.12.1-1
+community/python2-lockfile 0.9.1-1
+extra/python2-lxml 3.3.5-1
+extra/python2-setuptools 3.6-1
+extra/qca-ossl 2.0.0-7
+extra/qt5-connectivity 5.2.1-4 (qt qt5)
+extra/qt5-graphicaleffects 5.2.1-4 (qt qt5)
+extra/qt5-imageformats 5.2.1-4 (qt qt5)
+extra/qt5-multimedia 5.2.1-4 (qt qt5)
+extra/qt5-quick1 5.2.1-4 (qt qt5)
+extra/qt5-quickcontrols 5.2.1-4 (qt qt5)
+extra/qt5-serialport 5.2.1-4 (qt qt5)
+extra/qt5-svg 5.2.1-4 (qt qt5)
+extra/qt5-tools 5.2.1-4 (qt qt5)
+extra/qt5-x11extras 5.2.1-4 (qt qt5)
+community/qucs 0.0.17-2
+community/rlwrap 0.40-1
+extra/rrdtool 1.4.8-3
+community/rtorrent 0.9.3-2
+custom/ruby-libnotify 0.5.1-2
+community/ruby-ncurses 1.3.1-6
+community/ruby-pkgconfig 1.1.5-1
+extra/sane 1.0.24-3
+community/scratch 1.4.0.7-4
+custom/sd-applet 0.01.6-1
+custom/selectwm 0.4.1-3
+community/setconf 0.6.2-2
+custom/slim-theme-burning-arch 1.0-4
+extra/slim-themes 1.2.3-6
+community/sloccount 2.26-7
+custom/sntop 1.4.3-1
+community/sparsehash 2.0.2-1
+extra/sqlite-doc 3.8.4.3-2
+extra/sqlite-tcl 3.8.4.3-2
+community/stk 4.4.4-1
+custom/stopmotion 0.6.2-6
+extra/strace 4.8-1
+extra/subversion 1.8.8-1
+custom/svg2pdf-git 20100911-1
+extra/swig 3.0.0-1
+custom/systemd-ui-git 3.0.gbd1d897-1
+community/t1utils 1.37-1
+community/tablelist 5.11-1
+community/tcllib 1.16-1
+community/tcsh 6.18.01-2
+extra/texlive-bibtexextra 2013.33039-1 (texlive-most)
+extra/texlive-formatsextra 2013.31958-1 (texlive-most)
+extra/texlive-genericextra 2013.32809-1 (texlive-most)
+extra/texlive-latexextra 2013.33063-1 (texlive-most)
+extra/texlive-pictures 2013.33045-1 (texlive-most)
+extra/texlive-plainextra 2013.32911-1 (texlive-most)
+extra/texlive-pstricks 2013.33056-1 (texlive-most)
+extra/texlive-publishers 2013.33042-1 (texlive-most)
+extra/thunar-volman 0.8.0-1 (xfce4)
+community/tix 8.4.3-5
+community/tp_smapi 0.41-45
+extra/tracker 1.0.1-1 (gnome)
+extra/transfig 3.2.5e-1
+custom/ttf-aenigma 20080510-2
+extra/tumbler 0.1.30-1 (xfce4)
+extra/unixodbc 2.3.2-1
+custom/updategeoip 1.0-1
+extra/valgrind 3.9.0-4
+community/waf 1.7.15-1
+custom/wdm-unexicon-theme 1.1.2-1
+custom/wmfsm 0.31-1
+custom/wumwum 0.9-1
+extra/x2go-agent 3.5.0.24-1
+community/xbindkeys 1.8.6-1
+community/xcircuit 3.7.57-1
+custom/xdelta 1.1.4-5
+custom/xdm-arch-theme 2.3.1-3
+community/xdm-archlinux 0.4-1
+custom/xdm-minimalist 0.1-1
+custom/xdm-svg-theme 1.0-5
+custom/xephem 3.7.6-3
+extra/xfce4-appfinder 4.10.1-1 (xfce4)
+extra/xfce4-mixer 4.10.0-2 (xfce4)
+extra/xfce4-power-manager 1.2.0.212.g75107db-1 (xfce4)
+extra/xfce4-session 4.10.1-3 (xfce4)
+extra/xfce4-settings 4.10.1-1 (xfce4)
+extra/xfce4-terminal 0.6.3-1 (xfce4)
+extra/xfdesktop 4.10.2-1 (xfce4)
+core/xfsprogs 3.1.11-2 (base)
+extra/xfwm4-themes 4.10.0-1 (xfce4)
+extra/xmlto 0.0.26-1
+extra/xmltoman 0.4-1
+custom/xqproxy 0.1.1-1
+custom/xscope 1.4-2
+community/xsensors 0.70-5
+community/xsettings-client 0.10-7
+custom/xsettingsd 20120522-1
+extra/xtrans 1.3.4-1
+community/youtube-dl 2014.05.05-1
