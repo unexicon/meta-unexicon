@@ -9,6 +9,7 @@ perl-net-dbus-git
 slim-xdm
 vim-gtk2
 xorg-xdm-xlogin
+xqproxy-git
 
 acpi
 acpid
