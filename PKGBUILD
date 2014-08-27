@@ -9,7 +9,7 @@ pkgname=(
     'meta-unexicon-desk')
 pkgbase='meta-unexicon'
 pkgver=1.1
-pkgrel=5
+pkgrel=6
 pkgdesc="A collection of meta packages for the unexicon distribution"
 arch=('any')
 url="http://www.unexicon.com"
@@ -33,9 +33,9 @@ source=(packages-live.lst
 md5sums=('cae88002a8bb357d846040cb90ff26a5'
          '2d898da390b927d6c3ed2a0ad6ab8a59'
          'ebf2b4a88192dec03235fe0fcee93b85'
-         'fe9592a29162e31dbdeb2d56c5b527c5'
+         'ef74579107b9443015590859336e79df'
          'e37ec3892d3ab88e16094d00ad4b7e90'
-         '8851f10725d01d09cbc660931101d59c'
+         'a1c52e196ed9f706674b13f01fea9577'
          '5bb2d42ba72f9d3a8833a021cba436cd')
 
 package_meta-unexicon() {

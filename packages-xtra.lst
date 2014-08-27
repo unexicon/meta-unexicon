@@ -37,11 +37,11 @@ zathura-ps	# other pdf viewers
 
 nano		# another editor
 
-network-manager-applet-gtk2
-networkmanager-openconnect-gtk2
-networkmanager-openvpn-gtk2
-networkmanager-pptp-gtk2
-networkmanager-vpnc-gtk2
+#network-manager-applet-gtk2
+#networkmanager-openconnect-gtk2
+#networkmanager-openvpn-gtk2
+#networkmanager-pptp-gtk2
+#networkmanager-vpnc-gtk2
 
 nmap		# massive, pulls in lua
 snort		# massive, 16M
@@ -74,7 +74,7 @@ wmweather+
 #wmtrash	    # pulls in gtk (not any more)
 wmspaceclock	    # pulls in gtk
 
-networkmanager-ifupdown
+#networkmanager-ifupdown
 
 xde-theme-archlinux
 xde-theme-atc
