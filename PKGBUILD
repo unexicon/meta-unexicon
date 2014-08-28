@@ -6,10 +6,11 @@ pkgname=(
     'meta-unexicon-arch'
     'meta-unexicon-xtra'
     'meta-unexicon-xvid'
-    'meta-unexicon-desk')
+    'meta-unexicon-desk'
+    'meta-unexicon-most')
 pkgbase='meta-unexicon'
 pkgver=1.1
-pkgrel=6
+pkgrel=7
 pkgdesc="A collection of meta packages for the unexicon distribution"
 arch=('any')
 url="http://www.unexicon.com"
@@ -84,6 +85,11 @@ package_meta-unexicon-kids() {
   pkgdesc="Packages for the kids"
   depends=('meta-unexicon' `cat packages-kids.lst|sed -r 's,[[:space:]]*#.*,,'`)
   install -Dm644 packages-kids.lst "$pkgdir/usr/share/unexicon/installed/meta-unexicon-kids"
+}
+
+package_meta-unexicon-most() {
+  pkgdesc="All unexicon meta packages"
+  depends=('meta-unexicon' 'meta-unexicon-live' 'meta-unexicon-plus' 'meta-unexicon-arch' 'meta-unexicon-xtra' 'meta-unexicon-xvid' 'meta-unexicon-desk')
 }
 
 # vim:set ts=2 sw=2 et:
