@@ -8,3 +8,7 @@ kicad-library-bzr
 gspiceui
 qucs
 xcircuit
+ngspice
+potrace
+easy_spice
+gnucap

@@ -8,6 +8,7 @@ perl-gnome2-wnck+
 perl-net-dbus-git
 slim-xdm
 vim-gtk2
+volumeicon-gtk2
 xorg-xdm-xlogin
 xqproxy-git
 
@@ -68,6 +69,7 @@ docker-tray	# docker renamed to docker-tray
 dosfstools
 dsniff
 dwm-git
+easy-rsa
 ed
 esetroot
 ethtool
@@ -252,12 +254,14 @@ sensible-utils
 setserial
 smartmontools
 smcroute
+sntop
 space_dapp
 squashfs-tools
 sshfs
 sslh
 st
 stalonetray
+stunnel
 sudo
 sux
 syslinux

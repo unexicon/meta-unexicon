@@ -348,6 +348,8 @@ pekwm-themes
 #Download Size  : 479.43 KiB
 #Installed Size : 2456.00 KiB
 
+selectwm
+
 spectrwm-git
 #Depends On     : dmenu  xcb-util  xcb-util-wm  xcb-util-keysyms  libxft  profont
 #Download Size  :  90.55 KiB
@@ -381,6 +383,8 @@ waimea-git
 #Depends On     : perl  libxrandr  imlib2  libxinerama  libxft
 #Download Size  : 154.46 KiB
 #Installed Size : 466.00 KiB
+
+windowlab
 
 windwm-git
 #Depends On     : libxft
@@ -439,6 +443,10 @@ yeahlaunch
 #Depends On     : libx11
 #Download Size  :   5.12 KiB
 #Installed Size :  30.00 KiB
+
+# Window Manager utilties
+screenfetch
+scrot
 
 # Icon Themes
 #
@@ -623,6 +631,13 @@ wmbluemem
 #Depends On     : libxpm  libxft
 #Download Size  :  10.16 KiB
 #Installed Size :  49.00 KiB
+wmbutton
+wmcdplay
+wmforkplop
+wmfrog
+wmgtemp
+wmifinfo
+wmifs
 wmhdplop
 #Depends On     : imlib2
 #Download Size  :  45.91 KiB
@@ -968,6 +983,7 @@ cairo-clock
 #Depends On     : cairo  libglade>=2.6.0  librsvg>=2.14.0
 #Download Size  : 191.11 KiB
 #Installed Size : 3104.00 KiB
+fortune-mod
 
 # Calculators
 #
@@ -1009,6 +1025,8 @@ gutenprint
 #Depends On     : glibc
 #Download Size  : 11436.24 KiB
 #Installed Size : 169088.00 KiB
+foomatic-db
+sane
 
 # Browsers
 #
@@ -1045,6 +1063,10 @@ fltk-editor
 fluff
 rox
 spacefm
+thunar
+thunar-volman
+thunar-media-tags-plugin
+thunar-archive-plugin
 udevil
 gentoo
 
@@ -1139,3 +1161,4 @@ totem
 # Miscellaneous
 #
 xbindkeys
+xstdcmap

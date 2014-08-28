@@ -9,10 +9,11 @@ pkgname=(
     'meta-unexicon-desk'
     'meta-unexicon-kids'
     'meta-unexicon-elec'
+    'meta-unexicon-devl'
     'meta-unexicon-most')
 pkgbase='meta-unexicon'
 pkgver=1.1
-pkgrel=8
+pkgrel=9
 pkgdesc="A collection of meta packages for the unexicon distribution"
 arch=('any')
 url="http://www.unexicon.com"
@@ -26,7 +27,8 @@ depends=(`cat packages-live.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-xvid.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-desk.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-kids.lst|sed -r 's,[[:space:]]*#.*,,'`
-         `cat packages-elec.lst|sed -r 's,[[:space:]]*#.*,,'`)
+         `cat packages-elec.lst|sed -r 's,[[:space:]]*#.*,,'`
+         `cat packages-devl.lst|sed -r 's,[[:space:]]*#.*,,'`)
 source=(packages-live.lst
         packages-plus.lst
         packages-arch.lst
@@ -34,15 +36,17 @@ source=(packages-live.lst
         packages-xvid.lst
         packages-desk.lst
         packages-kids.lst
-        packages-elec.lst)
-md5sums=('cae88002a8bb357d846040cb90ff26a5'
+        packages-elec.lst
+        packages-devl.lst)
+md5sums=('928f726c0b2593cb4ed9a3d5c725f658'
          '2d898da390b927d6c3ed2a0ad6ab8a59'
          'ebf2b4a88192dec03235fe0fcee93b85'
-         'ef74579107b9443015590859336e79df'
+         '367a7ef1ceff779262fe6924b4901a6f'
          'e37ec3892d3ab88e16094d00ad4b7e90'
-         'a1c52e196ed9f706674b13f01fea9577'
-         '5bb2d42ba72f9d3a8833a021cba436cd'
-         'd42787c420a5de80a84fa6cf83f616d6')
+         '8f7ab36190bce2f365ef03ed49ad673c'
+         'dc625cbb4e142c813c2de20631f6b24d'
+         'b51afaef3e16baca631316f57f7ac2f2'
+         'fdf1fc0485c7cf123bf1310f2748e4e1')
 
 package_meta-unexicon() {
   pkgdesc="A meta package for unexicon (remove me)"
@@ -96,6 +100,12 @@ package_meta-unexicon-elec() {
   pkgdesc="Packages for electronics design"
   depends=('meta-unexicon' `cat packages-elec.lst|sed -r 's,[[:space:]]*#.*,,'`)
   install -Dm644 packages-elec.lst "$pkgdir/usr/share/unexicon/installed/meta-unexicon-elec"
+}
+
+package_meta-unexicon-devl() {
+  pkgdesc="Packages for software development"
+  depends=('meta-unexicon' `cat packages-devl.lst|sed -r 's,[[:space:]]*#.*,,'`)
+  install -Dm644 packages-devl.lst "$pkgdir/usr/share/unexicon/installed/meta-unexicon-devl"
 }
 
 package_meta-unexicon-most() {

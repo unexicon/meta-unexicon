@@ -7,6 +7,9 @@ konstruktor
 #Depends On     : kdebase-runtime  glu  povray  ldraw-parts-library
 #Download Size  : 384.36 KiB
 #Installed Size : 1319.00 KiB
+starplot
+starplot-gliese3
+starplot-yale5
 xephem
 #Depends On     : libxmu  lesstif
 #Download Size  : 10763.48 KiB
@@ -22,3 +25,9 @@ stopmotion
 #Depends On     : qt4  sdl_image  libxml2  libvorbis  inotify-tools  libtar
 #Download Size  : 2107.31 KiB
 #Installed Size : 3880.00 KiB
+#
+# games
+#
+pingus
+xgalaga
+xasteroids
