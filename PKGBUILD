@@ -7,10 +7,12 @@ pkgname=(
     'meta-unexicon-xtra'
     'meta-unexicon-xvid'
     'meta-unexicon-desk'
+    'meta-unexicon-kids'
+    'meta-unexicon-elec'
     'meta-unexicon-most')
 pkgbase='meta-unexicon'
 pkgver=1.1
-pkgrel=7
+pkgrel=8
 pkgdesc="A collection of meta packages for the unexicon distribution"
 arch=('any')
 url="http://www.unexicon.com"
@@ -23,21 +25,24 @@ depends=(`cat packages-live.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-xtra.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-xvid.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-desk.lst|sed -r 's,[[:space:]]*#.*,,'`
-         `cat packages-kids.lst|sed -r 's,[[:space:]]*#.*,,'`)
+         `cat packages-kids.lst|sed -r 's,[[:space:]]*#.*,,'`
+         `cat packages-elec.lst|sed -r 's,[[:space:]]*#.*,,'`)
 source=(packages-live.lst
         packages-plus.lst
         packages-arch.lst
         packages-xtra.lst
         packages-xvid.lst
         packages-desk.lst
-        packages-kids.lst)
+        packages-kids.lst
+        packages-elec.lst)
 md5sums=('cae88002a8bb357d846040cb90ff26a5'
          '2d898da390b927d6c3ed2a0ad6ab8a59'
          'ebf2b4a88192dec03235fe0fcee93b85'
          'ef74579107b9443015590859336e79df'
          'e37ec3892d3ab88e16094d00ad4b7e90'
          'a1c52e196ed9f706674b13f01fea9577'
-         '5bb2d42ba72f9d3a8833a021cba436cd')
+         '5bb2d42ba72f9d3a8833a021cba436cd'
+         'd42787c420a5de80a84fa6cf83f616d6')
 
 package_meta-unexicon() {
   pkgdesc="A meta package for unexicon (remove me)"
@@ -87,9 +92,15 @@ package_meta-unexicon-kids() {
   install -Dm644 packages-kids.lst "$pkgdir/usr/share/unexicon/installed/meta-unexicon-kids"
 }
 
+package_meta-unexicon-elec() {
+  pkgdesc="Packages for electronics design"
+  depends=('meta-unexicon' `cat packages-elec.lst|sed -r 's,[[:space:]]*#.*,,'`)
+  install -Dm644 packages-elec.lst "$pkgdir/usr/share/unexicon/installed/meta-unexicon-elec"
+}
+
 package_meta-unexicon-most() {
   pkgdesc="All unexicon meta packages"
-  depends=('meta-unexicon' 'meta-unexicon-live' 'meta-unexicon-plus' 'meta-unexicon-arch' 'meta-unexicon-xtra' 'meta-unexicon-xvid' 'meta-unexicon-desk')
+  depends=('meta-unexicon' 'meta-unexicon-live' 'meta-unexicon-plus' 'meta-unexicon-arch' 'meta-unexicon-xtra' 'meta-unexicon-xvid' 'meta-unexicon-desk' 'meta-unexicon-kids' 'meta-unexicon-elec')
 }
 
 # vim:set ts=2 sw=2 et:

@@ -1,0 +1,10 @@
+
+# contains electronics packages
+
+gaw
+kicad
+kicad-docs-bzr
+kicad-library-bzr
+gspiceui
+qucs
+xcircuit
