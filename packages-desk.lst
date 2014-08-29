@@ -936,6 +936,7 @@ gimp
 #Download Size  : 11869.52 KiB
 #Installed Size : 65906.00 KiB
 inkscape
+python2-lxml
 #Depends On     : gc  gsl  gtkmm  gtkspell  imagemagick  libxslt  poppler-glib  popt  python2  desktop-file-utils  hicolor-icon-theme
 #Download Size  : 13040.59 KiB
 #Installed Size : 79108.00 KiB
@@ -1159,6 +1160,10 @@ libcanberra-gstreamer
 
 # Music players
 #
+gogglesmm
+#Depends On     : fox-devel>=1.7.48  libmad  faad2  sqlite3  libpulse  opus  dbus  taglib>=1.9.0  glew  hicolor-icon-theme  desktop-file-utils
+#Download Size  : 597.09 KiB
+#Installed Size : 2007.00 KiB
 pragha
 #Depends On     : libnotify  libcdio-paranoia  gst-plugins-base  taglib  hicolor-icon-theme  gtk3  dbus-glib  sqlite  desktop-file-utils  libclastfm  libpeas
 #Download Size  : 252.32 KiB
@@ -1234,6 +1239,7 @@ libreoffice-still-en-US
 
 # Video players
 totem
+grilo-plugins
 
 # Document processing
 dblatex
