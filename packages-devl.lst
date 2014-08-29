@@ -62,19 +62,21 @@ xscope
 #
 # A lot of perl stuff
 #
-perl-any-moose
 perl-anyevent
+perl-anyevent-i3
+perl-any-moose
 perl-apireference
-perl-c-scan
 perl-class-member
 perl-convert-color
 perl-cpan-meta
+perl-c-scan
 perl-curses-ui-poe
 perl-data-flow
 perl-data-sexpression
 perl-dbd-sqlite
 perl-devel-caller
 perl-devel-findref
+perl-devel-lexalias
 perl-event-execflow
 perl-extutils-cchecker
 perl-file-slurp
