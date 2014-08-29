@@ -1,4 +1,5 @@
 # put these first because others might fill dependencies otherwise
+gksu-polkit-git
 gnome-vfs-nosmb
 avahi-gtk2
 gconf-gtk2
@@ -11,7 +12,12 @@ vim-gtk2
 volumeicon-gtk2
 xorg-xdm-xlogin
 xqproxy-git
+x11vnc-git
 
+aarchup
+#Depends On     : pacman  libnotify  gtk2
+#Download Size  :  29.68 KiB
+#Installed Size : 115.00 KiB
 acpi
 acpid
 adwm-git
@@ -19,6 +25,7 @@ aic94xx-firmware
 allin1
 alltray
 alsamixer.app
+alsa-oss
 arch-install-scripts
 archlinux-menus
 archlinux-xdg-menu
@@ -26,6 +33,7 @@ arpwatch
 atop
 aumix
 aurget
+bash-completion
 b43-fwcutter
 bbdock
 bbkeys
@@ -117,6 +125,7 @@ ifenslave
 ifplugd
 iftop
 igmpproxy
+inotify-tools
 inxi
 #Depends On     : coreutils  gawk  grep  pciutils  procps-ng  sed
 #Download Size  : 106.52 KiB
@@ -130,11 +139,15 @@ jwm-git
 jwmtools-git
 lal
 lalcal
+libmicrohttpd
+libstatgrab
+libtar
 libxkbui
 licenses
 linux-unx
 lm_sensors
 logrotate
+lostfiles
 lsb-release
 lsscsi
 lvm2
@@ -377,9 +390,10 @@ wmweather
 wmwifi
 wpa_actiond
 x11-ssh-askpass
-x11vnc
 xarchiver
 xdelta3
+xde-ctools-git
+xde-session-git
 xde-helpers
 xde-theme
 

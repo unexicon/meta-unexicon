@@ -10,10 +10,11 @@ pkgname=(
     'meta-unexicon-kids'
     'meta-unexicon-elec'
     'meta-unexicon-devl'
+    'meta-unexicon-geog'
     'meta-unexicon-most')
 pkgbase='meta-unexicon'
 pkgver=1.1
-pkgrel=9
+pkgrel=11
 pkgdesc="A collection of meta packages for the unexicon distribution"
 arch=('any')
 url="http://www.unexicon.com"
@@ -28,7 +29,8 @@ depends=(`cat packages-live.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-desk.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-kids.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-elec.lst|sed -r 's,[[:space:]]*#.*,,'`
-         `cat packages-devl.lst|sed -r 's,[[:space:]]*#.*,,'`)
+         `cat packages-devl.lst|sed -r 's,[[:space:]]*#.*,,'`
+         `cat packages-geog.lst|sed -r 's,[[:space:]]*#.*,,'`)
 source=(packages-live.lst
         packages-plus.lst
         packages-arch.lst
@@ -37,16 +39,18 @@ source=(packages-live.lst
         packages-desk.lst
         packages-kids.lst
         packages-elec.lst
-        packages-devl.lst)
-md5sums=('928f726c0b2593cb4ed9a3d5c725f658'
-         '2d898da390b927d6c3ed2a0ad6ab8a59'
+        packages-devl.lst
+        packages-geog.lst)
+md5sums=('1298f0d366996546efec06ebe29c6920'
+         'a227fae577d5bbb9880b6aa64eeea8c1'
          'ebf2b4a88192dec03235fe0fcee93b85'
-         '367a7ef1ceff779262fe6924b4901a6f'
+         '62ab3c02887d062afba7d23489dae7f1'
          'e37ec3892d3ab88e16094d00ad4b7e90'
-         '8f7ab36190bce2f365ef03ed49ad673c'
-         'dc625cbb4e142c813c2de20631f6b24d'
+         '0fed2b3d261d7bdbbb800acb5aaf1d01'
+         'cecd4131d2129a2555f26e941b21be17'
          'b51afaef3e16baca631316f57f7ac2f2'
-         'fdf1fc0485c7cf123bf1310f2748e4e1')
+         '79603bff69aa3324509627bf4644f8cb'
+         '53213aea84be024b81efb2135ace74d1')
 
 package_meta-unexicon() {
   pkgdesc="A meta package for unexicon (remove me)"
@@ -106,6 +110,12 @@ package_meta-unexicon-devl() {
   pkgdesc="Packages for software development"
   depends=('meta-unexicon' `cat packages-devl.lst|sed -r 's,[[:space:]]*#.*,,'`)
   install -Dm644 packages-devl.lst "$pkgdir/usr/share/unexicon/installed/meta-unexicon-devl"
+}
+
+package_meta-unexicon-geog() {
+  pkgdesc="Packages for containing large geographic data"
+  depends=('meta-unexicon' `cat packages-geog.lst|sed -r 's,[[:space:]]*#.*,,'`)
+  install -Dm644 packages-geog.lst "$pkgdir/usr/share/unexicon/installed/meta-unexicon-geog"
 }
 
 package_meta-unexicon-most() {

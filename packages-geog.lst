@@ -1,0 +1,16 @@
+#
+# Big geographic packages
+#
+geoip-asndata
+geoip-citydata
+geoip-database
+geoip
+gmt
+gmt-coast
+gmt-dcw
+perl-geo-coordinates-vandh
+perl-geoip
+updategeoip
+geoclue
+geoclue2
+

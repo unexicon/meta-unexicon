@@ -16,6 +16,7 @@ lftp
 linux-atm
 mc
 mtools
+ncftp
 nilfs-utils
 nmap
 os-prober

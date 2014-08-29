@@ -19,12 +19,13 @@ libisoburn	# to make isos
 mc		# midnight commander file manager
 vifm		# vi-like file manager
 emelfm2		#
+p7zip		# way too bit 8.5 M
 
 links		# massive (~5M)
 lynx		# massive (~5M)
 mutt		# massive (~5M)
 
-metacity	# window manager
+metacity2	# window manager
 mtools		# MS-DOS utilities
 
 mupdf		# other pdf viewers
@@ -102,8 +103,18 @@ alsa-firmware
 alsa-plugins
 
 lshw
+lshwd
 
 rp-pppoe-gui
+
+#libosip2
+#Depends On     : glibc
+#Download Size  :  99.07 KiB
+#Installed Size : 618.00 KiB
+libexosip2
+#Depends On     : libosip2>=4.0.0  openssl
+#Download Size  : 101.28 KiB
+#Installed Size : 448.00 KiB
 
 sofia-sip
 #Depends On     : glib2  openssl
@@ -119,6 +130,8 @@ simpleburn
 pekwm
 pekwm-themes
 
+hostapd
+
 # bluez4	    # now bluez
 bluez-utils
 bluez-firmware
@@ -129,6 +142,7 @@ bluez-tools
 hardinfo
 inxi
 hddtemp
+gsmartcontrol
 ipset
 pmount
 putty
@@ -138,3 +152,17 @@ xcolorsel
 
 tcllib
 tix
+unixodbc
+fetchmail
+#Depends On     : openssl
+#Download Size  : 423.90 KiB
+#Installed Size : 2102.00 KiB
+
+#
+# should use OpenSS7 version
+#
+#netperf
+#Depends On     : glibc  libsmbios  lksctp-tools
+#Download Size  : 177.76 KiB
+#Installed Size : 558.00 KiB
+
