@@ -42,7 +42,7 @@ bbrun
 beep
 bfa-firmware
 bftpd
-blackbox-git
+blackboxwm
 bridge-utils
 bsdiff
 bubblemon-dockapp
@@ -120,7 +120,7 @@ i3-wm
 i3lock
 i3status
 ibam
-icewm
+icewm2
 ifenslave
 ifplugd
 iftop

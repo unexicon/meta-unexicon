@@ -45,7 +45,7 @@ dex
 #Download Size  :   8.02 KiB
 #Installed Size :  25.00 KiB
 
-blackbox-git
+blackboxwm
 #Depends On     : gcc-libs  libxft  libxext
 #Download Size  : 254.54 KiB
 #Installed Size : 1095.00 KiB
@@ -211,7 +211,7 @@ i3status
 #Download Size  :  27.67 KiB
 #Installed Size :  60.00 KiB
 
-icewm-git
+icewm2
 #Depends On     : libxft  libxinerama  gdk-pixbuf2  libxrandr  libsndfile  libsm
 #Download Size  : 587.73 KiB
 #Installed Size : 2971.00 KiB
