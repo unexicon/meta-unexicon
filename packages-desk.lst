@@ -7,12 +7,12 @@
 # the live image and the rest are here.
 #
 
-2bwm-git
+2bwm
 #Depends On     : xcb-util-wm  xcb-util-keysyms
 #Download Size  :  20.34 KiB
 #Installed Size :  85.00 KiB
 
-adwm-git
+adwm
 #Depends On     : libxft  libxrandr  libxinerama  libxpm  startup-notification  imlib2
 #Download Size  : 132.32 KiB
 #Installed Size : 480.00 KiB
@@ -27,16 +27,16 @@ aewm++
 #Download Size  :  21.71 KiB
 #Installed Size :  67.00 KiB
 
-afterstep-git
+afterstep
 #Depends On     : gtk2>=2.18.6  libpng  libtiff  readline  freetype2  dbus-core  librsvg
 #Download Size  : 5823.05 KiB
 #Installed Size : 29000.00 KiB
 
-awesome-git
+awesome
 #Depends On     : cairo  dbus  gdk-pixbuf2  imlib2  libxdg-basedir  lua  lua-lgi  pango  startup-notification  xcb-util-cursor  xcb-util-keysyms  xcb-util-wm  xorg-xmessage
 #Download Size  : 731.89 KiB
 #Installed Size : 1636.00 KiB
-vicious-git
+vicious
 #Depends On     : lua
 #Download Size  :  41.94 KiB
 #Installed Size : 195.00 KiB
@@ -62,11 +62,11 @@ bbpager
 #Download Size  :  86.07 KiB
 #Installed Size : 240.00 KiB
 
-bspwm-git
+bspwm
 #Depends On     : libxcb  xcb-util  xcb-util-wm
 #Download Size  :  44.74 KiB
 #Installed Size : 150.00 KiB
-sxhkd-git
+sxhkd
 #Depends On     : libxcb  xcb-util-keysyms
 #Download Size  :  23.04 KiB
 #Installed Size :  98.00 KiB
@@ -78,7 +78,7 @@ sutils-git
 #Depends On     : None
 #Download Size  :   7.48 KiB
 #Installed Size :  58.00 KiB
-bar-aint-recursive-git
+bar-aint-recursive
 #Depends On     : libxcb
 #Download Size  :  13.24 KiB
 #Installed Size :  55.00 KiB
@@ -99,12 +99,12 @@ xwinfo-git
 #Download Size  :   6.31 KiB
 #Installed Size :  44.00 KiB
 
-ctwm-git
+ctwm
 #Depends On     : libxmu  libxpm  libjpeg  rplay
 #Download Size  : 406.46 KiB
 #Installed Size : 1620.00 KiB
 
-cwm-git
+cwm
 #Depends On     : libxft  libxrandr  libxinerama
 #Download Size  :  36.71 KiB
 #Installed Size : 118.00 KiB
@@ -375,7 +375,7 @@ pekwm-themes
 
 selectwm
 
-spectrwm-git
+spectrwm
 #Depends On     : dmenu  xcb-util  xcb-util-wm  xcb-util-keysyms  libxft  profont
 #Download Size  :  90.55 KiB
 #Installed Size : 223.00 KiB
@@ -1240,6 +1240,7 @@ libreoffice-still-en-US
 # Video players
 totem
 grilo-plugins
+mpv
 
 # Document processing
 dblatex
