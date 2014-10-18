@@ -41,7 +41,7 @@ source=(packages-live.lst
         packages-elec.lst
         packages-devl.lst
         packages-geog.lst)
-md5sums=('dc7174f40411da4dfe755cdf62d52d12'
+md5sums=('96328e0f7472310f46b5db45d605f949'
          'a227fae577d5bbb9880b6aa64eeea8c1'
          'ebf2b4a88192dec03235fe0fcee93b85'
          '62ab3c02887d062afba7d23489dae7f1'
