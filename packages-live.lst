@@ -152,7 +152,7 @@ lsb-release
 lsscsi
 lvm2
 lxappearance
-lxpolkit-git
+#lxpolkit-git	# now part of lxsession
 lxrandr
 lxtask
 lxterminal

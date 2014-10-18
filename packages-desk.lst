@@ -292,7 +292,7 @@ lxpanel
 #Depends On     : gtk2  alsa-lib  menu-cache  lxmenu-data  libwnck
 #Download Size  : 1090.09 KiB
 #Installed Size : 2716.00 KiB
-lxpolkit-git
+#lxpolkit-git	# now part of lxsession
 #Depends On     : gtk2>=2.12.0  polkit
 #Download Size  :  22.04 KiB
 #Installed Size : 639.00 KiB
