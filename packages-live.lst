@@ -102,7 +102,7 @@ ftmenu
 gatotray
 gksu
 gnome-icon-theme-extras
-gnu-netcat
+# gnu-netcat	    # need openbsd-netcat for virtualization
 gpart
 gpicview
 gptfdisk

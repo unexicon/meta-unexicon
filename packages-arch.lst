@@ -15,7 +15,7 @@ elinks
 ethtool
 f2fs-tools
 fsarchiver
-gnu-netcat
+# gnu-netcat	    # need openbsd-netcat for virtualization
 gpm
 gptfdisk
 grml-zsh-config
