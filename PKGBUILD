@@ -11,10 +11,11 @@ pkgname=(
     'meta-unexicon-elec'
     'meta-unexicon-devl'
     'meta-unexicon-geog'
+    'meta-unexicon-virt'
     'meta-unexicon-most')
 pkgbase='meta-unexicon'
 pkgver=1.1
-pkgrel=20
+pkgrel=21
 pkgdesc="A collection of meta packages for the unexicon distribution"
 arch=('any')
 url="http://www.unexicon.com"
@@ -30,7 +31,8 @@ depends=(`cat packages-live.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-kids.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-elec.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-devl.lst|sed -r 's,[[:space:]]*#.*,,'`
-         `cat packages-geog.lst|sed -r 's,[[:space:]]*#.*,,'`)
+         `cat packages-geog.lst|sed -r 's,[[:space:]]*#.*,,'`
+         `cat packages-virt.lst|sed -r 's,[[:space:]]*#.*,,'`)
 source=(packages-live.lst
         packages-plus.lst
         packages-arch.lst
@@ -40,7 +42,8 @@ source=(packages-live.lst
         packages-kids.lst
         packages-elec.lst
         packages-devl.lst
-        packages-geog.lst)
+        packages-geog.lst
+        packages-virt.lst)
 md5sums=('f254fab80f43027ae4ac64723f56266d'
          'a227fae577d5bbb9880b6aa64eeea8c1'
          '9f09c618b12c9fd9db5972a733570315'
@@ -50,7 +53,8 @@ md5sums=('f254fab80f43027ae4ac64723f56266d'
          '382886c299d9bf081619ac5a8db84ac5'
          'b51afaef3e16baca631316f57f7ac2f2'
          '52e7f85dc4ec6a103734758bbc975150'
-         '53213aea84be024b81efb2135ace74d1')
+         '53213aea84be024b81efb2135ace74d1'
+         '00ffa8c520a320e62ca9a2a73a00c645')
 
 package_meta-unexicon() {
   pkgdesc="A meta package for unexicon (remove me)"
@@ -118,9 +122,15 @@ package_meta-unexicon-geog() {
   install -Dm644 packages-geog.lst "$pkgdir/usr/share/unexicon/installed/meta-unexicon-geog"
 }
 
+package_meta-unexicon-virt() {
+  pkgdesc="Packages for virtualization"
+  depends=('meta-unexicon' `cat packages-virt.lst|sed -r 's,[[:space:]]*#.*,,'`)
+  install -Dm644 packages-virt.lst "$pkgdir/usr/share/unexicon/installed/meta-unexicon-virt"
+}
+
 package_meta-unexicon-most() {
   pkgdesc="All unexicon meta packages"
-  depends=('meta-unexicon' 'meta-unexicon-live' 'meta-unexicon-plus' 'meta-unexicon-arch' 'meta-unexicon-xtra' 'meta-unexicon-xvid' 'meta-unexicon-desk' 'meta-unexicon-kids' 'meta-unexicon-elec')
+  depends=('meta-unexicon' 'meta-unexicon-live' 'meta-unexicon-plus' 'meta-unexicon-arch' 'meta-unexicon-xtra' 'meta-unexicon-xvid' 'meta-unexicon-desk' 'meta-unexicon-kids' 'meta-unexicon-elec' 'meta-unexicon-devl' 'meta-unexicon-geog' 'meta-unexicon-virt')
 }
 
 # vim:set ts=2 sw=2 et:

@@ -1,0 +1,23 @@
+libvirt
+# optional dependencies for libvirt
+ebtables
+dnsmasq
+bridge-utils
+openbsd-netcat
+qemu
+radvd
+dmidecode
+# pm-utils
+libguestfs
+libvirt-glib
+libvirt-python
+virt-manager
+
+virtualbox
+# optional dependencies for virtualbox
+qt4
+vde2
+virtualbox-guest-iso
+virtualbox-ext-vnc
+virtualbox-sdk
+net-tools
