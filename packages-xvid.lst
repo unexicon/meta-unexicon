@@ -374,55 +374,8 @@ xorg-xwininfo
 xorg-xwud
 
 # dri
-
-ati-dri
-#Depends On     : mesa-libgl  libtxc_dxtn  mesa=10.1.3
-#Download Size  : 4856.69 KiB
-#Installed Size : 36947.00 KiB
-i810-dri
-#Depends On     : mesa-libgl
-#Download Size  : 862.04 KiB
-#Installed Size : 3469.00 KiB
-intel-dri
-#Depends On     : mesa-libgl  libtxc_dxtn  mesa=10.1.3
-#Download Size  : 1608.43 KiB
-#Installed Size : 5803.00 KiB
-mach64-dri
-#Depends On     : mesa-libgl
-#Download Size  : 869.67 KiB
-#Installed Size : 3529.00 KiB
-mga-dri
-#Depends On     : mesa-libgl
-#Download Size  : 881.57 KiB
-#Installed Size : 3574.00 KiB
-nouveau-dri
-#Depends On     : mesa-libgl  libtxc_dxtn  mesa=10.1.3
-#Download Size  : 3848.73 KiB
-#Installed Size : 19050.00 KiB
-r128-dri
-#Depends On     : mesa-libgl
-#Download Size  : 858.42 KiB
-#Installed Size : 3453.00 KiB
-savage-dri
-#Depends On     : mesa-libgl
-#Download Size  : 873.65 KiB
-#Installed Size : 3498.00 KiB
-sis-dri
-#Depends On     : mesa-libgl
-#Download Size  : 865.99 KiB
-#Installed Size : 3525.00 KiB
-svga-dri
-#Depends On     : libdrm  expat  llvm-libs
-#Download Size  : 1633.76 KiB
-#Installed Size : 8065.00 KiB
-tdfx-dri
-#Depends On     : mesa-libgl
-#Download Size  : 870.39 KiB
-#Installed Size : 3513.00 KiB
-unichrome-dri
-#Depends On     : mesa-libgl
-#Download Size  : 861.80 KiB
-#Installed Size : 3453.00 KiB
-
+mesa
+mesa-vdpau
+libva-mesa-driver
 
 
