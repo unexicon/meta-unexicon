@@ -9,6 +9,7 @@ radvd
 dmidecode
 # pm-utils
 libguestfs
+perl-sys-virt
 libvirt-glib
 libvirt-python
 virt-manager
