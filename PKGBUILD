@@ -14,8 +14,8 @@ pkgname=(
     'meta-unexicon-virt'
     'meta-unexicon-most')
 pkgbase='meta-unexicon'
-pkgver=1.1
-pkgrel=22
+pkgver=1.3
+pkgrel=2
 pkgdesc="A collection of meta packages for the unexicon distribution"
 arch=('any')
 url="http://www.unexicon.com"
@@ -44,15 +44,15 @@ source=(packages-live.lst
         packages-devl.lst
         packages-geog.lst
         packages-virt.lst)
-md5sums=('f254fab80f43027ae4ac64723f56266d'
+md5sums=('85423dc1d59a89d3a61c764c40d1f77f'
          'a227fae577d5bbb9880b6aa64eeea8c1'
          '9f09c618b12c9fd9db5972a733570315'
          '62ab3c02887d062afba7d23489dae7f1'
-         '415941127fce09f5a1267d43eb53bcc6'
-         '067d3fb6e82efc02c860e2b642596aa1'
+         'de775118a72a263ad2548e253577cb6a'
+         'a07c2345a0913dd457f28e4b336874b4'
          '382886c299d9bf081619ac5a8db84ac5'
          'b51afaef3e16baca631316f57f7ac2f2'
-         '52e7f85dc4ec6a103734758bbc975150'
+         '5e0f2a6179d6b7d15354b20c4d97fb91'
          '53213aea84be024b81efb2135ace74d1'
          '55c706fea2a7c1f4c7e4aae2e87d9c6a')
 
@@ -130,7 +130,7 @@ package_meta-unexicon-virt() {
 
 package_meta-unexicon-most() {
   pkgdesc="All unexicon meta packages"
-  depends=('meta-unexicon' 'meta-unexicon-live' 'meta-unexicon-plus' 'meta-unexicon-arch' 'meta-unexicon-xtra' 'meta-unexicon-xvid' 'meta-unexicon-desk' 'meta-unexicon-kids' 'meta-unexicon-elec' 'meta-unexicon-devl' 'meta-unexicon-geog' 'meta-unexicon-virt')
+  depends=('meta-unexicon' 'meta-unexicon-live' 'meta-unexicon-plus' 'meta-unexicon-arch' 'meta-unexicon-xtra' 'meta-unexicon-xvid' 'meta-unexicon-desk' 'meta-unexicon-elec' 'meta-unexicon-devl' 'meta-unexicon-geog' 'meta-unexicon-virt')
 }
 
 # vim:set ts=2 sw=2 et:

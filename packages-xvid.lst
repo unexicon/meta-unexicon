@@ -51,7 +51,7 @@ xf86-video-ark
 #Depends On     : glibc
 #Download Size  :   8.61 KiB
 #Installed Size :  56.00 KiB
-xf86-video-ast
+#xf86-video-ast
 #Depends On     : glibc
 #Download Size  :  27.70 KiB
 #Installed Size : 111.00 KiB
@@ -63,7 +63,7 @@ xf86-video-chips
 #Depends On     : glibc
 #Download Size  :  45.09 KiB
 #Installed Size : 160.00 KiB
-xf86-video-cirrus
+#xf86-video-cirrus
 #Depends On     : glibc
 #Download Size  :  26.24 KiB
 #Installed Size : 126.00 KiB
@@ -95,11 +95,11 @@ xf86-video-mach64
 #Depends On     : glibc
 #Download Size  :  62.49 KiB
 #Installed Size : 212.00 KiB
-xf86-video-mga
+#xf86-video-mga
 #Depends On     : glibc
 #Download Size  :  59.88 KiB
 #Installed Size : 196.00 KiB
-xf86-video-modesetting
+#xf86-video-modesetting
 #Depends On     : libdrm>=2.4.37  systemd
 #Download Size  :  18.33 KiB
 #Installed Size :  91.00 KiB
@@ -147,7 +147,7 @@ xf86-video-sis
 #Depends On     : glibc
 #Download Size  : 217.91 KiB
 #Installed Size : 592.00 KiB
-xf86-video-sisimedia
+#xf86-video-sisimedia
 #Depends On     : glibc
 #Download Size  : 224.59 KiB
 #Installed Size : 604.00 KiB
@@ -167,7 +167,7 @@ xf86-video-tseng
 #Depends On     : glibc
 #Download Size  :  17.74 KiB
 #Installed Size :  88.00 KiB
-xf86-video-v4l
+#xf86-video-v4l
 #Depends On     : glibc
 #Download Size  :  18.97 KiB
 #Installed Size : 112.00 KiB
@@ -236,7 +236,7 @@ xorg-bdftopcf
 #Depends On     : libxfont
 #Download Size  :   5.48 KiB
 #Installed Size :  20.00 KiB
-font-misc-ethiopic
+#font-misc-ethiopic
 #Depends On     : xorg-mkfontdir  xorg-mkfontscale  fontconfig
 #Download Size  : 126.91 KiB
 #Installed Size : 422.00 KiB
@@ -334,7 +334,7 @@ xorg-xev
 xorg-xeyes
 xorg-xfd
 xorg-xfindproxy
-xorg-xfs
+#xorg-xfs
 xorg-xfwp
 xorg-xgamma		# xorg-server-utils
 xorg-xgc

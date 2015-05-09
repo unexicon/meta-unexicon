@@ -49,7 +49,7 @@ reform
 sharutils
 sloccount
 sqlite-doc
-strace
+#strace	    # conflicts with openss7
 subversion
 swig
 transfig

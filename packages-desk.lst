@@ -1123,7 +1123,7 @@ fltk-editor
 #
 fluff
 rox
-spacefm
+spacefm-gtk2
 thunar
 thunar-volman
 thunar-media-tags-plugin
@@ -1196,46 +1196,11 @@ libmtp
 # Office Suites
 #
 #libreoffice
-libreoffice-still-base
-#Depends On     : libreoffice-common
-#Download Size  : 4106.06 KiB
-#Installed Size : 10299.00 KiB
-libreoffice-still-calc
-#Depends On     : libreoffice-common  lpsolve
-#Download Size  : 6183.84 KiB
-#Installed Size : 22154.00 KiB
-libreoffice-still-common
-#Depends On     : libreoffice-langpack  hunspell>=1.2.8  python>=3.3  neon>=0.28.6  dbus-glib  librsvg  libcups  nss  libsm  redland  hyphen  graphite  clucene  lcms2  poppler>=0.24.0  icu  libodfgen  libvisio  harfbuzz-icu  hicolor-icon-theme  glu  libmspub  libcdr  desktop-file-utils  shared-mime-info  xdg-utils
-#                 libpaper: takes care of papersize
-#Download Size  : 69862.69 KiB
-#Installed Size : 252001.00 KiB
-libreoffice-still-draw
-#Depends On     : libreoffice-common
-#Download Size  : 208.86 KiB
-#Installed Size : 688.00 KiB
-libreoffice-still-gnome
-#Depends On     : libreoffice-common  gconf
-#Download Size  : 429.45 KiB
-#Installed Size : 1721.00 KiB
-libreoffice-still-impress
-#Depends On     : libreoffice-common  libetonyek
-#Download Size  : 566.73 KiB
-#Installed Size : 2445.00 KiB
-libreoffice-still-math
-#Depends On     : libreoffice-common
-#Download Size  : 339.16 KiB
-#Installed Size : 1144.00 KiB
+libreoffice-still
 #libreoffice-still-postgresql-connector
 #Depends On     : libreoffice-base  postgresql-libs
 #Download Size  : 247.64 KiB
 #Installed Size : 1036.00 KiB
-libreoffice-still-writer
-#Depends On     : libreoffice-common  libwpd>=0.9.2  libwps  libxml2
-#Download Size  : 5213.69 KiB
-#Installed Size : 22114.00 KiB
-libreoffice-still-en-US
-#libreoffice-still-kde4
-
 
 # Video players
 totem
