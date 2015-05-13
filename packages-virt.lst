@@ -22,3 +22,5 @@ virtualbox-guest-iso
 virtualbox-ext-vnc
 virtualbox-sdk
 net-tools
+
+gnome-boxes
