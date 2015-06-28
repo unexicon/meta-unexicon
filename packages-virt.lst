@@ -18,9 +18,20 @@ virtualbox
 # optional dependencies for virtualbox
 qt4
 vde2
+virtualbox-guest-utils
 virtualbox-guest-iso
 virtualbox-ext-vnc
 virtualbox-sdk
 net-tools
 
+virtualbox-guest-modules
+virtualbox-guest-modules-lts
+virtualbox-guest-modules-unx
+
+virtualbox-host-modules
+virtualbox-host-modules-lts
+virtualbox-host-modules-unx
+
 gnome-boxes
+
+qemu-launcher

@@ -52,7 +52,7 @@ calcoo
 #Depends On     : cairo  gtk2
 #Download Size  :  29.54 KiB
 #Installed Size : 132.00 KiB
-cbatticon
+cbatticon-gtk2
 ckermit
 conky
 cpio
@@ -102,6 +102,7 @@ ftmenu
 gatotray
 gksu
 gnome-icon-theme-extras
+gnome-colors-icon-theme-extras
 # gnu-netcat	    # need openbsd-netcat for virtualization
 gpart
 gpicview
