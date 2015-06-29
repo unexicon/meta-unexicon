@@ -43,6 +43,7 @@ bbrun
 beep
 bfa-firmware
 bftpd
+bind-tools
 blackboxwm
 bridge-utils
 bsdiff
@@ -73,7 +74,6 @@ diffstat
 disktype
 dmenu
 dnsmasq
-dnsutils
 docker-tray	# docker renamed to docker-tray
 dosfstools
 dsniff
@@ -246,6 +246,7 @@ perl-x11-protocol-other
 perl-x11-xcb
 perl-xml-dumper
 perlpanel-git
+perl-hardware-sensorparser
 pimd
 pktstat
 pnmixer

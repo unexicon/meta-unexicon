@@ -1,5 +1,6 @@
 arch-install-scripts
 b43-fwcutter
+bind-tools
 btrfs-progs
 clonezilla
 crda
@@ -9,7 +10,6 @@ dhclient
 dialog
 dmraid
 dnsmasq
-dnsutils
 dosfstools
 elinks
 ethtool
