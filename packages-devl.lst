@@ -75,7 +75,6 @@ perl-data-flow
 perl-data-sexpression
 perl-dbd-sqlite
 perl-devel-caller
-perl-devel-findref
 perl-devel-lexalias
 perl-event-execflow
 perl-extutils-cchecker
