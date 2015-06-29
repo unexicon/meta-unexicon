@@ -26,6 +26,7 @@ allin1
 alltray
 alsamixer.app
 alsa-oss
+alsa-utils
 arch-install-scripts
 archlinux-menus
 archlinux-xdg-menu
@@ -721,6 +722,7 @@ xpaint
 #Download Size  : 122.09 KiB
 #Installed Size : 378.00 KiB
 
+xbrightness
 xrestop
 xsensors
 xtrlock

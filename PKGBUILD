@@ -44,10 +44,10 @@ source=(packages-live.lst
         packages-devl.lst
         packages-geog.lst
         packages-virt.lst)
-md5sums=('2c1e7f6a928d0fff178f0ccb256fb78a'
-         'a227fae577d5bbb9880b6aa64eeea8c1'
+md5sums=('b7ded437cec434b7255a43ce094db14d'
+         '6f4654d88c5cc5ab4b3b02641f270bf9'
          '9f09c618b12c9fd9db5972a733570315'
-         '62ab3c02887d062afba7d23489dae7f1'
+         '9ed771983be8a7563baef070594450d4'
          'de775118a72a263ad2548e253577cb6a'
          'a07c2345a0913dd457f28e4b336874b4'
          '382886c299d9bf081619ac5a8db84ac5'
