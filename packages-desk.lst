@@ -539,10 +539,6 @@ gtk-engines
 #Depends On     : gtk2>=2.22.0
 #Download Size  : 217.46 KiB
 #Installed Size : 1320.00 KiB
-gtk-engine-mist
-#Depends On     : gtk2>=2.20.0
-#Download Size  :  64.83 KiB
-#Installed Size : 1020.00 KiB
 gnome-themes-standard
 
 # XDE Themes

@@ -109,7 +109,7 @@ gpart
 gpicview
 gptfdisk
 gtk-chtheme
-gtk-engine-mist
+gtk-engines
 gtk-theme-switch2
 gtk-vnc-gtk2
 gtkdialog
