@@ -503,18 +503,18 @@ nitrogen
 
 # Icon Themes
 #
-gnome-icon-theme
-#Depends On     : hicolor-icon-theme  icon-naming-utils  gtk-update-icon-cache  gnome-icon-theme-symbolic
-#Download Size  : 9798.81 KiB
-#Installed Size : 10407.00 KiB
-gnome-icon-theme-extras
-#Depends On     : gnome-icon-theme
-#Download Size  : 830.43 KiB
-#Installed Size : 921.00 KiB
-gnome-icon-theme-symbolic
-#Depends On     : gtk-update-icon-cache  icon-naming-utils  hicolor-icon-theme  librsvg
-#Download Size  : 153.14 KiB
-#Installed Size : 1932.00 KiB
+gnome2-icon-theme
+#Depends On     : hicolor-icon-theme  gtk-update-icon-cache  gnome2-icon-theme-symbolic
+#Download Size  :   7.97 MiB
+#Installed Size :   8.69 MiB
+gnome2-icon-theme-extras
+#Depends On     : gnome2-icon-theme
+#Download Size  : 591.17 KiB
+#Installed Size : 760.00 KiB
+gnome2-icon-theme-symbolic
+#Depends On     : gnome2-icon-theme
+#Download Size  : 591.17 KiB
+#Installed Size : 760.00 KiB
 hicolor-icon-theme
 #Depends On     : None
 #Download Size  :   6.82 KiB
