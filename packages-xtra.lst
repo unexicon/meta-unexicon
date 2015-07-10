@@ -48,6 +48,8 @@ nmap		# massive, pulls in lua
 snort		# massive, 16M
 ettercap-gtk	# not so big
 
+ocserv		# pulls in guile
+
 opennx		# pulls in wxWidgets
 
 openbox-themes	# 8284.00 K
