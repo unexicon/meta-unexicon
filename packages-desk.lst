@@ -215,6 +215,13 @@ i3status
 #Download Size  :  27.67 KiB
 #Installed Size :  60.00 KiB
 
+
+ion3
+#Depends On     : lua51  libx11  libxext  libsm  libice  libxcb  libxau  libxdmcp
+#Download Size  : 497.15 KiB
+#Installed Size : 2209.00 KiB
+
+
 icewm2
 #Depends On     : libxft  libxinerama  gdk-pixbuf2  libxrandr  libsndfile  libsm
 #Download Size  : 587.73 KiB
@@ -1093,8 +1100,8 @@ midori
 #Depends On     : libzeitgeist  webkitgtk2  libnotify  libxss  hicolor-icon-theme  desktop-file-utils  libunique
 #Download Size  : 983.82 KiB
 #Installed Size : 5183.00 KiB
-vimb
-#Depends On     : libsoup  webkitgtk
+vimb-gtk2
+#Depends On     : webkitgtk2
 #Download Size  :  58.84 KiB
 #Installed Size : 175.00 KiB
 surfraw
