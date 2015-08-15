@@ -114,6 +114,11 @@ dwm-git
 #Download Size  :  20.12 KiB
 #Installed Size :  85.00 KiB
 
+eggwm
+#Depends On     : qt4
+#Download Size  :  46.00 KiB
+#Installed Size : 177.00 KiB
+
 heliwm
 #Download Size  :  19.77 KiB
 #Installed Size :  64.00 KiB

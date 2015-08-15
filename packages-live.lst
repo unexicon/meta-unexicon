@@ -8,7 +8,8 @@ libwnck+-git
 perl-gnome2-wnck+
 perl-net-dbus-git
 slim-xdm
-vim-gtk2
+#vim-gtk2
+vim-minimal
 volumeicon-gtk2
 xorg-xdm-xlogin
 xqproxy-git
