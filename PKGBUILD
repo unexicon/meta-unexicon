@@ -44,7 +44,7 @@ source=(packages-live.lst
         packages-devl.lst
         packages-geog.lst
         packages-virt.lst)
-md5sums=('77114253eb9e69b416dd9d7ebe134a8e'
+md5sums=('271e46b8282cfb0e024a027d335d41fd'
          '6f4654d88c5cc5ab4b3b02641f270bf9'
          'ec2deb0b01a2b5553c9d4013884cab82'
          '21c62b2872c7f4d71c47f286fa319680'
