@@ -1145,7 +1145,7 @@ curlftpfs
 gentoo
 
 gvfs-afc
-gvfs-afp
+#gvfs-afp now part of gvfs
 gvfs-gphoto2
 gvfs-smb
 
