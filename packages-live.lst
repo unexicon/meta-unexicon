@@ -478,10 +478,6 @@ xf86-input-acecad
 #Depends On     : sysfsutils
 #Download Size  :  10.23 KiB
 #Installed Size :  64.00 KiB
-xf86-input-aiptek
-#Depends On     : glibc
-#Download Size  :  13.64 KiB
-#Installed Size :  74.00 KiB
 xf86-input-elographics
 #Depends On     : glibc
 #Download Size  :   9.43 KiB
