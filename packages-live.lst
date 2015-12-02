@@ -113,7 +113,7 @@ gtk-engines
 gtk-theme-switch2
 gtk-vnc-gtk2
 gtkdialog
-gummiboot
+# gummiboot	    # included in systemd 220+ (bootctl)
 haveged
 heliwm
 hexedit
