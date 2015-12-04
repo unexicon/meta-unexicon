@@ -4,7 +4,8 @@
 gaw
 kicad
 kicad-docs-bzr
-kicad-library-bzr
+kicad-library
+kicad-library-3d
 gspiceui
 qucs
 xcircuit
