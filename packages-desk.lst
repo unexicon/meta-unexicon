@@ -1023,7 +1023,7 @@ rxvt-unicode
 #Depends On     : rxvt-unicode-terminfo  libxft  perl  startup-notification
 #Download Size  : 638.72 KiB
 #Installed Size : 2920.00 KiB
-st
+st-white
 #Depends On     : libxext  libxft
 #Download Size  :  26.41 KiB
 #Installed Size : 118.00 KiB
