@@ -1101,7 +1101,7 @@ dillo
 #Depends On     : fltk  libjpeg  perl  openssl  libpng  gcc-libs  libxcursor  libxi  libxinerama
 #Download Size  : 317.37 KiB
 #Installed Size : 1161.00 KiB
-midori
+midori-gtk2
 #Depends On     : libzeitgeist  webkitgtk2  libnotify  libxss  hicolor-icon-theme  desktop-file-utils  libunique
 #Download Size  : 983.82 KiB
 #Installed Size : 5183.00 KiB
