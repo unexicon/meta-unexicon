@@ -211,7 +211,7 @@ pekwm
 perl-alpm
 perl-anyevent-snmp
 perl-audio-mixer
-perl-coro
+#perl-coro
 perl-ev-glib
 perl-event
 perl-file-configdir
