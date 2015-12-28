@@ -1,0 +1,168 @@
+# some mail programs
+claws-mail
+balsa-gtk2
+checkgmail
+mailutils
+thunderbird
+
+# some games
+ace-of-penguins
+bomberclone
+critter
+eboard
+extremetuxracer
+five-or-more
+flobopuyo
+freedroid
+frozen-bubble
+glchess
+
+# documents and media and desktop productivity
+abiword-3.x-gtk2
+brasero2
+dia
+evolution-data-server
+epdfview
+file-roller2-nn
+flpsed
+gedit2
+gpaint
+markdown
+smplayer
+mplayer
+recordmydesktop
+txt2man
+typespeed
+urlgrabber
+urlview
+webalizer-xtended
+xfe-arch
+xsane
+
+# more browsers
+epiphany
+
+# themes
+absolute-theme
+archlinux-artwork
+archlinux-themes-slim
+archlinux-wallpaper
+fvwm-xdg-menu
+gtk-engine-mist
+gtk-engine-murrine
+oxygen
+oxygen-cursors
+oxygen-kde4
+slim-theme-burning-arch
+slim-themes
+terminus-font
+terminus-font-ttf
+ttf-aenigma
+ttf-oxygen
+xcursor-base
+xdm-arch-theme
+xdm-archlinux
+xdm-minimalist
+xdm-svg-theme
+
+# electronics
+spice
+spice-gtk3
+
+# audio and media
+ardour
+harvid
+audacity
+pragha
+gnome-alsamixer
+jack2
+jack-rack
+kdenlive-git
+openshot
+pulseaudio
+pulseaudio-alsa
+youtube-dl
+
+# camera tools
+capture
+gtkam
+
+# science
+chemtool
+drawxtl
+ghemical
+
+# accessibility
+at-spi
+dasher
+eekboard
+
+# networking
+btscanner
+connman-ui-git
+gnome-bluetooth
+etherape
+filezilla
+freeradius
+fwbuilder
+gftp
+grsync
+hexchat
+networkmanager-ifupdown
+newsbeuter
+nsd
+sipp-git
+transmission-cli
+xchat
+
+# terminals
+eterm
+tcsh
+
+# file systems
+fuse-exfat
+exfat-utils
+mdbtools-git
+rpmextract
+
+# IDEs and testing
+geany
+extra-cmake-modules
+dogtail
+eric
+
+# window managers and utilities
+eggwm
+enlightenment16
+enlightenment
+cairo-msg
+gcolor2
+gdmenu
+gdm-old
+gkrellm
+glasswm
+goomwwm
+gtk2_prefs
+mutter
+mvwm-git
+wmapp
+wumwum
+xautolock
+xsettings-client
+xsettingsd
+xtoolwait-git
+
+ssvnc-nojava
+xrdp
+
+# backup
+deja-dup
+
+# system tools
+gparted
+hivex
+prebootloader
+rrdtool
+system-config-printer
+systemd-ui-git
+yaourt-gui
