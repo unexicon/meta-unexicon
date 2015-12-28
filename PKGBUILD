@@ -12,10 +12,11 @@ pkgname=(
     'meta-unexicon-devl'
     'meta-unexicon-geog'
     'meta-unexicon-virt'
+    'meta-unexicon-more'
     'meta-unexicon-most')
 pkgbase='meta-unexicon'
-pkgver=1.3
-pkgrel=26
+pkgver=1.4
+pkgrel=1
 pkgdesc="A collection of meta packages for the unexicon distribution"
 arch=('any')
 url="http://www.unexicon.com"
@@ -32,7 +33,8 @@ depends=(`cat packages-live.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-elec.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-devl.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-geog.lst|sed -r 's,[[:space:]]*#.*,,'`
-         `cat packages-virt.lst|sed -r 's,[[:space:]]*#.*,,'`)
+         `cat packages-virt.lst|sed -r 's,[[:space:]]*#.*,,'`
+         `cat packages-more.lst|sed -r 's,[[:space:]]*#.*,,'`)
 source=(packages-live.lst
         packages-plus.lst
         packages-arch.lst
@@ -43,7 +45,8 @@ source=(packages-live.lst
         packages-elec.lst
         packages-devl.lst
         packages-geog.lst
-        packages-virt.lst)
+        packages-virt.lst
+        packages-more.lst)
 md5sums=('a399dcadb70afb3e86c12c9a01bc17d1'
          '6f4654d88c5cc5ab4b3b02641f270bf9'
          'ec2deb0b01a2b5553c9d4013884cab82'
@@ -54,7 +57,8 @@ md5sums=('a399dcadb70afb3e86c12c9a01bc17d1'
          'b075db4158a1cc2295315bd682f954c4'
          'f856ce14322560792a0cdc3cffa1db03'
          '53213aea84be024b81efb2135ace74d1'
-         'e13b543418530c99e7a342dd5e24ea33')
+         'e13b543418530c99e7a342dd5e24ea33'
+         'f017f39293f0aeb57c48576ef89f3902')
 
 package_meta-unexicon() {
   pkgdesc="A meta package for unexicon (remove me)"
@@ -128,9 +132,15 @@ package_meta-unexicon-virt() {
   install -Dm644 packages-virt.lst "$pkgdir/usr/share/unexicon/installed/meta-unexicon-virt"
 }
 
+package_meta-unexicon-more() {
+  pkgdesc="More unexicon packages yet: candidates to be included"
+  depends=('meta-unexicon' `cat packages-more.lst|sed -r 's,[[:space:]]*#.*,,'`)
+  install -Dm644 packages-more.lst "$pkgdir/usr/share/unexicon/installed/meta-unexicon-more"
+}
+
 package_meta-unexicon-most() {
   pkgdesc="All unexicon meta packages"
-  depends=('meta-unexicon' 'meta-unexicon-live' 'meta-unexicon-plus' 'meta-unexicon-arch' 'meta-unexicon-xtra' 'meta-unexicon-xvid' 'meta-unexicon-desk' 'meta-unexicon-elec' 'meta-unexicon-devl' 'meta-unexicon-geog' 'meta-unexicon-virt')
+  depends=('meta-unexicon' 'meta-unexicon-live' 'meta-unexicon-plus' 'meta-unexicon-arch' 'meta-unexicon-xtra' 'meta-unexicon-xvid' 'meta-unexicon-desk' 'meta-unexicon-elec' 'meta-unexicon-devl' 'meta-unexicon-geog' 'meta-unexicon-virt' 'meta-unexicon-more')
 }
 
 # vim:set ts=2 sw=2 et:
