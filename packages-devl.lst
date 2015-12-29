@@ -36,6 +36,7 @@ itstool
 latex2html
 linuxdoc-tools
 linux-unx-headers
+libsmi
 mercurial
 mkpxelinux
 namcap

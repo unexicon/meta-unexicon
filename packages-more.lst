@@ -39,8 +39,9 @@ webalizer-xtended
 xfe-arch
 xsane
 
-# more browsers
+# more browsers and webanalyzers
 epiphany
+visitors
 
 # themes
 absolute-theme
@@ -77,11 +78,12 @@ pragha
 gnome-alsamixer
 jack2
 jack-rack
-kdenlive-git
+kdenlive
 openshot
 pulseaudio
 pulseaudio-alsa
 youtube-dl
+lash
 
 # camera tools
 capture
@@ -114,6 +116,9 @@ nsd
 sipp-git
 transmission-cli
 xchat
+seahaven
+openldap
+monitorix
 
 # terminals
 eterm
@@ -127,6 +132,7 @@ rpmextract
 
 # IDEs and testing
 geany
+geany-plugins
 extra-cmake-modules
 dogtail
 eric
@@ -166,3 +172,5 @@ rrdtool
 system-config-printer
 systemd-ui-git
 yaourt-gui
+cpupower
+hal
