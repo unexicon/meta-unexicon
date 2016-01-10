@@ -78,12 +78,19 @@ pragha
 gnome-alsamixer
 jack2
 jack-rack
+paprefs
+paman
+pavucontrol-gtk2
+# kdenlive works better with these
+movit
+frei0r-plugins
 kdenlive
 openshot
 pulseaudio
 pulseaudio-alsa
 youtube-dl
 lash
+pavumeter
 
 # camera tools
 capture
@@ -157,6 +164,12 @@ xautolock
 xsettings-client
 xsettingsd
 xtoolwait-git
+
+#systray
+cpp-alsa-volume
+vattery
+trayclock
+pasystray-gtk2
 
 ssvnc-nojava
 xrdp
