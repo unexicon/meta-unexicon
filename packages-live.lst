@@ -9,7 +9,7 @@ libwnck+-git
 perl-gnome2-wnck+
 perl-net-dbus-git
 slim-xdm
-vim-gtk2
+gvim
 volumeicon-gtk2
 xorg-xdm-xlogin
 xqproxy-git
