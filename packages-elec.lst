@@ -3,7 +3,7 @@
 
 gaw
 kicad
-kicad-docs-bzr
+#kicad-docs-bzr
 kicad-library
 kicad-library-3d
 gspiceui
