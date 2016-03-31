@@ -29,6 +29,7 @@ gob2
 gperf
 graphviz
 gtk-doc
+gtk2-doc
 imake
 indent
 intltool
