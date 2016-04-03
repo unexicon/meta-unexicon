@@ -1,5 +1,6 @@
 # put these first because others might fill dependencies otherwise
 lsof
+xorg-xrdb-mcpp
 gksu-polkit-git
 gnome-vfs-nosmb
 avahi-gtk2
