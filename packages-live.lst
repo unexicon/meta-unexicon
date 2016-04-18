@@ -253,7 +253,6 @@ perl-x11-xcb
 perl-xml-dumper
 perlpanel-git
 perl-hardware-sensorparser
-pimd
 pktstat
 pnmixer
 pptpclient
