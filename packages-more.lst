@@ -179,7 +179,7 @@ deja-dup
 # system tools
 gparted
 hivex
-prebootloader
+efitools
 rrdtool
 system-config-printer
 systemd-ui-git
