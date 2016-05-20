@@ -11,6 +11,6 @@ gmt-dcw
 perl-geo-coordinates-vandh
 perl-geoip
 updategeoip
-geoclue
+#geoclue
 geoclue2
 
