@@ -14,7 +14,7 @@ ctags
 cvs
 cvs2svn
 cvsps2
-docbook-to-man
+#docbook-to-man	# conflicts with jade
 doxygen
 fastjar
 freeglut
