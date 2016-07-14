@@ -16,7 +16,7 @@ pkgname=(
     'meta-unexicon-most')
 pkgbase='meta-unexicon'
 pkgver=1.4
-pkgrel=16
+pkgrel=18
 pkgdesc="A collection of meta packages for the unexicon distribution"
 arch=('any')
 url="http://www.unexicon.com"
@@ -48,7 +48,7 @@ source=(packages-live.lst
         packages-virt.lst
         packages-more.lst)
 md5sums=('bc5749a06c5fbea8f64906de20f561c0'
-         '6f4654d88c5cc5ab4b3b02641f270bf9'
+         '82938ad720e85e790d9394b256050e8e'
          '320d907116b1c7d566dd5161d492807b'
          '21c62b2872c7f4d71c47f286fa319680'
          '1f9ab5944e643b32243311eab3130fa5'
@@ -86,37 +86,37 @@ package_meta-unexicon-arch() {
 
 package_meta-unexicon-xtra() {
   pkgdesc="Packages that were to big for the live system"
-  depends=('meta-unexicon' `cat packages-xtra.lst|sed -r 's,[[:space:]]*#.*,,'`)
+  depends=('meta-unexicon' 'meta-unexicon-live' `cat packages-xtra.lst|sed -r 's,[[:space:]]*#.*,,'`)
   install -Dm644 packages-xtra.lst "$pkgdir/usr/share/unexicon/installed/meta-unexicon-xtra"
 }
 
 package_meta-unexicon-xvid() {
   pkgdesc="Packages that supports OpenGL video and more video cards"
-  depends=('meta-unexicon' `cat packages-xvid.lst|sed -r 's,[[:space:]]*#.*,,'`)
+  depends=('meta-unexicon' 'meta-unexicon-live' `cat packages-xvid.lst|sed -r 's,[[:space:]]*#.*,,'`)
   install -Dm644 packages-xvid.lst "$pkgdir/usr/share/unexicon/installed/meta-unexicon-xvid"
 }
 
 package_meta-unexicon-desk() {
   pkgdesc="Packages for a full blown desktop"
-  depends=('meta-unexicon' `cat packages-desk.lst|sed -r 's,[[:space:]]*#.*,,'`)
+  depends=('meta-unexicon' 'meta-unexicon-live' `cat packages-desk.lst|sed -r 's,[[:space:]]*#.*,,'`)
   install -Dm644 packages-desk.lst "$pkgdir/usr/share/unexicon/installed/meta-unexicon-desk"
 }
 
 package_meta-unexicon-kids() {
   pkgdesc="Packages for the kids"
-  depends=('meta-unexicon' `cat packages-kids.lst|sed -r 's,[[:space:]]*#.*,,'`)
+  depends=('meta-unexicon' 'meta-unexicon-live' `cat packages-kids.lst|sed -r 's,[[:space:]]*#.*,,'`)
   install -Dm644 packages-kids.lst "$pkgdir/usr/share/unexicon/installed/meta-unexicon-kids"
 }
 
 package_meta-unexicon-elec() {
   pkgdesc="Packages for electronics design"
-  depends=('meta-unexicon' `cat packages-elec.lst|sed -r 's,[[:space:]]*#.*,,'`)
+  depends=('meta-unexicon' 'meta-unexicon-live' `cat packages-elec.lst|sed -r 's,[[:space:]]*#.*,,'`)
   install -Dm644 packages-elec.lst "$pkgdir/usr/share/unexicon/installed/meta-unexicon-elec"
 }
 
 package_meta-unexicon-devl() {
   pkgdesc="Packages for software development"
-  depends=('meta-unexicon' `cat packages-devl.lst|sed -r 's,[[:space:]]*#.*,,'`)
+  depends=('meta-unexicon' 'meta-unexicon-desk' `cat packages-devl.lst|sed -r 's,[[:space:]]*#.*,,'`)
   install -Dm644 packages-devl.lst "$pkgdir/usr/share/unexicon/installed/meta-unexicon-devl"
 }
 
@@ -128,13 +128,13 @@ package_meta-unexicon-geog() {
 
 package_meta-unexicon-virt() {
   pkgdesc="Packages for virtualization"
-  depends=('meta-unexicon' `cat packages-virt.lst|sed -r 's,[[:space:]]*#.*,,'`)
+  depends=('meta-unexicon' 'meta-unexicon-plus' `cat packages-virt.lst|sed -r 's,[[:space:]]*#.*,,'`)
   install -Dm644 packages-virt.lst "$pkgdir/usr/share/unexicon/installed/meta-unexicon-virt"
 }
 
 package_meta-unexicon-more() {
   pkgdesc="More unexicon packages yet: candidates to be included"
-  depends=('meta-unexicon' `cat packages-more.lst|sed -r 's,[[:space:]]*#.*,,'`)
+  depends=('meta-unexicon' 'meta-unexicon-live' `cat packages-more.lst|sed -r 's,[[:space:]]*#.*,,'`)
   install -Dm644 packages-more.lst "$pkgdir/usr/share/unexicon/installed/meta-unexicon-more"
 }
 
