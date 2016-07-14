@@ -1,6 +1,5 @@
 arch-install-scripts
 b43-fwcutter
-bind-tools
 btrfs-progs
 clonezilla
 crda
@@ -10,26 +9,28 @@ dhclient
 dialog
 dmraid
 dnsmasq
+dnsutils
 dosfstools
 elinks
 ethtool
 f2fs-tools
 fsarchiver
 # gnu-netcat	    # need openbsd-netcat for virtualization
+openbsd-netcat
 gpm
 gptfdisk
 grml-zsh-config
 # grub		    # we use older grub-*-2.00
-haveged
 hdparm
-intel-ucode
 ipw2100-fw
 ipw2200-fw
 irssi
 lftp
 linux-atm
+lsscsi
 mc
 mtools
+ndisc6
 nfs-utils
 nilfs-utils
 nmap
@@ -43,15 +44,20 @@ parted
 partimage
 ppp
 pptpclient
+refind-efi
 rfkill
 rp-pppoe
 rsync
+sdparm
+sg3_utils
 smartmontools
 speedtouch
 sudo
 tcpdump
 testdisk
 usb_modeswitch
+# vim-minimal
+vim
 vpnc
 wget
 wireless_tools
@@ -59,9 +65,3 @@ wpa_actiond
 wvdial
 xl2tpd
 zd1211-firmware
-zsh
-
-# arch adds these for x86_64
-# gummiboot
-# prebootloader
-# refind-efi

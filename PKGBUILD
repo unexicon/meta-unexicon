@@ -16,7 +16,7 @@ pkgname=(
     'meta-unexicon-most')
 pkgbase='meta-unexicon'
 pkgver=1.4
-pkgrel=15
+pkgrel=16
 pkgdesc="A collection of meta packages for the unexicon distribution"
 arch=('any')
 url="http://www.unexicon.com"
@@ -49,7 +49,7 @@ source=(packages-live.lst
         packages-more.lst)
 md5sums=('bc5749a06c5fbea8f64906de20f561c0'
          '6f4654d88c5cc5ab4b3b02641f270bf9'
-         'ec2deb0b01a2b5553c9d4013884cab82'
+         '320d907116b1c7d566dd5161d492807b'
          '21c62b2872c7f4d71c47f286fa319680'
          '1f9ab5944e643b32243311eab3130fa5'
          '301be400c2b221a228dc90dcabee57b4'
@@ -73,8 +73,8 @@ package_meta-unexicon-live() {
 }
 
 package_meta-unexicon-plus() {
-  pkgdesc="Extra packages for the unexicon live system"
-  depends=('meta-unexicon' 'meta-unexicon-live' `cat packages-plus.lst|sed -r 's,[[:space:]]*#.*,,'`)
+  pkgdesc="Extra packages for the unexicon install disk"
+  depends=('meta-unexicon' 'meta-unexicon-arch' `cat packages-plus.lst|sed -r 's,[[:space:]]*#.*,,'`)
   install -Dm644 packages-plus.lst "$pkgdir/usr/share/unexicon/installed/meta-unexicon-plus"
 }
 
