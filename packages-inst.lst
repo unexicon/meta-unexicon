@@ -1,0 +1,743 @@
+# put these first because others might fill dependencies otherwise
+lsof
+xorg-xrdb-mcpp
+gksu-polkit-git
+gnome-vfs-nosmb
+avahi-gtk2
+gconf-gtk2
+gxmessage-gtk2
+libwnck+-git
+perl-gnome2-wnck+
+perl-net-dbus-git
+slim-xdm
+gvim
+#volumeicon-gtk2
+xorg-xdm-xlogin
+xqproxy-git
+x11vnc-git
+
+aarchup
+#Depends On     : pacman  libnotify  gtk2
+#Download Size  :  29.68 KiB
+#Installed Size : 115.00 KiB
+acpi
+acpid
+adwm
+aic94xx-firmware
+#allin1
+#alltray
+#alsamixer.app
+alsa-oss
+alsa-utils
+arch-install-scripts
+archlinux-menus
+archlinux-xdg-menu
+arpwatch
+atop
+aumix
+aurget
+bash-completion
+b43-fwcutter
+#bbdock
+#bbkeys
+#bbpager
+#bbrun
+beep
+bfa-firmware
+bftpd
+bind-tools
+#blackboxwm
+bridge-utils
+bsdiff
+bubblemon-dockapp
+bvi
+bviplus
+#calcoo
+#Depends On     : cairo  gtk2
+#Download Size  :  29.54 KiB
+#Installed Size : 132.00 KiB
+#cbatticon-gtk2
+ckermit
+#conky
+cpio
+#cputnik
+crda
+cronie
+cryptsetup
+cwm
+darkhttpd
+darkstat
+dbm
+ddrescue
+#dhcpcd-hook-openvpn
+#dhcpcd-hook-pdnsd
+dhcpcd-ui
+diffstat
+disktype
+dmenu
+dnsmasq
+#docker-tray	# docker renamed to docker-tray
+dosfstools
+dsniff
+#dwm-git
+easy-rsa
+ed
+#esetroot
+ethtool
+expect
+#fbautostart
+#fbctrl
+#fbmenugen
+#fbpanel-svn
+#fbxkb
+#flipse
+#font-bh-ttf
+#Depends On     : xorg-fonts-encodings  xorg-fonts-alias  xorg-font-utils  fontconfig
+#Download Size  : 270.70 KiB
+#Installed Size : 964.00 KiB
+#font-misc-ethiopic
+#Depends On     : xorg-mkfontdir  xorg-mkfontscale  fontconfig
+#Download Size  : 126.91 KiB
+#Installed Size : 422.00 KiB
+fsarchiver
+#ftmenu
+#gatotray
+gksu
+gnome2-icon-theme-extras
+gnome-colors-icon-theme-extras
+# gnu-netcat	    # need openbsd-netcat for virtualization
+gpart
+gpicview
+gptfdisk
+gtk-chtheme
+gtk-engines
+gtk-theme-switch2
+gtk-vnc-gtk2
+gtkdialog
+# gummiboot	    # included in systemd 220+ (bootctl)
+haveged
+#heliwm
+hexedit
+htop
+hwdetect
+#i3-wm
+#i3lock
+#i3status
+ibam
+#icewm2
+ifenslave
+ifplugd
+iftop
+igmpproxy
+inotify-tools
+inxi
+#Depends On     : coreutils  gawk  grep  pciutils  procps-ng  sed
+#Download Size  : 106.52 KiB
+#Installed Size : 446.00 KiB
+iptraf-ng
+iptstate
+ipw2100-fw
+ipw2200-fw
+jfsutils
+#jwm-git
+#jwmtools-git
+#lal
+#lalcal
+libmicrohttpd
+libstatgrab
+libtar
+#libxkbui
+licenses
+linux-unx
+lm_sensors
+logrotate
+lostfiles
+lsb-release
+lsscsi
+lvm2
+#lxappearance
+#lxpolkit-git	# now part of lxsession
+#lxrandr
+#lxtask
+#lxterminal
+lzop
+#mailtc
+man-db
+man-pages
+mdadm
+mdns-scan
+memtest86+
+#menutray
+mime-archpkg
+minicom
+mkinitcpio-kms
+mkinitcpio-nfs-utils
+mlocate
+mrouted
+msmtp-mta
+nano
+nbd
+nbtscan
+netctl
+nethogs
+netwatch
+nfs-utils
+ngrep
+nmon
+nouveau-fw
+#novnc		# pulls in python
+#Name           : novnc
+#Depends On     : bash  python
+#Required By    : meta-unexicon-desk  meta-unexicon-live
+#Installed Size : 810.00 KiB
+nss-mdns
+#obconf
+#obmenu-generator
+#ocserv
+# bigger than it looks autogen >1M, autogen pulls in guile
+#Depends On     : autogen  libpcl  gnutls  http-parser  libdbus  libnl  libsystemd  pam  protobuf-c
+#Download Size  :  94.24 KiB
+#Installed Size : 306.00 KiB
+openconnect
+openobex
+openss7-cacert
+openss7-keyring
+openvpn
+partclone
+patch
+pcmanfm
+pcmciautils
+pdnsd
+#peksystray
+#pekwm
+perl-alpm
+perl-anyevent-snmp
+perl-audio-mixer
+#perl-coro
+perl-ev-glib
+perl-event
+perl-file-configdir
+perl-file-listing
+perl-file-remove
+perl-geo-coordinates-vandh
+perl-glib-ev
+perl-gtk2-notify
+perl-gtk2-trayicon
+perl-gtk2-traymanager
+perl-gtk2-unique
+perl-io-interface
+perl-linux-inotify2
+perl-net-dbus-glib
+perl-net-dns
+perl-net-frame
+perl-net-http
+perl-net-ipaddress
+perl-net-mac
+perl-net-mac-vendor
+perl-net-netmask
+perl-net-packet
+perl-net-pcaputils
+perl-net-ping
+perl-net-ping-external
+perl-net-rawip
+perl-net-snmp-ev
+perl-netaddr-ip
+perl-proc-daemon
+perl-uri
+perl-x11-freedesktop-desktopentry
+perl-x11-idletime
+perl-x11-keyboard
+perl-x11-protocol-more
+perl-x11-protocol-other
+perl-x11-xcb
+perl-xml-dumper
+perlpanel-git
+perl-hardware-sensorparser
+pktstat
+#pnmixer
+pptpclient
+pptpd
+procinfo-ng
+procps-ng
+psmisc
+qiv
+quota-tools
+#raktpdf
+radvd
+reiserfsprogs
+#retrovol
+roxterm-gtk2
+rp-pppoe
+rsync
+s-nail
+#sbxkb
+#sd-applet
+sdparm
+sensible-utils
+setserial
+smartmontools
+smcroute
+sntop
+space_dapp
+squashfs-tools
+sshfs
+sslh
+st-white
+#stalonetray
+stunnel
+sudo
+sux
+syslinux
+syslog-ng
+systemd-sysvcompat
+tar
+tcpdump
+#temperature.app
+testdisk
+tlp
+traceroute
+trayer
+tree
+#Depends On     : glibc
+#Download Size  :  24.69 KiB
+#Installed Size :  72.00 KiB
+#ttf-bitstream-vera
+#Depends On     : fontconfig  xorg-fonts-encodings  xorg-font-utils
+#Download Size  : 210.94 KiB
+#Installed Size : 596.00 KiB
+#ttf-cheapskate
+#Depends On     : xorg-fonts-encodings  xorg-fonts-alias  xorg-font-utils  fontconfig
+#Download Size  : 417.22 KiB
+#Installed Size : 1216.00 KiB
+#ttf-dejavu
+#Depends On     : fontconfig  xorg-fonts-encodings  xorg-mkfontscale  xorg-mkfontdir
+#Download Size  : 2186.11 KiB
+#Installed Size : 9227.00 KiB
+#ttf-droid
+#Depends On     : fontconfig  xorg-fonts-encodings  xorg-font-utils
+#Download Size  : 3611.01 KiB
+#Installed Size : 15744.00 KiB
+#ttf-freefont
+#Depends On     : fontconfig  xorg-font-utils
+#Download Size  : 4029.73 KiB
+#Installed Size : 10576.00 KiB
+#ttf-gentium
+#Depends On     : fontconfig  xorg-fonts-encodings  xorg-font-utils
+#Download Size  : 213.44 KiB
+#Installed Size : 1368.00 KiB
+#ttf-inconsolata
+#Depends On     : fontconfig  xorg-font-utils
+#Download Size  :  32.16 KiB
+#Installed Size :  63.00 KiB
+ttf-liberation
+#Depends On     : fontconfig  xorg-fonts-encodings  xorg-font-utils
+#Download Size  : 1393.83 KiB
+#Installed Size : 4020.00 KiB
+# load firefox after ttf-liberation elsewise noto-fonts (20MB) loads
+#firefox-gtk2
+#ttf-linux-libertine
+#Depends On     : fontconfig  xorg-fonts-encodings  xorg-font-utils
+#Download Size  : 3625.05 KiB
+#Installed Size : 12816.00 KiB
+#ttf-ubuntu-font-family
+#Depends On     : fontconfig  xorg-font-utils
+#Download Size  : 1148.51 KiB
+#Installed Size : 3383.00 KiB
+unclutter
+unexicon-slim-theme
+unexicon-system
+unzip
+vbindiff
+vi
+vim-fluxkeys
+vim-systemd
+vlan
+vnstat
+#volume-app
+vsftpd
+which
+whois
+#wireshark-gtk2
+#wmacpi
+#wmappl
+#wmbatteries
+#wmbattery
+#wmbiff
+#wmbinclock
+#wmblob
+#wmbubble
+#wmcalc
+#wmcalclock
+#wmcalclockkbd
+#wmcliphist
+#wmclock
+#wmclockmon
+#wmcore
+#wmcpu
+#wmcpuload
+#wmcpumon
+wmctrl
+#wmcube
+#wmdiskmon
+#wmfire
+#wmfsm
+#wmii
+#wmix
+#wmmixer
+#wmnd
+#wmnet
+#wmpiki
+#wmpower
+#wmsm.app
+#wmsmixer
+#wmsysmon
+wmsystemtray
+wmsystray
+#wmtime
+#wmtimer
+#wmtrash
+#wmudmount
+#wmwave
+#wmweather
+#wmwifi
+wpa_actiond
+x11-ssh-askpass
+xarchiver-gtk2
+xdelta3
+xde-ctools
+xde-session
+xde-helpers
+xde-theme
+xde-menu-git
+
+# XDE Themes
+#
+# These do not compress well because the images they
+# contain are already heavily compressed, so we only
+# include a few on the live disk.  The full set is in the
+# -desk meta package.
+#
+#xde-theme-airforce
+#Depends On     : xde-styles
+#Download Size  : 3230.34 KiB
+#Installed Size : 3358.00 KiB
+#xde-theme-archlinux
+#Depends On     : xde-styles
+#Download Size  : 1675.24 KiB
+#Installed Size : 1831.00 KiB
+#xde-theme-atc
+#Depends On     : xde-styles
+#Download Size  : 2367.32 KiB
+#Installed Size : 2511.00 KiB
+#xde-theme-aviation
+#Depends On     : xde-styles
+#Download Size  : 1704.47 KiB
+#Installed Size : 1851.00 KiB
+#xde-theme-blackbirds
+#Depends On     : xde-styles
+#Download Size  : 5311.70 KiB
+#Installed Size : 5496.00 KiB
+#xde-theme-circuits
+#Depends On     : xde-styles
+#Download Size  : 1013.64 KiB
+#Installed Size : 1228.00 KiB
+#xde-theme-dishes
+#Depends On     : xde-styles
+#Download Size  : 2420.88 KiB
+#Installed Size : 2550.00 KiB
+xde-theme-pedestals
+#Depends On     : xde-styles
+#Download Size  : 3656.12 KiB
+#Installed Size : 3785.00 KiB
+xde-theme-penguins
+#Depends On     : xde-styles
+#Download Size  : 2526.84 KiB
+#Installed Size : 2658.00 KiB
+#xde-theme-radar
+#Depends On     : xde-styles
+#Download Size  : 2533.24 KiB
+#Installed Size : 2688.00 KiB
+xde-theme-telcom
+#Depends On     : xde-styles
+#Download Size  : 3640.51 KiB
+#Installed Size : 3787.00 KiB
+xde-theme-towers
+#Depends On     : xde-styles
+#Download Size  : 2350.71 KiB
+#Installed Size : 2492.00 KiB
+
+xdg-chooser
+xdg-launch
+xdg-su
+#xdg-traymenu
+xdialog
+xdotool
+
+# XF86 input device drivers
+#
+# none of these are very large so we include them all
+#
+xf86-input-acecad
+#Depends On     : sysfsutils
+#Download Size  :  10.23 KiB
+#Installed Size :  64.00 KiB
+xf86-input-elographics
+#Depends On     : glibc
+#Download Size  :   9.43 KiB
+#Installed Size :  64.00 KiB
+xf86-input-evdev
+#Depends On     : glibc  systemd  mtdev
+#Download Size  :  29.43 KiB
+#Installed Size : 126.00 KiB
+xf86-input-joystick
+#Depends On     : glibc
+#Download Size  :  22.46 KiB
+#Installed Size : 118.00 KiB
+xf86-input-keyboard
+#Depends On     : glibc
+#Download Size  :  11.80 KiB
+#Installed Size :  79.00 KiB
+xf86-input-mouse
+#Depends On     : glibc
+#Download Size  :  25.88 KiB
+#Installed Size : 113.00 KiB
+xf86-input-synaptics
+#Depends On     : libxtst  mtdev
+#Download Size  :  50.02 KiB
+#Installed Size : 192.00 KiB
+xf86-input-vmmouse
+#Depends On     : glibc  sh
+#Download Size  :  11.66 KiB
+#Installed Size :  96.00 KiB
+xf86-input-void
+#Depends On     : glibc
+#Download Size  :   5.34 KiB
+#Installed Size :  54.00 KiB
+xf86-input-wacom
+#Depends On     : libxi  libxinerama  libxrandr  systemd
+#Download Size  :  76.79 KiB
+#Installed Size : 205.00 KiB
+
+# XF86 video device drivers
+#
+# none of these are very large except the AMD, Nvidia and
+# Intel drivers that pull in large DRI modules.  We can live
+# without OpenGL on the live system and the fallback is VESA
+# anyway, so they are commented out.
+#
+xf86-video-apm
+#Depends On     : glibc
+#Download Size  :  17.21 KiB
+#Installed Size :  87.00 KiB
+xf86-video-ark
+#Depends On     : glibc
+#Download Size  :   8.61 KiB
+#Installed Size :  56.00 KiB
+#xf86-video-ast
+#Depends On     : glibc
+#Download Size  :  27.70 KiB
+#Installed Size : 111.00 KiB
+xf86-video-ati
+#Depends On     : libdrm>=2.4.41  systemd  ati-dri  glamor-egl
+#Download Size  : 116.64 KiB
+#Installed Size : 440.00 KiB
+xf86-video-chips
+#Depends On     : glibc
+#Download Size  :  45.09 KiB
+#Installed Size : 160.00 KiB
+#xf86-video-cirrus
+#Depends On     : glibc
+#Download Size  :  26.24 KiB
+#Installed Size : 126.00 KiB
+xf86-video-dummy
+#Depends On     : glibc
+#Download Size  :   6.87 KiB
+#Installed Size :  55.00 KiB
+xf86-video-fbdev
+#Depends On     : glibc
+#Download Size  :  10.23 KiB
+#Installed Size :  70.00 KiB
+xf86-video-glint
+#Depends On     : glibc
+#Download Size  :  48.19 KiB
+#Installed Size : 183.00 KiB
+xf86-video-i128
+#Depends On     : glibc
+#Download Size  :  20.81 KiB
+#Installed Size : 103.00 KiB
+xf86-video-i740
+#Depends On     : glibc
+#Download Size  :  20.43 KiB
+#Installed Size :  97.00 KiB
+xf86-video-intel
+#Depends On     : intel-dri  libxvmc  pixman  xcb-util>=0.3.9  glamor-egl
+#Download Size  : 577.24 KiB
+#Installed Size : 1950.00 KiB
+xf86-video-mach64
+#Depends On     : glibc
+#Download Size  :  62.49 KiB
+#Installed Size : 212.00 KiB
+#xf86-video-mga
+#Depends On     : glibc
+#Download Size  :  59.88 KiB
+#Installed Size : 196.00 KiB
+#xf86-video-modesetting
+#Depends On     : libdrm>=2.4.37  systemd
+#Download Size  :  18.33 KiB
+#Installed Size :  91.00 KiB
+xf86-video-neomagic
+#Depends On     : glibc
+#Download Size  :  26.98 KiB
+#Installed Size : 116.00 KiB
+xf86-video-nouveau
+#Depends On     : libdrm  udev  nouveau-dri
+#Download Size  :  72.57 KiB
+#Installed Size : 237.00 KiB
+xf86-video-nv
+#Depends On     : glibc
+#Download Size  :  63.66 KiB
+#Installed Size : 219.00 KiB
+xf86-video-openchrome
+#Depends On     : libdrm  libxvmc  systemd
+#Download Size  : 124.74 KiB
+#Installed Size : 495.00 KiB
+xf86-video-r128
+#Depends On     : glibc
+#Download Size  :  44.75 KiB
+#Installed Size : 158.00 KiB
+xf86-video-rendition
+#Depends On     : glibc
+#Download Size  :  33.08 KiB
+#Installed Size : 146.00 KiB
+xf86-video-s3
+#Depends On     : glibc
+#Download Size  :  27.07 KiB
+#Installed Size : 107.00 KiB
+xf86-video-s3virge
+#Depends On     : glibc
+#Download Size  :  30.87 KiB
+#Installed Size : 119.00 KiB
+xf86-video-savage
+#Depends On     : glibc
+#Download Size  :  57.13 KiB
+#Installed Size : 192.00 KiB
+xf86-video-siliconmotion
+#Depends On     : glibc
+#Download Size  :  44.84 KiB
+#Installed Size : 161.00 KiB
+xf86-video-sis
+#Depends On     : glibc
+#Download Size  : 217.91 KiB
+#Installed Size : 592.00 KiB
+#xf86-video-sisimedia
+#Depends On     : glibc
+#Download Size  : 224.59 KiB
+#Installed Size : 604.00 KiB
+xf86-video-sisusb
+#Depends On     : glibc
+#Download Size  :  34.74 KiB
+#Installed Size : 124.00 KiB
+xf86-video-tdfx
+#Depends On     : glibc
+#Download Size  :  26.41 KiB
+#Installed Size : 107.00 KiB
+xf86-video-trident
+#Depends On     : glibc
+#Download Size  :  51.14 KiB
+#Installed Size : 189.00 KiB
+xf86-video-tseng
+#Depends On     : glibc
+#Download Size  :  17.74 KiB
+#Installed Size :  88.00 KiB
+#xf86-video-v4l
+#Depends On     : glibc
+#Download Size  :  18.97 KiB
+#Installed Size : 112.00 KiB
+xf86-video-vesa
+#Depends On     : glibc
+#Download Size  :  12.35 KiB
+#Installed Size :  74.00 KiB
+#xf86-video-vmware	# not needed
+#Depends On     : libdrm  svga-dri  mesa>=10.0
+#Download Size  :  61.98 KiB
+#Installed Size : 217.00 KiB
+xf86-video-voodoo
+#Depends On     : glibc
+#Download Size  :  12.04 KiB
+#Installed Size :  71.00 KiB
+
+xinetd
+xl2tpd
+#xli
+#xlockmore-blank
+#Depends On     : libxinerama  mesa  freetype2  libxpm  libxmu  glu
+#Download Size  : 134.20 KiB
+#Installed Size : 391.00 KiB
+# need mcpp (instead of gcc) to support xorg-xrdb since 1.1.0-2
+mcpp
+xorg-server-utils
+xorg-smproxy
+xorg-twm
+xorg-utils
+xorg-x11perf
+xorg-xbiff
+xorg-xcalc
+xorg-xclipboard
+xorg-xconsole
+xorg-xcursorgen
+xorg-xeyes
+xorg-xfontsel
+#Depends On     : libxaw  libxmu  libxt  libx11
+#Download Size  :  20.61 KiB
+#Installed Size :  42.00 KiB
+xorg-xgc
+xorg-xinit
+xorg-xkb-utils
+xorg-xkill
+xorg-xload
+xorg-xlogo
+xorg-xlsfonts
+#Depends On     : libx11
+#Download Size  :   8.77 KiB
+#Installed Size :  28.00 KiB
+xorg-xmag
+xorg-xman
+xorg-xmore
+xorg-xpr
+xorg-xsetmode
+xorg-xsetpointer
+xorg-xwd
+xorg-xwud
+
+# the last cursor theme you will need except for the funky spaceship
+xcursor-bluecurve
+
+xpaint
+#Depends On     : libxaw3dxft  libpgf  libpng  libtiff  libxft  libxpm  openjpeg
+#Download Size  : 482.50 KiB
+#Installed Size : 1800.00 KiB
+#libxaw3dxft
+#Depends On     : libxft  libxmu  libxpm
+#Download Size  : 281.86 KiB
+#Installed Size : 1182.00 KiB
+#libpgf
+#Depends On     : gcc-libs
+#Download Size  : 304.30 KiB
+#Installed Size : 4578.00 KiB
+#openjpeg
+#Depends On     : zlib
+#Download Size  : 122.09 KiB
+#Installed Size : 378.00 KiB
+
+xbrightness
+xrestop
+xsensors
+xtrlock
+xxkb
+xzgv
+yacpi
+yaourt
+ypserv
+zathura-ypb
+zd1211-firmware
+zip
