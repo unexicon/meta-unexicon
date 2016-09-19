@@ -486,6 +486,7 @@ xf86-input-elographics
 #Download Size  :   9.43 KiB
 #Installed Size :  64.00 KiB
 xf86-input-evdev
+xf86-input-libinput
 #Depends On     : glibc  systemd  mtdev
 #Download Size  :  29.43 KiB
 #Installed Size : 126.00 KiB
