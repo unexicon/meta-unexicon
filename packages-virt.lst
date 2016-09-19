@@ -25,8 +25,12 @@ virtualbox-sdk
 net-tools
 
 linux-unx-headers
-virtualbox-guest-dkms
-virtualbox-host-dkms
+virtualbox-guest-modules-arch
+virtualbox-host-modules-arch
+#virtualbox-guest-dkms
+#virtualbox-host-dkms
+#VIRTUALBOX-GUEST-MODULES
+#VIRTUALBOX-HOST-MODULES
 
 gnome-boxes
 
