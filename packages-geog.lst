@@ -1,9 +1,8 @@
 #
 # Big geographic packages
 #
-geoip-asndata
-geoip-citydata
 geoip-database
+geoip-database-extra
 geoip
 gmt
 gmt-coast
