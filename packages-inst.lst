@@ -104,7 +104,7 @@ fsarchiver
 #gatotray
 gksu
 gnome2-icon-theme-extras
-gnome-colors-icon-theme-extras
+gnome-colors-icon-theme
 # gnu-netcat	    # need openbsd-netcat for virtualization
 gpart
 gpicview
