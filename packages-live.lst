@@ -477,10 +477,6 @@ xdotool
 #
 # none of these are very large so we include them all
 #
-xf86-input-acecad
-#Depends On     : sysfsutils
-#Download Size  :  10.23 KiB
-#Installed Size :  64.00 KiB
 xf86-input-elographics
 #Depends On     : glibc
 #Download Size  :   9.43 KiB
@@ -490,10 +486,6 @@ xf86-input-libinput
 #Depends On     : glibc  systemd  mtdev
 #Download Size  :  29.43 KiB
 #Installed Size : 126.00 KiB
-xf86-input-joystick
-#Depends On     : glibc
-#Download Size  :  22.46 KiB
-#Installed Size : 118.00 KiB
 xf86-input-keyboard
 #Depends On     : glibc
 #Download Size  :  11.80 KiB
@@ -526,30 +518,10 @@ xf86-input-wacom
 # without OpenGL on the live system and the fallback is VESA
 # anyway, so they are commented out.
 #
-xf86-video-apm
-#Depends On     : glibc
-#Download Size  :  17.21 KiB
-#Installed Size :  87.00 KiB
-xf86-video-ark
-#Depends On     : glibc
-#Download Size  :   8.61 KiB
-#Installed Size :  56.00 KiB
-#xf86-video-ast
-#Depends On     : glibc
-#Download Size  :  27.70 KiB
-#Installed Size : 111.00 KiB
 xf86-video-ati
 #Depends On     : libdrm>=2.4.41  systemd  ati-dri  glamor-egl
 #Download Size  : 116.64 KiB
 #Installed Size : 440.00 KiB
-xf86-video-chips
-#Depends On     : glibc
-#Download Size  :  45.09 KiB
-#Installed Size : 160.00 KiB
-#xf86-video-cirrus
-#Depends On     : glibc
-#Download Size  :  26.24 KiB
-#Installed Size : 126.00 KiB
 xf86-video-dummy
 #Depends On     : glibc
 #Download Size  :   6.87 KiB
@@ -558,110 +530,26 @@ xf86-video-fbdev
 #Depends On     : glibc
 #Download Size  :  10.23 KiB
 #Installed Size :  70.00 KiB
-xf86-video-glint
-#Depends On     : glibc
-#Download Size  :  48.19 KiB
-#Installed Size : 183.00 KiB
-xf86-video-i128
-#Depends On     : glibc
-#Download Size  :  20.81 KiB
-#Installed Size : 103.00 KiB
-xf86-video-i740
-#Depends On     : glibc
-#Download Size  :  20.43 KiB
-#Installed Size :  97.00 KiB
 xf86-video-intel
 #Depends On     : intel-dri  libxvmc  pixman  xcb-util>=0.3.9  glamor-egl
 #Download Size  : 577.24 KiB
 #Installed Size : 1950.00 KiB
-xf86-video-mach64
-#Depends On     : glibc
-#Download Size  :  62.49 KiB
-#Installed Size : 212.00 KiB
-#xf86-video-mga
-#Depends On     : glibc
-#Download Size  :  59.88 KiB
-#Installed Size : 196.00 KiB
-#xf86-video-modesetting
-#Depends On     : libdrm>=2.4.37  systemd
-#Download Size  :  18.33 KiB
-#Installed Size :  91.00 KiB
-xf86-video-neomagic
-#Depends On     : glibc
-#Download Size  :  26.98 KiB
-#Installed Size : 116.00 KiB
 xf86-video-nouveau
 #Depends On     : libdrm  udev  nouveau-dri
 #Download Size  :  72.57 KiB
 #Installed Size : 237.00 KiB
-xf86-video-nv
-#Depends On     : glibc
-#Download Size  :  63.66 KiB
-#Installed Size : 219.00 KiB
 xf86-video-openchrome
 #Depends On     : libdrm  libxvmc  systemd
 #Download Size  : 124.74 KiB
 #Installed Size : 495.00 KiB
-xf86-video-r128
-#Depends On     : glibc
-#Download Size  :  44.75 KiB
-#Installed Size : 158.00 KiB
-xf86-video-rendition
-#Depends On     : glibc
-#Download Size  :  33.08 KiB
-#Installed Size : 146.00 KiB
-xf86-video-s3
-#Depends On     : glibc
-#Download Size  :  27.07 KiB
-#Installed Size : 107.00 KiB
-xf86-video-s3virge
-#Depends On     : glibc
-#Download Size  :  30.87 KiB
-#Installed Size : 119.00 KiB
-xf86-video-savage
-#Depends On     : glibc
-#Download Size  :  57.13 KiB
-#Installed Size : 192.00 KiB
-xf86-video-siliconmotion
-#Depends On     : glibc
-#Download Size  :  44.84 KiB
-#Installed Size : 161.00 KiB
-xf86-video-sis
-#Depends On     : glibc
-#Download Size  : 217.91 KiB
-#Installed Size : 592.00 KiB
-#xf86-video-sisimedia
-#Depends On     : glibc
-#Download Size  : 224.59 KiB
-#Installed Size : 604.00 KiB
 xf86-video-sisusb
 #Depends On     : glibc
 #Download Size  :  34.74 KiB
 #Installed Size : 124.00 KiB
-xf86-video-tdfx
-#Depends On     : glibc
-#Download Size  :  26.41 KiB
-#Installed Size : 107.00 KiB
-xf86-video-trident
-#Depends On     : glibc
-#Download Size  :  51.14 KiB
-#Installed Size : 189.00 KiB
-xf86-video-tseng
-#Depends On     : glibc
-#Download Size  :  17.74 KiB
-#Installed Size :  88.00 KiB
-#xf86-video-v4l
-#Depends On     : glibc
-#Download Size  :  18.97 KiB
-#Installed Size : 112.00 KiB
 xf86-video-vesa
 #Depends On     : glibc
 #Download Size  :  12.35 KiB
 #Installed Size :  74.00 KiB
-#xf86-video-vmware	# not needed
-#Depends On     : libdrm  svga-dri  mesa>=10.0
-#Download Size  :  61.98 KiB
-#Installed Size : 217.00 KiB
 xf86-video-voodoo
 #Depends On     : glibc
 #Download Size  :  12.04 KiB
