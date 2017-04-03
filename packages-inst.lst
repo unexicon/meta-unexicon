@@ -477,10 +477,6 @@ xdotool
 #
 # none of these are very large so we include them all
 #
-xf86-input-acecad
-#Depends On     : sysfsutils
-#Download Size  :  10.23 KiB
-#Installed Size :  64.00 KiB
 xf86-input-elographics
 #Depends On     : glibc
 #Download Size  :   9.43 KiB
