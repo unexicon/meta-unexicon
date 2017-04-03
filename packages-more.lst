@@ -121,7 +121,7 @@ newsbeuter
 nsd
 sipp-git
 transmission-cli
-xchat
+#xchat # replaced by hexchat
 seahaven
 openldap
 monitorix
