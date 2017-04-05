@@ -32,6 +32,10 @@ virtualbox-host-modules-arch
 #VIRTUALBOX-GUEST-MODULES
 #VIRTUALBOX-HOST-MODULES
 
+remotebox
+# optional depedencies for remotebox
+rdesktop
+
 gnome-boxes
 
 qemu-launcher
