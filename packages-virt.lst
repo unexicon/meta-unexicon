@@ -11,7 +11,7 @@ dmidecode
 libguestfs
 perl-sys-virt
 libvirt-glib
-libvirt-python
+libvirt-python2
 virt-manager
 
 virtualbox
@@ -25,12 +25,12 @@ virtualbox-sdk
 net-tools
 
 linux-unx-headers
-virtualbox-guest-modules-arch
-virtualbox-host-modules-arch
+#virtualbox-guest-modules-arch
+#virtualbox-host-modules-arch
 #virtualbox-guest-dkms
 #virtualbox-host-dkms
-#VIRTUALBOX-GUEST-MODULES
-#VIRTUALBOX-HOST-MODULES
+VIRTUALBOX-GUEST-MODULES
+VIRTUALBOX-HOST-MODULES
 
 remotebox
 # optional depedencies for remotebox
