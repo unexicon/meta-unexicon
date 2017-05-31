@@ -91,7 +91,7 @@ xorg-server-devel
 #Depends On     : xproto  randrproto  renderproto  xextproto  inputproto  kbproto  fontsproto  pixman  videoproto  xf86driproto  glproto  mesa  dri2proto  dri3proto  xineramaproto  libpciaccess  resourceproto  scrnsaverproto  presentproto  xorg-util-macros
 #Download Size  : 198.84 KiB
 #Installed Size : 1200.00 KiB
-xorg-server-utils
+#xorg-server-utils - deprecated
 #Depends On     : xorg-iceauth  xorg-sessreg  xorg-xcmsdb  xorg-xbacklight  xorg-xgamma  xorg-xhost  xorg-xinput  xorg-xmodmap  xorg-xrandr  xorg-xrdb  xorg-xrefresh  xorg-xset  xorg-xsetroot
 #Download Size  :   0.54 KiB
 #Installed Size :   4.00 KiB

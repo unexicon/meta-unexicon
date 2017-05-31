@@ -43,7 +43,7 @@ mkpxelinux
 namcap
 pacgraph
 pkgbuild-introspection
-pkgman
+#pkgman
 po4a
 psutils
 refind-efi
