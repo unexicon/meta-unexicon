@@ -201,7 +201,15 @@ xorg-smproxy
 xorg-transset
 xorg-twm
 xorg-util-macros
-xorg-utils
+#xorg-utils - old meta package
+xorg-xdpyinfo		# xorg-utils
+xorg-xdriinfo		# xorg-utils
+xorg-xev		# xorg-utils
+xorg-xlsatoms		# xorg-utils
+xorg-xlsclients		# xorg-utils
+xorg-xprop		# xorg-utils
+xorg-xvinfo		# xorg-utils
+xorg-xwininfo		# xorg-utils
 xorg-viewres
 xorg-x11perf
 xorg-xauth
@@ -233,7 +241,11 @@ xorg-xinput		# xorg-server-utils
 xorg-xkbcomp
 xorg-xkbevd
 xorg-xkbutils
-xorg-xkb-utils
+#xorg-xkb-utils - old meta package
+xorg-xkbutils		# xorg-xkb-utils
+xorg-xkbcomp		# xorg-xkb-utils
+xorg-xkbevd		# xorg-xkb-utils
+xorg-setxkbmap		# xorg-xkb-utils
 xorg-xkill
 xorg-xload
 xorg-xlogo

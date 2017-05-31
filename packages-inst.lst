@@ -568,10 +568,31 @@ xl2tpd
 #Installed Size : 391.00 KiB
 # need mcpp (instead of gcc) to support xorg-xrdb since 1.1.0-2
 mcpp
-xorg-server-utils
+#xorg-server-utils - old meta package
+xorg-iceauth		# xorg-server-utils
+xorg-sessreg		# xorg-server-utils
+xorg-xbacklight		# xorg-server-utils
+xorg-xcmsdb		# xorg-server-utils
+xorg-xgamma		# xorg-server-utils
+xorg-xhost		# xorg-server-utils
+xorg-xinput		# xorg-server-utils
+xorg-xmodmap		# xorg-server-utils
+xorg-xrandr		# xorg-server-utils
+xorg-xrdb		# xorg-server-utils
+xorg-xrefresh		# xorg-server-utils
+xorg-xset		# xorg-server-utils
+xorg-xsetroot		# xorg-server-utils
 xorg-smproxy
 xorg-twm
-xorg-utils
+#xorg-utils - old meta package
+xorg-xdpyinfo		# xorg-utils
+xorg-xdriinfo		# xorg-utils
+xorg-xev		# xorg-utils
+xorg-xlsatoms		# xorg-utils
+xorg-xlsclients		# xorg-utils
+xorg-xprop		# xorg-utils
+xorg-xvinfo		# xorg-utils
+xorg-xwininfo		# xorg-utils
 xorg-x11perf
 xorg-xbiff
 xorg-xcalc
@@ -585,7 +606,11 @@ xorg-xfontsel
 #Installed Size :  42.00 KiB
 xorg-xgc
 xorg-xinit
-xorg-xkb-utils
+#xorg-xkb-utils - old meta package
+xorg-xkbutils		# xorg-xkb-utils
+xorg-xkbcomp		# xorg-xkb-utils
+xorg-xkbevd		# xorg-xkb-utils
+xorg-setxkbmap		# xorg-xkb-utils
 xorg-xkill
 xorg-xload
 xorg-xlogo

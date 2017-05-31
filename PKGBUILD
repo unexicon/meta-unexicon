@@ -17,7 +17,7 @@ pkgname=(
     'meta-unexicon-most')
 pkgbase='meta-unexicon'
 pkgver=1.4
-pkgrel=34
+pkgrel=35
 pkgdesc="A collection of meta packages for the unexicon distribution"
 arch=('any')
 url="http://www.unexicon.com"
@@ -50,12 +50,12 @@ source=(packages-inst.lst
         packages-geog.lst
         packages-virt.lst
         packages-more.lst)
-md5sums=('25f8ee3d8be3e2538233171520b8bae1'
-         'a111c003d36777d3ec3676c279061e80'
+md5sums=('bc0edf1955cf7c4d356c8de0d88f345c'
+         '050dd168cd23079e5e113cc72b7c0ee6'
          '6f4654d88c5cc5ab4b3b02641f270bf9'
          '320d907116b1c7d566dd5161d492807b'
          '21c62b2872c7f4d71c47f286fa319680'
-         '95d713e6b86e3a65ca67aeae6d7209b3'
+         '988c027829519172445af1cf46fb96e2'
          '7459c975d45c31e5aff451b61e3b10a7'
          'cecd4131d2129a2555f26e941b21be17'
          'b17a8d069ecc206adcfc56f38e6f72c7'
