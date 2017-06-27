@@ -8,7 +8,7 @@ gconf-gtk2
 gxmessage-gtk2
 libwnck+-git
 perl-gnome2-wnck+
-perl-net-dbus-git
+perl-net-dbus
 slim-xdm
 gvim
 volumeicon-gtk2
