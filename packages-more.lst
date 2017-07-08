@@ -19,7 +19,7 @@ frozen-bubble
 glchess
 
 # documents and media and desktop productivity
-abiword-3.x-gtk2
+abiword-gtk2
 brasero2
 dia
 evolution-data-server
