@@ -8,7 +8,7 @@ f2fs-tools
 grml-zsh-config
 grub-common
 grub-bios
-grub-efi-i386
+# grub-efi-i386
 grub-efi-x86_64
 intel-ucode
 irssi
