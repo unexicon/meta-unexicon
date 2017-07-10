@@ -1,7 +1,7 @@
 pkgbase = meta-unexicon
 	pkgdesc = A collection of meta packages for the unexicon distribution
 	pkgver = 1.5
-	pkgrel = 2
+	pkgrel = 3
 	url = http://www.unexicon.com
 	arch = any
 	groups = unexicon
@@ -1785,6 +1785,7 @@ pkgbase = meta-unexicon
 	depends = yaourt-gui
 	depends = cpupower
 	depends = hal
+	depends = clightd-git
 	source = packages-inst.lst
 	source = packages-live.lst
 	source = packages-plus.lst
@@ -1799,6 +1800,7 @@ pkgbase = meta-unexicon
 	source = packages-geog.lst
 	source = packages-virt.lst
 	source = packages-more.lst
+	source = packages-note.lst
 	md5sums = fb8d86dba575393147fda00cea360c83
 	md5sums = 2be4ce07ec4988f69fef96ea03e589a3
 	md5sums = 71ed5b2d204e211fb821baf9f7fced82
@@ -1813,6 +1815,7 @@ pkgbase = meta-unexicon
 	md5sums = 828b607f5a5a7713b00a61214ff74906
 	md5sums = 530ea8f9ac3352b1f7491130c01f742d
 	md5sums = 0a8d11aa5451d1873a71da7305bd7315
+	md5sums = ff840ba1b2d8017f727c94f61ed787fb
 
 pkgname = meta-unexicon
 	pkgdesc = A meta package for unexicon (remove me)
@@ -3654,6 +3657,11 @@ pkgname = meta-unexicon-more
 	depends = yaourt-gui
 	depends = cpupower
 	depends = hal
+
+pkgname = meta-unexicon-note
+	pkgdesc = Packages primarily suitable for notebook computers.
+	depends = meta-unexicon
+	depends = clightd-git
 
 pkgname = meta-unexicon-most
 	pkgdesc = All unexicon meta packages
