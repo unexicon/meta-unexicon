@@ -11,14 +11,15 @@ pkgname=(
     'meta-unexicon-desk'
     'meta-unexicon-kids'
     'meta-unexicon-elec'
+    'meta-unexicon-draw'
     'meta-unexicon-devl'
     'meta-unexicon-geog'
     'meta-unexicon-virt'
     'meta-unexicon-more'
     'meta-unexicon-most')
 pkgbase='meta-unexicon'
-pkgver=1.4
-pkgrel=41
+pkgver=1.5
+pkgrel=2
 pkgdesc="A collection of meta packages for the unexicon distribution"
 arch=('any')
 url="http://www.unexicon.com"
@@ -34,6 +35,7 @@ depends=(`cat packages-inst.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-desk.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-kids.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-elec.lst|sed -r 's,[[:space:]]*#.*,,'`
+         `cat packages-draw.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-devl.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-geog.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-virt.lst|sed -r 's,[[:space:]]*#.*,,'`
@@ -47,6 +49,7 @@ source=(packages-inst.lst
         packages-desk.lst
         packages-kids.lst
         packages-elec.lst
+        packages-draw.lst
         packages-devl.lst
         packages-geog.lst
         packages-virt.lst
@@ -112,6 +115,12 @@ package_meta-unexicon-elec() {
   install -Dm644 packages-elec.lst "$pkgdir/usr/share/unexicon/installed/meta-unexicon-elec"
 }
 
+package_meta-unexicon-draw() {
+  pkgdesc="Packages for digital drawing and painting"
+  depends=('meta-unexicon' `cat packages-draw.lst|sed -r 's,[[:space:]]*#.*,,'`)
+  install -Dm644 packages-draw.lst "$pkgdir/usr/share/unexicon/installed/meta-unexicon-draw"
+}
+
 package_meta-unexicon-devl() {
   pkgdesc="Packages for software development"
   depends=('meta-unexicon' `cat packages-devl.lst|sed -r 's,[[:space:]]*#.*,,'`)
@@ -138,7 +147,7 @@ package_meta-unexicon-more() {
 
 package_meta-unexicon-most() {
   pkgdesc="All unexicon meta packages"
-  depends=('meta-unexicon' 'meta-unexicon-live' 'meta-unexicon-plus' 'meta-unexicon-arch' 'meta-unexicon-xtra' 'meta-unexicon-xvid' 'meta-unexicon-desk' 'meta-unexicon-elec' 'meta-unexicon-devl' 'meta-unexicon-geog' 'meta-unexicon-virt' 'meta-unexicon-more')
+  depends=('meta-unexicon' 'meta-unexicon-live' 'meta-unexicon-plus' 'meta-unexicon-arch' 'meta-unexicon-xtra' 'meta-unexicon-xvid' 'meta-unexicon-desk' 'meta-unexicon-elec' 'meta-unexicon-devl' 'meta-unexicon-geog' 'meta-unexicon-virt' 'meta-unexicon-more' 'meta-unexicon-kids' 'meta-unexicon-draw')
 }
 
 md5sums=('fb8d86dba575393147fda00cea360c83'
@@ -150,6 +159,20 @@ md5sums=('fb8d86dba575393147fda00cea360c83'
          '23874d18793dccfe49ba7fac22029035'
          'cecd4131d2129a2555f26e941b21be17'
          'b17a8d069ecc206adcfc56f38e6f72c7'
+         '432b5a37c731a2732d56dac7a7796da8'
+         '828b607f5a5a7713b00a61214ff74906'
+         '530ea8f9ac3352b1f7491130c01f742d'
+         '0a8d11aa5451d1873a71da7305bd7315')
+md5sums=('fb8d86dba575393147fda00cea360c83'
+         '2be4ce07ec4988f69fef96ea03e589a3'
+         '71ed5b2d204e211fb821baf9f7fced82'
+         '320d907116b1c7d566dd5161d492807b'
+         '21c62b2872c7f4d71c47f286fa319680'
+         'e346bec5cb4c50e7814ac566a1dc1244'
+         '23874d18793dccfe49ba7fac22029035'
+         'cecd4131d2129a2555f26e941b21be17'
+         'b17a8d069ecc206adcfc56f38e6f72c7'
+         'e465e0fb68ab1e586f7cf76979341dd8'
          '432b5a37c731a2732d56dac7a7796da8'
          '828b607f5a5a7713b00a61214ff74906'
          '530ea8f9ac3352b1f7491130c01f742d'
