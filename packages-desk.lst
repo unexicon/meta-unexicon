@@ -349,7 +349,7 @@ metacity2
 #Installed Size : 6868.00 KiB
 
 #mwm
-lesstif
+openmotif
 #Depends On     : freetype2  libxt  libxp
 #Download Size  : 1035.54 KiB
 #Installed Size : 4021.00 KiB
