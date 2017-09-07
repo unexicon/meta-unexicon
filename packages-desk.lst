@@ -743,7 +743,7 @@ wmwork
 #Installed Size :  73.00 KiB
 
 # following included in live
-wmacpi
+#wmacpi		# moved to meta-unexicon-note
 #Depends On     : libdockapp
 #Download Size  :  15.88 KiB
 #Installed Size :  79.00 KiB
@@ -751,11 +751,11 @@ wmappl
 #Depends On     : libxpm  imlib2
 #Download Size  :  29.28 KiB
 #Installed Size : 168.00 KiB
-wmbatteries
+#wmbatteries	# moved to meta-unexicon-note
 #Depends On     : libxpm  libxext
 #Download Size  :  15.82 KiB
 #Installed Size :  71.00 KiB
-wmbattery
+#wmbattery	# moved to meta-unexicon-note
 #Depends On     : libxpm  hal
 #Download Size  :  14.68 KiB
 #Installed Size :  74.00 KiB
@@ -1101,6 +1101,14 @@ dillo
 #Depends On     : fltk  libjpeg  perl  openssl  libpng  gcc-libs  libxcursor  libxi  libxinerama
 #Download Size  : 317.37 KiB
 #Installed Size : 1161.00 KiB
+chromium-gtk2
+#Depends On      : gtk2  nss  alsa-lib  xdg-utils  libxss  libcups  libgcrypt  ttf-font  systemd  dbus  libpulse  pciutils  json-glib  desktop-file-utils hicolor-icon-theme  flac  opus  minizip  libpng  harfbuzz-icu  libxslt  re2  libwebp  libjpeg  snappy
+#Download Size   : 55.35 MiB
+#Installed Size  : 207.49 MiB
+pepper-flash
+#Depends On      : gcc-libs
+#Download Size   : 7.32 MiB
+#Installed Size  : 20.55 MiB
 midori-gtk2
 #Depends On     : libzeitgeist  webkitgtk2  libnotify  libxss  hicolor-icon-theme  desktop-file-utils  libunique
 #Download Size  : 983.82 KiB

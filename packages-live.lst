@@ -11,7 +11,7 @@ libwrap
 perl-gnome2-wnck+
 perl-net-dbus
 slim-xdm
-gvim
+gvim-gtk2
 volumeicon-gtk2
 xorg-xdm-xlogin
 xqproxy-git
@@ -57,7 +57,7 @@ calcoo
 #Depends On     : cairo  gtk2
 #Download Size  :  29.54 KiB
 #Installed Size : 132.00 KiB
-cbatticon-gtk2
+#cbatticon-gtk2	# moved to meta-unexicon-note
 ckermit
 conky
 cpio
@@ -295,7 +295,7 @@ tar
 tcpdump
 temperature.app
 testdisk
-tlp
+#tlp		# moved to meta-unexicon-note
 traceroute
 trayer
 tree
@@ -359,10 +359,10 @@ vsftpd
 which
 whois
 wireshark-gtk2
-wmacpi
+#wmacpi		# moved to meta-unexicon-note
 wmappl
-wmbatteries
-wmbattery
+#wmbatteries	# moved to meta-unexicon-note
+#wmbattery	# moved to meta-unexicon-note
 wmbiff
 wmbinclock
 wmblob

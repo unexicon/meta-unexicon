@@ -1,1 +1,34 @@
+cbatticon-gtk2
+#Depends On      : libnotify  gtk2
+#Download Size   : 16.69 KiB
+#Installed Size  : 130.00 KiB
 clightd-git
+powertop
+#Depends On      : gcc-libs  libnl  ncurses  pciutils
+#Download Size   : 178.84 KiB
+#Installed Size  : 652.00 KiB
+tlp
+acpi_call	 # ThinkPad battery functions, Sandy Bridge and newer
+acpi_call-lts	 # ThinkPad battery functions, Sandy Bridge and newer
+bash-completion  # Bash completion
+ethtool		 # Disable Wake On Lan
+lsb-release	 # Display LSB release version in tlp-stat
+smartmontools	 # Display S.M.A.R.T. data in tlp-stat
+tp_smapi	 # ThinkPad battery functions
+x86_energy_perf_policy	# Set energy versus performance policy on x86 processors
+upower
+#Depends On      : systemd  libusb  libimobiledevice  libgudev
+#Download Size   : 126.05 KiB
+#Installed Size  : 580.00 KiB
+wmacpi
+#Depends On     : libdockapp
+#Download Size  :  15.88 KiB
+#Installed Size :  79.00 KiB
+wmbatteries
+#Depends On     : libxpm  libxext
+#Download Size  :  15.82 KiB
+#Installed Size :  71.00 KiB
+wmbattery
+#Depends On     : libxpm  hal
+#Download Size  :  14.68 KiB
+#Installed Size :  74.00 KiB
