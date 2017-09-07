@@ -7,6 +7,7 @@ avahi-gtk2
 gconf-gtk2
 gxmessage-gtk2
 libwnck+-git
+libwrap
 perl-gnome2-wnck+
 perl-net-dbus
 slim-xdm
