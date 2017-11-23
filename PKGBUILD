@@ -20,7 +20,7 @@ pkgname=(
     'meta-unexicon-most')
 pkgbase='meta-unexicon'
 pkgver=1.6
-pkgrel=1
+pkgrel=3
 pkgdesc="A collection of meta packages for the unexicon distribution"
 arch=('any')
 url="http://www.unexicon.com"
@@ -160,17 +160,17 @@ package_meta-unexicon-most() {
 }
 
 md5sums=('dbdfdad7f963bd742f2895456d4de12f'
-         'b2beb7e171038ebed01b20a8b2b33f99'
+         '3b8393aadbb02f9b601db8824dc57943'
          '71ed5b2d204e211fb821baf9f7fced82'
          '320d907116b1c7d566dd5161d492807b'
          '21c62b2872c7f4d71c47f286fa319680'
          'e346bec5cb4c50e7814ac566a1dc1244'
-         'bb584f71aa8864f300acfd99ea8546a1'
+         'e83a2f41889824254e8c6900b440a279'
          'cecd4131d2129a2555f26e941b21be17'
          'b17a8d069ecc206adcfc56f38e6f72c7'
          'e465e0fb68ab1e586f7cf76979341dd8'
          '432b5a37c731a2732d56dac7a7796da8'
          '828b607f5a5a7713b00a61214ff74906'
          '530ea8f9ac3352b1f7491130c01f742d'
-         '0a8d11aa5451d1873a71da7305bd7315'
+         'b955f4af407c21577d23f6539a9fd06c'
          'ac2b8ab880ddd9025d454b1571b094f0')

@@ -462,7 +462,7 @@ wmx-svn
 #Download Size  :  61.39 KiB
 #Installed Size : 196.00 KiB
 
-wmii
+#wmii
 #Depends On     : libxft  libxrandr  libxinerama  dash
 #Download Size  : 292.50 KiB
 #Installed Size : 888.00 KiB
@@ -1197,7 +1197,7 @@ moc
 #Depends On     : libmad  libid3tag  jack  curl  libltdl  file
 #Download Size  : 176.12 KiB
 #Installed Size : 563.00 KiB
-moc-tray
+#moc-tray
 #Depends On     : gtk2-perl  moc
 #Download Size  :   9.22 KiB
 #Installed Size :  28.00 KiB

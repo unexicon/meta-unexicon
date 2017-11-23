@@ -382,7 +382,7 @@ wmcube
 wmdiskmon
 wmfire
 wmfsm
-wmii
+#wmii
 wmix
 wmmixer
 wmnd
