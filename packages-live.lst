@@ -405,8 +405,8 @@ wpa_actiond
 x11-ssh-askpass
 xarchiver-gtk2
 xdelta3
-xde-ctools-git
-xde-session-git
+xde-ctools
+xde-session
 xde-helpers
 xde-theme
 xde-menu
@@ -471,7 +471,7 @@ xde-theme-towers
 xdg-chooser
 xdg-launch
 xdg-su
-xdg-traymenu
+#xdg-traymenu
 xdialog
 xdotool
 

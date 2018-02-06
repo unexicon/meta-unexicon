@@ -7,6 +7,7 @@ avahi-gtk2
 gconf-gtk2
 gxmessage-gtk2
 libwnck+-git
+libwrap
 perl-gnome2-wnck+
 perl-net-dbus
 slim-xdm
@@ -358,10 +359,10 @@ vsftpd
 which
 whois
 #wireshark-gtk2
-#wmacpi
+#wmacpi		# moved to meta-unexicon-note
 #wmappl
-#wmbatteries
-#wmbattery
+#wmbatteries	# moved to meta-unexicon-note
+#wmbattery	# moved to meta-unexicon-note
 #wmbiff
 #wmbinclock
 #wmblob
@@ -409,6 +410,7 @@ xde-session
 xde-helpers
 xde-theme
 xde-menu
+xde-panel
 
 # XDE Themes
 #
