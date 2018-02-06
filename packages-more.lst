@@ -166,7 +166,7 @@ xsettingsd
 xtoolwait-git
 
 #systray
-cpp-alsa-volume
+cpp-alsa-volume-gtk2
 vattery
 trayclock
 pasystray-gtk2
