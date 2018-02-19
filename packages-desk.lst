@@ -238,7 +238,7 @@ icewm-themes
 icewm-utils
 
 notion
-trayion
+#trayion
 
 jwm-git
 #Depends On     : fribidi  librsvg  libxinerama  libxmu  libxext  libpng  libx11  libxft  libjpeg>=7  libxpm

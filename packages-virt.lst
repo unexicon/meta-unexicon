@@ -38,4 +38,4 @@ rdesktop
 
 gnome-boxes
 
-qemu-launcher
+#qemu-launcher
