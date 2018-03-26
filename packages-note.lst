@@ -9,7 +9,7 @@ powertop
 #Installed Size  : 652.00 KiB
 tlp
 acpi_call	 # ThinkPad battery functions, Sandy Bridge and newer
-acpi_call-lts	 # ThinkPad battery functions, Sandy Bridge and newer
+#acpi_call-lts	 # ThinkPad battery functions, Sandy Bridge and newer (allow acpi_call-dkms)
 bash-completion  # Bash completion
 ethtool		 # Disable Wake On Lan
 lsb-release	 # Display LSB release version in tlp-stat
