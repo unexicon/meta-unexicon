@@ -20,13 +20,12 @@ pkgname=(
     'meta-unexicon-most')
 pkgbase='meta-unexicon'
 pkgver=1.6
-pkgrel=7
+pkgrel=8
 pkgdesc="A collection of meta packages for the unexicon distribution"
 arch=('any')
 url="http://www.unexicon.com"
 license=('GPL')
 groups=('unexicon')
-depends=()
 depends=(`cat packages-inst.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-live.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-plus.lst|sed -r 's,[[:space:]]*#.*,,'`
@@ -42,6 +41,7 @@ depends=(`cat packages-inst.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-virt.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-more.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-note.lst|sed -r 's,[[:space:]]*#.*,,'`)
+depends=()
 source=(packages-inst.lst
         packages-live.lst
         packages-plus.lst
@@ -159,8 +159,8 @@ package_meta-unexicon-most() {
   depends=('meta-unexicon' 'meta-unexicon-live' 'meta-unexicon-plus' 'meta-unexicon-arch' 'meta-unexicon-xtra' 'meta-unexicon-xvid' 'meta-unexicon-desk' 'meta-unexicon-elec' 'meta-unexicon-devl' 'meta-unexicon-geog' 'meta-unexicon-virt' 'meta-unexicon-more' 'meta-unexicon-kids' 'meta-unexicon-draw')
 }
 
-md5sums=('d0cbb30d2234ea4a54b85f92550fbba6'
-         '51cf99f4a4c8569c706161b2383caf20'
+md5sums=('88267486b7b9cd8dfe7382093d87b400'
+         'd88a04993117472122646ec0dd512da1'
          '71ed5b2d204e211fb821baf9f7fced82'
          '320d907116b1c7d566dd5161d492807b'
          '21c62b2872c7f4d71c47f286fa319680'
@@ -168,7 +168,7 @@ md5sums=('d0cbb30d2234ea4a54b85f92550fbba6'
          '380c286d5a8cb6992a78974aaa8ac590'
          'cecd4131d2129a2555f26e941b21be17'
          'b17a8d069ecc206adcfc56f38e6f72c7'
-         'e465e0fb68ab1e586f7cf76979341dd8'
+         '3feb78061672392e231eef3efa3ebbed'
          '432b5a37c731a2732d56dac7a7796da8'
          '828b607f5a5a7713b00a61214ff74906'
          '4db5ab30996625f6ba5ffb2d2fd11635'

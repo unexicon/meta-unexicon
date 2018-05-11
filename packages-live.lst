@@ -103,7 +103,7 @@ font-bh-ttf
 fsarchiver
 ftmenu
 gatotray
-gksu
+#gksu
 gnome2-icon-theme-extras
 gnome-colors-icon-theme
 # gnu-netcat	    # need openbsd-netcat for virtualization
