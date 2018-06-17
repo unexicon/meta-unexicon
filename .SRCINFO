@@ -1,7 +1,7 @@
 pkgbase = meta-unexicon
 	pkgdesc = A collection of meta packages for the unexicon distribution
 	pkgver = 1.6
-	pkgrel = 9
+	pkgrel = 10
 	url = http://www.unexicon.com
 	arch = any
 	groups = unexicon
@@ -34,7 +34,7 @@ pkgbase = meta-unexicon
 	md5sums = 432b5a37c731a2732d56dac7a7796da8
 	md5sums = 828b607f5a5a7713b00a61214ff74906
 	md5sums = 4db5ab30996625f6ba5ffb2d2fd11635
-	md5sums = 53f46d5ae09f06dca19eef79e17b5b2d
+	md5sums = b24416924faeb37bc15edfde3dcf33da
 	md5sums = eca950b58d1c0c00a66d2cc774dc650e
 
 pkgname = meta-unexicon
@@ -1790,7 +1790,6 @@ pkgname = meta-unexicon-more
 	depends = pulseaudio
 	depends = pulseaudio-alsa
 	depends = youtube-dl
-	depends = lash
 	depends = pavumeter
 	depends = capture
 	depends = gtkam

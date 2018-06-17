@@ -89,7 +89,7 @@ openshot
 pulseaudio
 pulseaudio-alsa
 youtube-dl
-lash
+# lash - no longer in community (sun rpc)
 pavumeter
 
 # camera tools
