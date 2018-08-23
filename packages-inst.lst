@@ -207,7 +207,7 @@ openvpn
 partclone
 patch
 pcmanfm
-pcmciautils
+#pcmciautils
 pdnsd
 #peksystray
 #pekwm
