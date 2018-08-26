@@ -53,7 +53,8 @@ fvwm-xdg-menu
 gtk-engine-mist
 gtk-engine-murrine
 oxygen
-oxygen-kde4
+# no more kde4
+#oxygen-kde4
 slim-theme-burning-arch
 slim-themes
 terminus-font
