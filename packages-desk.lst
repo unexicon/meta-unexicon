@@ -564,6 +564,8 @@ gnome-themes-standard
 # only include a few on the live system and the rest are
 # here as well.
 #
+xde-theme-ahsoka
+xde-theme-warthogs
 xde-theme-airforce
 #Depends On     : xde-styles
 #Download Size  : 3230.34 KiB
