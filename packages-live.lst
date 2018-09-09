@@ -161,7 +161,7 @@ lxappearance
 #lxpolkit-git	# now part of lxsession
 lxrandr
 lxtask
-lxterminal
+lxterminal-gtk2
 lzop
 mailtc
 man-db

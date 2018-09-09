@@ -324,7 +324,7 @@ lxtask
 #Depends On     : gtk2
 #Download Size  :  42.58 KiB
 #Installed Size : 181.00 KiB
-lxterminal
+lxterminal-gtk2
 #Depends On     : fontconfig  libx11  glib2  vte  gtk2
 #Download Size  :  69.52 KiB
 #Installed Size : 980.00 KiB
