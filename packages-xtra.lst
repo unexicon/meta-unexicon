@@ -140,6 +140,14 @@ bluez-firmware
 # bluez-hcidump	    # now in bluez-utils
 # brians-bluetooth-keyboard  # I no longer have this keyboard
 bluez-tools
+# various bluetooth firmware for broadcom adapters
+bcm20702a1-firmware
+bcm20702b0-firmware
+bcm20703a1-firmware
+bcm43142a0-firmware
+bcm4335c0-firmware
+bcm4350c5-firmware
+bcm4356a2-firmware
 
 hardinfo
 inxi

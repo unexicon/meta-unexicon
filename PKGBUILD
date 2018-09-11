@@ -20,7 +20,7 @@ pkgname=(
     'meta-unexicon-most')
 pkgbase='meta-unexicon'
 pkgver=1.6
-pkgrel=16
+pkgrel=17
 pkgdesc="A collection of meta packages for the unexicon distribution"
 arch=('any')
 url="http://www.unexicon.com"
@@ -159,11 +159,11 @@ package_meta-unexicon-most() {
   depends=('meta-unexicon' 'meta-unexicon-live' 'meta-unexicon-plus' 'meta-unexicon-arch' 'meta-unexicon-xtra' 'meta-unexicon-xvid' 'meta-unexicon-desk' 'meta-unexicon-elec' 'meta-unexicon-devl' 'meta-unexicon-geog' 'meta-unexicon-virt' 'meta-unexicon-more' 'meta-unexicon-kids' 'meta-unexicon-draw')
 }
 
-md5sums=('0fdff07facb1c80dd2ee1043b72c0366'
-         'c1eb0fe1564ace17cc6aacdafb6d3c59'
+md5sums=('b71edd46e2b426cefe60d03b19314680'
+         '9d49e79815174787001194b5350c846a'
          '71ed5b2d204e211fb821baf9f7fced82'
-         '320d907116b1c7d566dd5161d492807b'
-         '21c62b2872c7f4d71c47f286fa319680'
+         '656e1357cc1d050c6fda79184b26ceb9'
+         'f9c34b351dde4bb01c9e1d8258e50d95'
          'e346bec5cb4c50e7814ac566a1dc1244'
          '9c56bbdaa51763baafd122f4a3d3c4ad'
          '0e854b07b6d6a54d7a7b96e93ca960af'

@@ -1,7 +1,7 @@
 pkgbase = meta-unexicon
 	pkgdesc = A collection of meta packages for the unexicon distribution
 	pkgver = 1.6
-	pkgrel = 16
+	pkgrel = 17
 	url = http://www.unexicon.com
 	arch = any
 	groups = unexicon
@@ -378,6 +378,7 @@ pkgname = meta-unexicon-inst
 	depends = yaourt
 	depends = ypserv
 	depends = zathura-ypb
+	depends = wd719x-firmware
 	depends = zd1211-firmware
 	depends = zip
 
@@ -808,6 +809,7 @@ pkgname = meta-unexicon-live
 	depends = yaourt
 	depends = ypserv
 	depends = zathura-ypb
+	depends = wd719x-firmware
 	depends = zd1211-firmware
 	depends = zip
 
@@ -940,6 +942,7 @@ pkgname = meta-unexicon-arch
 	depends = wpa_actiond
 	depends = wvdial
 	depends = xl2tpd
+	depends = wd718x-firmware
 	depends = zd1211-firmware
 
 pkgname = meta-unexicon-xtra
@@ -1031,6 +1034,13 @@ pkgname = meta-unexicon-xtra
 	depends = bluez-utils
 	depends = bluez-firmware
 	depends = bluez-tools
+	depends = bcm20702a1-firmware
+	depends = bcm20702b0-firmware
+	depends = bcm20703a1-firmware
+	depends = bcm43142a0-firmware
+	depends = bcm4335c0-firmware
+	depends = bcm4350c5-firmware
+	depends = bcm4356a2-firmware
 	depends = hardinfo
 	depends = inxi
 	depends = hddtemp
