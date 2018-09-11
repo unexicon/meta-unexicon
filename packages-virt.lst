@@ -24,13 +24,14 @@ virtualbox-ext-vnc
 virtualbox-sdk
 net-tools
 
-linux-unx-headers
+#linux-unx-headers
+linux-lts-headers
 #virtualbox-guest-modules-arch
 #virtualbox-host-modules-arch
 #virtualbox-guest-dkms
 #virtualbox-host-dkms
-VIRTUALBOX-GUEST-MODULES
-VIRTUALBOX-HOST-MODULES
+VIRTUALBOX-GUEST-MODULES-LTS
+VIRTUALBOX-HOST-MODULES-LTS
 
 remotebox
 # optional depedencies for remotebox

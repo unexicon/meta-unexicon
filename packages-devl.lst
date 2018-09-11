@@ -36,7 +36,8 @@ intltool
 itstool
 latex2html
 linuxdoc-tools
-linux-unx-headers
+#linux-unx-headers
+linux-lts-headers
 libsmi
 mercurial
 mkpxelinux

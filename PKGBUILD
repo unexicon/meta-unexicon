@@ -20,7 +20,7 @@ pkgname=(
     'meta-unexicon-most')
 pkgbase='meta-unexicon'
 pkgver=1.6
-pkgrel=15
+pkgrel=16
 pkgdesc="A collection of meta packages for the unexicon distribution"
 arch=('any')
 url="http://www.unexicon.com"
@@ -159,8 +159,8 @@ package_meta-unexicon-most() {
   depends=('meta-unexicon' 'meta-unexicon-live' 'meta-unexicon-plus' 'meta-unexicon-arch' 'meta-unexicon-xtra' 'meta-unexicon-xvid' 'meta-unexicon-desk' 'meta-unexicon-elec' 'meta-unexicon-devl' 'meta-unexicon-geog' 'meta-unexicon-virt' 'meta-unexicon-more' 'meta-unexicon-kids' 'meta-unexicon-draw')
 }
 
-md5sums=('b87d5e61ee768c778133cf9b50e320e9'
-         '34b831009e9d83d364e8659407f3a8fa'
+md5sums=('0fdff07facb1c80dd2ee1043b72c0366'
+         'c1eb0fe1564ace17cc6aacdafb6d3c59'
          '71ed5b2d204e211fb821baf9f7fced82'
          '320d907116b1c7d566dd5161d492807b'
          '21c62b2872c7f4d71c47f286fa319680'
@@ -169,8 +169,8 @@ md5sums=('b87d5e61ee768c778133cf9b50e320e9'
          '0e854b07b6d6a54d7a7b96e93ca960af'
          'b17a8d069ecc206adcfc56f38e6f72c7'
          '70252603bb04f226e4d10821926bb1ab'
-         '432b5a37c731a2732d56dac7a7796da8'
+         '6232764eecad85dc706274dbf982386d'
          '828b607f5a5a7713b00a61214ff74906'
-         '4db5ab30996625f6ba5ffb2d2fd11635'
+         '82f597eb02c89fe74a0c1f86292c6b97'
          'b555fa3d0a64487960e6f29026992ade'
          'eca950b58d1c0c00a66d2cc774dc650e')

@@ -150,7 +150,8 @@ libstatgrab
 libtar
 #libxkbui
 licenses
-linux-unx
+#linux-unx
+linux-lts
 lm_sensors
 logrotate
 lostfiles
@@ -173,6 +174,7 @@ memtest86+
 mime-archpkg
 minicom
 mkinitcpio-kms
+mkinitcpio-lvm2c
 mkinitcpio-nfs-utils
 mlocate
 mrouted
