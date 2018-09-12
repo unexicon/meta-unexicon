@@ -1,6 +1,6 @@
 libvirt
 # optional dependencies for libvirt
-ebtables
+# ebtables - now part of iptables
 dnsmasq
 bridge-utils
 openbsd-netcat

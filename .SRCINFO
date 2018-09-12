@@ -1,7 +1,7 @@
 pkgbase = meta-unexicon
 	pkgdesc = A collection of meta packages for the unexicon distribution
 	pkgver = 1.6
-	pkgrel = 18
+	pkgrel = 19
 	url = http://www.unexicon.com
 	arch = any
 	groups = unexicon
@@ -33,7 +33,7 @@ pkgbase = meta-unexicon
 	md5sums = 70252603bb04f226e4d10821926bb1ab
 	md5sums = 6232764eecad85dc706274dbf982386d
 	md5sums = 828b607f5a5a7713b00a61214ff74906
-	md5sums = 82f597eb02c89fe74a0c1f86292c6b97
+	md5sums = f28c680e28ab0ece1702d5b9a736b137
 	md5sums = b555fa3d0a64487960e6f29026992ade
 	md5sums = eca950b58d1c0c00a66d2cc774dc650e
 
@@ -1696,7 +1696,6 @@ pkgname = meta-unexicon-virt
 	pkgdesc = Packages for virtualization
 	depends = meta-unexicon
 	depends = libvirt
-	depends = ebtables
 	depends = dnsmasq
 	depends = bridge-utils
 	depends = openbsd-netcat
