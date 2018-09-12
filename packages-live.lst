@@ -202,6 +202,7 @@ obmenu-generator
 #Depends On     : autogen  libpcl  gnutls  http-parser  libdbus  libnl  libsystemd  pam  protobuf-c
 #Download Size  :  94.24 KiB
 #Installed Size : 306.00 KiB
+pcsclite-nopy
 openconnect
 openobex
 openss7-cacert
