@@ -1167,6 +1167,7 @@ gvfs-afc
 #gvfs-afp now part of gvfs
 gvfs-gphoto2
 gvfs-smb
+gvfs-mtp
 
 
 # Command Launchers
