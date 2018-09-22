@@ -62,6 +62,7 @@ vim
 vpnc
 wget
 wireless_tools
+iwd
 wpa_actiond
 wvdial
 xl2tpd

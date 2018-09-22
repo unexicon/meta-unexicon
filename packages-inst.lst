@@ -405,6 +405,8 @@ wmsystray
 #wmwave
 #wmweather
 #wmwifi
+wireless_tools
+iwd
 wpa_actiond
 x11-ssh-askpass
 xarchiver-gtk2
