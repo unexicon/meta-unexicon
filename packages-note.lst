@@ -32,3 +32,14 @@ wmbattery
 #Depends On     : libxpm  hal
 #Download Size  :  14.68 KiB
 #Installed Size :  74.00 KiB
+wpa_supplicant_gui
+blueman
+libinput-gestures
+gestures
+gesture-manager-git
+easystroke
+touchpad-toggle
+gpointing-device-settings
+libinput-touchpad
+libsynaptics
+touchpad_config

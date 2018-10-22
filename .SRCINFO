@@ -1,7 +1,7 @@
 pkgbase = meta-unexicon
 	pkgdesc = A collection of meta packages for the unexicon distribution
 	pkgver = 1.6
-	pkgrel = 23
+	pkgrel = 24
 	url = http://www.unexicon.com
 	arch = any
 	groups = unexicon
@@ -35,7 +35,7 @@ pkgbase = meta-unexicon
 	md5sums = 828b607f5a5a7713b00a61214ff74906
 	md5sums = f28c680e28ab0ece1702d5b9a736b137
 	md5sums = b555fa3d0a64487960e6f29026992ade
-	md5sums = eca950b58d1c0c00a66d2cc774dc650e
+	md5sums = d1d8a7fe93a98cc0c9ff187a67e07847
 
 pkgname = meta-unexicon
 	pkgdesc = A meta package for unexicon (remove me)
@@ -1904,6 +1904,17 @@ pkgname = meta-unexicon-note
 	depends = wmacpi
 	depends = wmbatteries
 	depends = wmbattery
+	depends = wpa_supplicant_gui
+	depends = blueman
+	depends = libinput-gestures
+	depends = gestures
+	depends = gesture-manager-git
+	depends = easystroke
+	depends = touchpad-toggle
+	depends = gpointing-device-settings
+	depends = libinput-touchpad
+	depends = libsynaptics
+	depends = touchpad_config
 
 pkgname = meta-unexicon-most
 	pkgdesc = All unexicon meta packages
