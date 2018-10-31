@@ -1111,7 +1111,8 @@ seamonkey-gtk2
 #Depends On      : alsa-lib  dbus-glib  desktop-file-utils  gtk2  hunspell  libevent  libnotify  libvpx  libxt  mime-types  mozilla-common  nss  sqlite  startup-notification  libpulse  icu  gconf
 #Download Size   : 43.48 MiB
 #Installed Size  : 118.79 MiB
-chromium-gtk2
+chromium
+#chromium-gtk2
 #Depends On      : gtk2  nss  alsa-lib  xdg-utils  libxss  libcups  libgcrypt  ttf-font  systemd  dbus  libpulse  pciutils  json-glib  desktop-file-utils  hicolor-icon-theme  flac  ffmpeg  fontconfig  icu  opus  minizip  libxml2  harfbuzz  libxslt  freetype2  re2  libwebp  libjpeg  snappy
 #Download Size   : 46.20 MiB
 #Installed Size  : 164.65 MiB

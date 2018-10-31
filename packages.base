@@ -223,6 +223,8 @@ zip
 #ca-certificates-java
 #classpath
 #fastjar
+#gcc6-gcj
+#gcc6-gcj-compat
 #gcc-gcj-ecj
 #java-gcj-compat
 
