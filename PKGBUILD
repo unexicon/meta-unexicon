@@ -17,10 +17,11 @@ pkgname=(
     'meta-unexicon-virt'
     'meta-unexicon-more'
     'meta-unexicon-note'
-    'meta-unexicon-most')
+    'meta-unexicon-most'
+    'meta-unexicon-ides')
 pkgbase='meta-unexicon'
-pkgver=1.6
-pkgrel=26
+pkgver=1.7
+pkgrel=1
 pkgdesc="A collection of meta packages for the unexicon distribution"
 arch=('any')
 url="http://www.unexicon.com"
@@ -40,7 +41,8 @@ depends=(`cat packages-inst.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-geog.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-virt.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-more.lst|sed -r 's,[[:space:]]*#.*,,'`
-         `cat packages-note.lst|sed -r 's,[[:space:]]*#.*,,'`)
+         `cat packages-note.lst|sed -r 's,[[:space:]]*#.*,,'`
+         `cat packages-ides.lst|sed -r 's,[[:space:]]*#.*,,'`)
 depends=()
 source=(packages-inst.lst
         packages-live.lst
@@ -56,7 +58,8 @@ source=(packages-inst.lst
         packages-geog.lst
         packages-virt.lst
         packages-more.lst
-        packages-note.lst)
+        packages-note.lst
+        packages-ides.lst)
 
 package_meta-unexicon() {
   pkgdesc="A meta package for unexicon (remove me)"
@@ -159,6 +162,12 @@ package_meta-unexicon-most() {
   depends=('meta-unexicon' 'meta-unexicon-live' 'meta-unexicon-plus' 'meta-unexicon-arch' 'meta-unexicon-xtra' 'meta-unexicon-xvid' 'meta-unexicon-desk' 'meta-unexicon-elec' 'meta-unexicon-devl' 'meta-unexicon-geog' 'meta-unexicon-virt' 'meta-unexicon-more' 'meta-unexicon-kids' 'meta-unexicon-draw')
 }
 
+package_meta-unexicon-ides() {
+  pkgdesc="Packages for Industrial Design."
+  depends=('meta-unexicon' `cat packages-ides.lst|sed -r 's,[[:space:]]*#.*,,'`)
+  install -Dm644 packages-ides.lst "$pkgdir/usr/share/unexicon/installed/meta-unexicon-ides"
+}
+
 md5sums=('ce02d3c73f7c87a29ebda2c7d55ac151'
          '6920b66c7332743d1f61efd9df93245d'
          '71ed5b2d204e211fb821baf9f7fced82'
@@ -173,4 +182,5 @@ md5sums=('ce02d3c73f7c87a29ebda2c7d55ac151'
          '828b607f5a5a7713b00a61214ff74906'
          'f28c680e28ab0ece1702d5b9a736b137'
          '4e647cf9c0a4dfda7b9c6a95a159e898'
-         'd1d8a7fe93a98cc0c9ff187a67e07847')
+         'd1d8a7fe93a98cc0c9ff187a67e07847'
+         'd000feb334312565b285a40b2ae17a8c')

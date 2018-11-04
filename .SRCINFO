@@ -1,7 +1,7 @@
 pkgbase = meta-unexicon
 	pkgdesc = A collection of meta packages for the unexicon distribution
-	pkgver = 1.6
-	pkgrel = 26
+	pkgver = 1.7
+	pkgrel = 1
 	url = http://www.unexicon.com
 	arch = any
 	groups = unexicon
@@ -21,6 +21,7 @@ pkgbase = meta-unexicon
 	source = packages-virt.lst
 	source = packages-more.lst
 	source = packages-note.lst
+	source = packages-ides.lst
 	md5sums = ce02d3c73f7c87a29ebda2c7d55ac151
 	md5sums = 6920b66c7332743d1f61efd9df93245d
 	md5sums = 71ed5b2d204e211fb821baf9f7fced82
@@ -36,6 +37,7 @@ pkgbase = meta-unexicon
 	md5sums = f28c680e28ab0ece1702d5b9a736b137
 	md5sums = 4e647cf9c0a4dfda7b9c6a95a159e898
 	md5sums = d1d8a7fe93a98cc0c9ff187a67e07847
+	md5sums = d000feb334312565b285a40b2ae17a8c
 
 pkgname = meta-unexicon
 	pkgdesc = A meta package for unexicon (remove me)
@@ -1934,4 +1936,19 @@ pkgname = meta-unexicon-most
 	depends = meta-unexicon-more
 	depends = meta-unexicon-kids
 	depends = meta-unexicon-draw
+
+pkgname = meta-unexicon-ides
+	pkgdesc = Packages for Industrial Design.
+	depends = meta-unexicon
+	depends = blender
+	depends = krita
+	depends = inkscape
+	depends = freecad
+	depends = konstruktor
+	depends = wings3d
+	depends = openscad
+	depends = gimp
+	depends = opencascade
+	depends = solvespace
+	depends = heekscad-git
 
