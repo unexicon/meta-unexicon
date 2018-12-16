@@ -1097,13 +1097,23 @@ gutenprint
 foomatic-db
 sane
 
+# Spell Checking
+#
+aspell
+aspell-en
+hunspell
+hunspell-en_AU
+hunspell-en_CA
+hunspell-en_GB
+hunspell-en_US
+
 # Browsers
 #
 dillo
 #Depends On     : fltk  libjpeg  perl  openssl  libpng  gcc-libs  libxcursor  libxi  libxinerama
 #Download Size  : 317.37 KiB
 #Installed Size : 1161.00 KiB
-firefox-esr-gtk2
+#firefox-esr-gtk2
 #Depends On      : gtk2  mozilla-common  libxt  startup-notification  mime-types  dbus-glib  alsa-lib  ffmpeg  libvpx  libevent  nss  hunspell  sqlite  ttf-font  icu
 #Download Size   : 69.83 MiB
 #Installed Size  : 223.44 MiB

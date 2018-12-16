@@ -1,10 +1,16 @@
 # some mail programs
+mutt
+alpine-git
 claws-mail
+clawster
 balsa-gtk2
 checkgmail
 mailutils
-thunderbird-gtk2
+#thunderbird-gtk2
 seamonkey-gtk2
+spamassassin
+bogofilter
+clamav
 
 # some games
 ace-of-penguins
