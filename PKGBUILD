@@ -21,7 +21,7 @@ pkgname=(
     'meta-unexicon-ides')
 pkgbase='meta-unexicon'
 pkgver=1.8
-pkgrel=1
+pkgrel=2
 pkgdesc="A collection of meta packages for the unexicon distribution"
 arch=('any')
 url="http://www.unexicon.com"
@@ -181,6 +181,6 @@ md5sums=('ce02d3c73f7c87a29ebda2c7d55ac151'
          '6232764eecad85dc706274dbf982386d'
          '828b607f5a5a7713b00a61214ff74906'
          'f28c680e28ab0ece1702d5b9a736b137'
-         '98191830a4d03384c82b298f3d33e97c'
+         '2404088e7b2c57ed1dd3c5712a10511a'
          'd1d8a7fe93a98cc0c9ff187a67e07847'
          'd000feb334312565b285a40b2ae17a8c')
