@@ -657,7 +657,7 @@ xpaint
 
 xbrightness
 xrestop
-xsensors
+xsensors-gtk2
 xtrlock
 xxkb
 xzgv

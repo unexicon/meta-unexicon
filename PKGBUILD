@@ -21,7 +21,7 @@ pkgname=(
     'meta-unexicon-ides')
 pkgbase='meta-unexicon'
 pkgver=1.8
-pkgrel=2
+pkgrel=3
 pkgdesc="A collection of meta packages for the unexicon distribution"
 arch=('any')
 url="http://www.unexicon.com"
@@ -168,8 +168,8 @@ package_meta-unexicon-ides() {
   install -Dm644 packages-ides.lst "$pkgdir/usr/share/unexicon/installed/meta-unexicon-ides"
 }
 
-md5sums=('ce02d3c73f7c87a29ebda2c7d55ac151'
-         '6920b66c7332743d1f61efd9df93245d'
+md5sums=('d37bf9175948551db13b472147923e68'
+         '5a572ef4264e18e072109baa6105dc89'
          '71ed5b2d204e211fb821baf9f7fced82'
          'cd9b1e648fac9f060f238755fb77a920'
          'f9c34b351dde4bb01c9e1d8258e50d95'
