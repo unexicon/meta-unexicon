@@ -925,7 +925,7 @@ xfishtank
 #Installed Size : 425.00 KiB
 gnome-chess
 xplanetfx
-fltk-games
+#fltk-games	    # now part of fltk
 
 # Drawing programs
 #
