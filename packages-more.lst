@@ -154,7 +154,7 @@ eric
 
 # window managers and utilities
 eggwm
-enlightenment16
+#enlightenment16
 enlightenment
 cairo-msg
 gcolor2
