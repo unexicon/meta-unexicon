@@ -122,7 +122,7 @@ sofia-sip
 #Depends On     : glib2  openssl
 #Download Size  : 744.41 KiB
 #Installed Size : 4111.00 KiB
-ekiga
+#ekiga
 #Depends On     : opal  boost-libs  libxv  libnotify  hicolor-icon-theme  avahi  gtk2  gconf
 #Download Size  : 7458.77 KiB
 #Installed Size : 17279.00 KiB
