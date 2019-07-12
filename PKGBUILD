@@ -21,7 +21,7 @@ pkgname=(
     'meta-unexicon-ides')
 pkgbase='meta-unexicon'
 pkgver=1.8
-pkgrel=6
+pkgrel=7
 pkgdesc="A collection of meta packages for the unexicon distribution"
 arch=('any')
 url="http://www.unexicon.com"
