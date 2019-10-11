@@ -650,7 +650,7 @@ ttf-font
 #Depends On     : fontconfig  xorg-font-utils
 #Download Size  : 4029.73 KiB
 #Installed Size : 10576.00 KiB
-ttf-gentium
+gentium-plus-font
 #Depends On     : fontconfig  xorg-fonts-encodings  xorg-font-utils
 #Download Size  : 213.44 KiB
 #Installed Size : 1368.00 KiB
