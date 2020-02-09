@@ -6,7 +6,7 @@ gnulib-git
 asciidoc
 astyle
 bin86
-bzrtools
+#bzrtools
 clang
 cmake
 cscope
@@ -21,8 +21,8 @@ freeglut
 ftjam
 gdb
 gendesk
-git-bzr-kfish-git
-git-bzr-ng
+#git-bzr-kfish-git
+#git-bzr-ng
 gjdoc
 glib2-docs
 gob2
