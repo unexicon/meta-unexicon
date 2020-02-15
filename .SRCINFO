@@ -1,7 +1,7 @@
 pkgbase = meta-unexicon
 	pkgdesc = A collection of meta packages for the unexicon distribution
 	pkgver = 1.8
-	pkgrel = 11
+	pkgrel = 12
 	url = http://www.unexicon.com
 	arch = any
 	groups = unexicon
@@ -35,7 +35,7 @@ pkgbase = meta-unexicon
 	md5sums = 9e3fbb191070b384ca3c717b4d8bc341
 	md5sums = 828b607f5a5a7713b00a61214ff74906
 	md5sums = f28c680e28ab0ece1702d5b9a736b137
-	md5sums = 4e4914c4a518e5c9d127bdaa9ee73e74
+	md5sums = c81d5a33daebb43a82692b3180c0b2f9
 	md5sums = d1d8a7fe93a98cc0c9ff187a67e07847
 	md5sums = d000feb334312565b285a40b2ae17a8c
 
@@ -1762,7 +1762,6 @@ pkgname = meta-unexicon-more
 	depends = epdfview
 	depends = file-roller2-nn
 	depends = flpsed
-	depends = gedit2
 	depends = gpaint
 	depends = markdown
 	depends = smplayer
