@@ -535,7 +535,7 @@ hicolor-icon-theme
 #Depends On     : None
 #Download Size  :   6.82 KiB
 #Installed Size :  31.00 KiB
-human-icon-theme
+#human-icon-theme
 #Depends On     : tangerine-icon-theme
 #Download Size  : 708.30 KiB
 #Installed Size : 4515.00 KiB
@@ -547,7 +547,7 @@ mist-icon-theme
 #Depends On     : None
 #Download Size  : 1031.96 KiB
 #Installed Size : 1238.00 KiB
-tangerine-icon-theme
+#tangerine-icon-theme
 #Depends On     : gnome-icon-theme
 #Download Size  : 482.89 KiB
 #Installed Size : 9692.00 KiB

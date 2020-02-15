@@ -11,7 +11,7 @@ dmidecode
 libguestfs
 perl-sys-virt
 libvirt-glib
-libvirt-python2
+libvirt-python
 virt-manager
 
 virtualbox

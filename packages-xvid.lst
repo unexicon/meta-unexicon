@@ -95,7 +95,7 @@ xorg-server-devel
 #Depends On     : xorg-iceauth  xorg-sessreg  xorg-xcmsdb  xorg-xbacklight  xorg-xgamma  xorg-xhost  xorg-xinput  xorg-xmodmap  xorg-xrandr  xorg-xrdb  xorg-xrefresh  xorg-xset  xorg-xsetroot
 #Download Size  :   0.54 KiB
 #Installed Size :   4.00 KiB
-xorg-server-xdmx
+#xorg-server-xdmx
 #Depends On     : libxfont  libxi  libgcrypt  libxaw  libxrender  libdmx  libxfixes  pixman  xorg-server-common
 #Download Size  : 715.21 KiB
 #Installed Size : 1961.00 KiB

@@ -39,7 +39,7 @@ htop
 iftop
 iptraf-ng
 iptstate
-isdn4k-utils
+#isdn4k-utils
 libcdio
 mutt
 nano
