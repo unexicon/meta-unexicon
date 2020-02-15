@@ -7,11 +7,11 @@ xf86-input-libinput
 #Depends On     : glibc  systemd  mtdev
 #Download Size  :  29.43 KiB
 #Installed Size : 126.00 KiB
-xf86-input-keyboard
+#xf86-input-keyboard
 #Depends On     : glibc
 #Download Size  :  11.80 KiB
 #Installed Size :  79.00 KiB
-xf86-input-mouse
+#xf86-input-mouse
 #Depends On     : glibc
 #Download Size  :  25.88 KiB
 #Installed Size : 113.00 KiB
