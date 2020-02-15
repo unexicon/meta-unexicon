@@ -148,7 +148,7 @@ lalcal
 libmicrohttpd
 libstatgrab
 libtar
-libxkbui
+#libxkbui
 licenses
 #linux-unx
 linux-lts
