@@ -12,6 +12,8 @@ icewm-themes
 #icewm-utils	# pulls in qt3, python2
 idesk-extras	# probably don't want idesk anyway
 kismet		# too big for stick
+flite		# optional for kismet
+gpsd		# optional for kismet
 
 nxproxy
 libisoburn	# to make isos
@@ -140,6 +142,7 @@ bluez-firmware
 # bluez-hcidump	    # now in bluez-utils
 # brians-bluetooth-keyboard  # I no longer have this keyboard
 bluez-tools
+ell		    # optional for bluez-utils
 # various bluetooth firmware for broadcom adapters
 bcm20702a1-firmware
 bcm20702b0-firmware

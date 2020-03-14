@@ -650,6 +650,7 @@ ttf-droid
 #Depends On     : fontconfig  xorg-fonts-encodings  xorg-font-utils
 #Download Size  : 3611.01 KiB
 #Installed Size : 15744.00 KiB
+gnu-free-fonts
 ttf-font
 #Depends On     : fontconfig  xorg-font-utils
 #Download Size  : 4029.73 KiB

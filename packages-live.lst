@@ -294,6 +294,7 @@ sudo
 sux
 syslinux
 syslog-ng
+libdbi		# optional for syslog-ng
 systemd-sysvcompat
 tar
 tcpdump
