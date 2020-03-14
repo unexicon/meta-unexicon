@@ -1,4 +1,4 @@
-acpicia
+acpica
 archiso
 asp
 autoconf-archive
@@ -8,7 +8,6 @@ chrpath
 cloc
 drminfo
 fox-devel
-galileo-dev
 gcc5
 gksu
 gnome-common
@@ -18,8 +17,6 @@ granite
 hwinfo
 imap
 jdk10-openjdk
-base-devel
-multilib-devel
 intel-media-sdk
 libva-intel-driver
 libva-vdpau-driver
@@ -55,4 +52,4 @@ podofo
 spampd
 unarchiver
 unison
-wmidump
+wmidump-git
