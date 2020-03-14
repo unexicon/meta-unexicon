@@ -15,6 +15,8 @@ ethtool		 # Disable Wake On Lan
 lsb-release	 # Display LSB release version in tlp-stat
 smartmontools	 # Display S.M.A.R.T. data in tlp-stat
 tp_smapi	 # ThinkPad battery functions
+tp_smapi-lts	 # ThinkPad battery functions
+tpacpi-bat
 x86_energy_perf_policy	# Set energy versus performance policy on x86 processors
 upower
 #Depends On      : systemd  libusb  libimobiledevice  libgudev

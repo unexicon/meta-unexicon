@@ -614,6 +614,10 @@ xde-theme-towers
 #Depends On     : xde-styles
 #Download Size  : 2350.71 KiB
 #Installed Size : 2492.00 KiB
+xde-theme-unicorn
+
+xdg-traymenu
+xss-lock
 
 
 # TTF Fonts
@@ -731,6 +735,7 @@ wmmoonclock
 #Depends On     : libxpm
 #Download Size  : 102.43 KiB
 #Installed Size : 765.00 KiB
+wmnotify
 wmstickynotes
 #Depends On     : gtk2
 #Download Size  :   7.86 KiB
