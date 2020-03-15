@@ -3,6 +3,7 @@ pacemaker
 crmsh
 booth
 nextcloud
+nextcloud-app-deck
 ec2-metadata
 aws-cli
 fence-agents
@@ -11,3 +12,5 @@ gdnsd
 quagga
 bird
 coda
+ntop
+httping

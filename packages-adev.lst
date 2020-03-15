@@ -75,3 +75,14 @@ libsvgtiny
 classpath
 smem
 python-matplotlib	# optional for smem
+eclipse-jee
+eric
+bzrtools
+maven
+perl-cam-dbf
+perl-file-find-rule-perl
+perl-text-markdown
+perl-xls2csv
+ruby-docs
+scons
+ocaml-findlib
