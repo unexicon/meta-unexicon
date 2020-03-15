@@ -1,0 +1,13 @@
+pcs
+pacemaker
+crmsh
+booth
+nextcloud
+ec2-metadata
+aws-cli
+fence-agents
+resource-agents
+gdnsd
+quagga
+bird
+coda

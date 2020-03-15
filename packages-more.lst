@@ -2,6 +2,15 @@
 mutt
 alpine-git
 claws-mail
+libytnef		# optional for claws-mail
+poppler-glib		# optional for claws-mail
+ghostscript		# optional for claws-mail
+libical			# optional for claws-mail
+dillo			# optional for claws-mail
+gumbo-parser		# optional for claws-mail
+spamassassin		# optional for claws-mail
+bogofilter		# optional for claws-mail
+libgdata		# optional for claws-mail
 clawsker
 balsa-gtk2
 checkgmail

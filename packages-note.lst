@@ -45,3 +45,5 @@ gpointing-device-settings
 libinput-touchpad
 libsynaptics
 touchpad_config
+clight-git
+xde-applets

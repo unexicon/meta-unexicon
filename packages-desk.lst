@@ -132,6 +132,8 @@ ourico
 #Download Size  :  11.06 KiB
 #Installed Size :  69.00 KiB
 
+enlightenment16
+
 etwm
 #Depends On     : libxinerama  libxrandr  libxmu  libxpm  libjpeg
 #Download Size  : 459.70 KiB
@@ -1281,3 +1283,9 @@ bitlbee
 libotr
 xbindkeys
 xstdcmap
+colord-gtk
+colord-kde
+colord-sane
+xiccd
+claws-mail-theme
+xchat

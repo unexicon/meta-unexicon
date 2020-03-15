@@ -20,10 +20,11 @@ pkgname=(
     'meta-unexicon-most'
     'meta-unexicon-ides'
     'meta-unexicon-dcam'
-    'meta-unexicon-adev')
+    'meta-unexicon-adev'
+    'meta-unexicon-clus')
 pkgbase='meta-unexicon'
 pkgver=1.9
-pkgrel=3
+pkgrel=4
 pkgdesc="A collection of meta packages for the unexicon distribution"
 arch=('any')
 url="http://www.unexicon.com"
@@ -46,7 +47,8 @@ depends=(`cat packages-inst.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-note.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-ides.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-dcam.lst|sed -r 's,[[:space:]]*#.*,,'`
-         `cat packages-adev.lst|sed -r 's,[[:space:]]*#.*,,'`)
+         `cat packages-adev.lst|sed -r 's,[[:space:]]*#.*,,'`
+         `cat packages-clus.lst|sed -r 's,[[:space:]]*#.*,,'`)
 depends=()
 source=(packages-inst.lst
         packages-live.lst
@@ -65,7 +67,8 @@ source=(packages-inst.lst
         packages-note.lst
         packages-ides.lst
         packages-dcam.lst
-        packages-adev.lst)
+        packages-adev.lst
+        packages-clus.lst)
 
 package_meta-unexicon() {
   pkgdesc="A meta package for unexicon (remove me)"
@@ -186,21 +189,28 @@ package_meta-unexicon-adev() {
   install -Dm644 packages-adev.lst "$pkgdir/usr/share/unexicon/installed/meta-unexicon-adev"
 }
 
+package_meta-unexicon-clus() {
+  pkgdesc="Packages for Clustering and Cloud Development."
+  depends=('meta-unexicon' `cat packages-clus.lst|sed -r 's,[[:space:]]*#.*,,'`)
+  install -Dm644 packages-clus.lst "$pkgdir/usr/share/unexicon/installed/meta-unexicon-clus"
+}
+
 md5sums=('d76b5d7192135001bd261fec983c9cdd'
-         '2229e04e688503261106a1a90f4da05e'
+         'c4e9df913b955d4a1a0b35f527a54413'
          '02b8c01406acf4840ecc8fd603e52d45'
          'cd9b1e648fac9f060f238755fb77a920'
          'f026b7350ab8401b55cb6726f93b03ab'
          '9d8adba61a03f0d5b2304179c75fc789'
-         'ff0b4a711f94d514e78bed970f30fe1b'
-         'cecd4131d2129a2555f26e941b21be17'
+         '2de57bcd591fe4c1358f79d6db34cf71'
+         'e5919073865fc184e9d0fbe57f11d612'
          'b17a8d069ecc206adcfc56f38e6f72c7'
          '1d3264a4752df8703817bee9c5de8d38'
          '9e3fbb191070b384ca3c717b4d8bc341'
          '828b607f5a5a7713b00a61214ff74906'
          '2abbd21d630bf953182bb4ea434dc8e1'
-         'c81d5a33daebb43a82692b3180c0b2f9'
-         'ac716468a532af7194d2576106945dbf'
+         '972a5d823c88c4863c1b9c335aea74c2'
+         'd275ada02a4fd3a4479359b85a7c2314'
          'd000feb334312565b285a40b2ae17a8c'
-         '129774d01a8371d9f5639cb0295a97c4'
-         '2a7aad341f3c94b5977b628e1f1b3937')
+         'e273e0503b1f96dfa63b2c2cdd60d718'
+         '105c2fd4a14cfb1244ddeb93b2e11d0c'
+         '50f46a6a572854093b9085d932cb995b')

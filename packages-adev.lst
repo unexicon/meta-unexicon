@@ -21,6 +21,8 @@ intel-media-sdk
 libva-intel-driver
 libva-vdpau-driver
 libx86emu
+linux-headers
+linux-lts-headers
 linux-lts316
 linux-lts316-headers
 linux-lts44
@@ -69,3 +71,7 @@ createrepo
 setconf
 splint
 asciidoctor
+libsvgtiny
+classpath
+smem
+python-matplotlib	# optional for smem
