@@ -11,6 +11,7 @@ clang
 cmake
 cscope
 ctags
+rcs
 cvs
 cvs2svn
 cvsps2
