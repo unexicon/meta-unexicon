@@ -48,7 +48,7 @@ pkgbuild-introspection
 #pkgman
 po4a
 psutils
-refind-efi
+refind
 reform
 sharutils
 sloccount
