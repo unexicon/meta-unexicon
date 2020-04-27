@@ -146,7 +146,7 @@ ell		    # optional for bluez-utils
 # various bluetooth firmware for broadcom adapters
 bcm20702a1-firmware
 bcm20702b0-firmware
-bcm20703a1-firmware
+#bcm20703a1-firmware # now part of linux-firmware
 bcm43142a0-firmware
 bcm4335c0-firmware
 bcm4350c5-firmware
