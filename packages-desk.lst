@@ -618,6 +618,9 @@ xde-theme-towers
 #Installed Size : 2492.00 KiB
 xde-theme-unicorn
 
+xde-sounds
+unexicon-sound-theme
+
 xdg-traymenu
 xss-lock
 
@@ -1020,7 +1023,7 @@ rdesktop
 #Depends On     : libao  libsamplerate  xorg-xrandr  pcsclite  libgssglue
 #Download Size  : 127.14 KiB
 #Installed Size : 398.00 KiB
-x2go-agent
+x2goclient
 nxagent
 
 # Additional terminals
