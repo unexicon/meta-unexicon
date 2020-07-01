@@ -130,18 +130,21 @@ xorg-bdftopcf
 #Download Size  : 126.91 KiB
 #Installed Size : 422.00 KiB
 xorg-fonts-100dpi
+xorg-fonts-alias-100dpi
 #Depends On     : xorg-fonts-encodings  xorg-fonts-alias  xorg-font-utils  fontconfig
 #Download Size  : 12093.34 KiB
 #Installed Size : 17260.00 KiB
 xorg-fonts-75dpi
+xorg-fonts-alias-75dpi
 #Depends On     : xorg-fonts-encodings  xorg-fonts-alias  xorg-font-utils  fontconfig
 #Download Size  : 10605.88 KiB
 #Installed Size : 10972.00 KiB
-xorg-fonts-alias
+#xorg-fonts-alias
 #Depends On     : None
 #Download Size  :   4.16 KiB
 #Installed Size :  19.00 KiB
 xorg-fonts-cyrillic
+xorg-fonts-alias-cyrillic
 #Depends On     : xorg-fonts-encodings  xorg-fonts-alias  xorg-font-utils  fontconfig
 #Download Size  : 373.00 KiB
 #Installed Size : 583.00 KiB
@@ -150,6 +153,7 @@ xorg-fonts-encodings
 #Download Size  : 556.25 KiB
 #Installed Size : 796.00 KiB
 xorg-fonts-misc
+xorg-fonts-alias-misc
 #Depends On     : xorg-fonts-encodings  xorg-fonts-alias  xorg-font-utils  fontconfig
 #Download Size  : 5758.23 KiB
 #Installed Size : 8188.00 KiB
