@@ -16,7 +16,8 @@ balsa-gtk2
 checkgmail
 mailutils
 #thunderbird-gtk2
-seamonkey-gtk2
+seamonkey
+#seamonkey-gtk2
 spamassassin
 bogofilter
 clamav

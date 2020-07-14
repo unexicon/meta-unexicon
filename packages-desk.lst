@@ -1128,7 +1128,8 @@ dillo
 #Depends On      : gtk2  mozilla-common  libxt  startup-notification  mime-types  dbus-glib  alsa-lib  ffmpeg  libvpx  libevent  nss  hunspell  sqlite  ttf-font  icu
 #Download Size   : 69.83 MiB
 #Installed Size  : 223.44 MiB
-seamonkey-gtk2
+seamonkey
+#seamonkey-gtk2
 #Depends On      : alsa-lib  dbus-glib  desktop-file-utils  gtk2  hunspell  libevent  libnotify  libvpx  libxt  mime-types  mozilla-common  nss  sqlite  startup-notification  libpulse  icu  gconf
 #Download Size   : 43.48 MiB
 #Installed Size  : 118.79 MiB

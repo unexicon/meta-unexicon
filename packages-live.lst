@@ -341,7 +341,8 @@ ttf-liberation
 #Installed Size : 4020.00 KiB
 # load firefox after ttf-liberation elsewise noto-fonts (20MB) loads
 #firefox-esr-gtk2
-seamonkey-gtk2
+seamonkey
+#seamonkey-gtk2
 #ttf-linux-libertine
 #Depends On     : fontconfig  xorg-fonts-encodings  xorg-font-utils
 #Download Size  : 3625.05 KiB

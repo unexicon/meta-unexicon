@@ -24,7 +24,7 @@ pkgname=(
     'meta-unexicon-clus')
 pkgbase='meta-unexicon'
 pkgver=1.9
-pkgrel=12
+pkgrel=13
 pkgdesc="A collection of meta packages for the unexicon distribution"
 arch=('any')
 url="http://www.unexicon.com"
@@ -196,19 +196,19 @@ package_meta-unexicon-clus() {
 }
 
 md5sums=('d76b5d7192135001bd261fec983c9cdd'
-         'c4e9df913b955d4a1a0b35f527a54413'
+         '3d0953a4d536f39b7bcbfeadea47edb7'
          '02b8c01406acf4840ecc8fd603e52d45'
          '8def2fbb05b1bc14e736faddcaa6ecda'
          '2ff3cd9b9d7296b57896436e16f68023'
          '939b12752ece41de04c0b3288e3f55af'
-         '13e1a622a00f4b5ba647f200788e97d3'
+         'cde526130769abd308fa77c2ecb2c8cb'
          'e5919073865fc184e9d0fbe57f11d612'
          'b17a8d069ecc206adcfc56f38e6f72c7'
          '1d3264a4752df8703817bee9c5de8d38'
          'b791640abfc2418ac914dab3849c3f1d'
          '828b607f5a5a7713b00a61214ff74906'
          '2abbd21d630bf953182bb4ea434dc8e1'
-         '972a5d823c88c4863c1b9c335aea74c2'
+         '6625e6e9c5389767f6e2506f23aed512'
          'd275ada02a4fd3a4479359b85a7c2314'
          'd000feb334312565b285a40b2ae17a8c'
          'b4678c1aacbcd233ad802bcf07e117e2'
