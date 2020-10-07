@@ -194,7 +194,8 @@ xorg-grandr-git
 xorg-iceauth		# xorg-server-utils
 xorg-lbxproxy
 xorg-listres
-xorg-luit
+#xorg-luit
+luit
 xorg-oclock
 xorg-proxymngr
 xorg-rendercheck
