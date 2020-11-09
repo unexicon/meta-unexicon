@@ -24,6 +24,9 @@ gdb
 gendesk
 #git-bzr-kfish-git
 #git-bzr-ng
+github-cli
+hub
+cmark-gfm
 gjdoc
 glib2-docs
 gob2

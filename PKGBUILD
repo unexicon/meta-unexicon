@@ -24,7 +24,7 @@ pkgname=(
     'meta-unexicon-clus')
 pkgbase='meta-unexicon'
 pkgver=1.10
-pkgrel=1
+pkgrel=2
 pkgdesc="A collection of meta packages for the unexicon distribution"
 arch=('any')
 url="http://www.unexicon.com"
@@ -205,7 +205,7 @@ md5sums=('d76b5d7192135001bd261fec983c9cdd'
          'e5919073865fc184e9d0fbe57f11d612'
          'b17a8d069ecc206adcfc56f38e6f72c7'
          '1d3264a4752df8703817bee9c5de8d38'
-         'b791640abfc2418ac914dab3849c3f1d'
+         'f4a6f7bb10d1089ea2c4f4da23b2d99a'
          '828b607f5a5a7713b00a61214ff74906'
          '3f0c382687c73178bcb8ac47ed62f730'
          '6625e6e9c5389767f6e2506f23aed512'
