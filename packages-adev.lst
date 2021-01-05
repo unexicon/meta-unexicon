@@ -16,7 +16,7 @@ gnome-menus2
 granite
 hwinfo
 imap
-jdk10-openjdk
+jdk-openjdk
 intel-media-sdk
 libva-intel-driver
 libva-vdpau-driver
@@ -75,7 +75,7 @@ libsvgtiny
 classpath
 smem
 python-matplotlib	# optional for smem
-eclipse-jee
+#eclipse-jee
 eric
 bzrtools
 maven
@@ -86,3 +86,6 @@ perl-xls2csv
 ruby-docs
 scons
 ocaml-findlib
+code
+httpie
+curlie
