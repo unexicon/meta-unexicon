@@ -365,7 +365,8 @@ volume-app
 vsftpd
 which
 whois
-wireshark-gtk2
+wireshark-cli
+#wireshark-gtk2
 #wmacpi		# moved to meta-unexicon-note
 wmappl
 #wmbatteries	# moved to meta-unexicon-note
