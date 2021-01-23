@@ -1294,3 +1294,14 @@ xiccd
 claws-mail-themes
 xchat
 kinit
+
+# Video Convferencing and Voice Communications
+teams
+zoom
+skype
+toxcore
+qtox
+toxic
+
+# Desktop VPN
+pulse-secure

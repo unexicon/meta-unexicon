@@ -89,3 +89,6 @@ ocaml-findlib
 code
 httpie
 curlie
+code-oss
+openapi-generator
+yaml2json

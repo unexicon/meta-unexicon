@@ -21,10 +21,11 @@ pkgname=(
     'meta-unexicon-ides'
     'meta-unexicon-dcam'
     'meta-unexicon-adev'
-    'meta-unexicon-clus')
+    'meta-unexicon-clus'
+    'meta-unexicon-data')
 pkgbase='meta-unexicon'
 pkgver=1.10
-pkgrel=4
+pkgrel=5
 pkgdesc="A collection of meta packages for the unexicon distribution"
 arch=('any')
 url="http://www.unexicon.com"
@@ -48,7 +49,8 @@ depends=(`cat packages-inst.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-ides.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-dcam.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-adev.lst|sed -r 's,[[:space:]]*#.*,,'`
-         `cat packages-clus.lst|sed -r 's,[[:space:]]*#.*,,'`)
+         `cat packages-clus.lst|sed -r 's,[[:space:]]*#.*,,'`
+         `cat packages-data.lst|sed -r 's,[[:space:]]*#.*,,'`)
 depends=()
 source=(packages-inst.lst
         packages-live.lst
@@ -68,7 +70,8 @@ source=(packages-inst.lst
         packages-ides.lst
         packages-dcam.lst
         packages-adev.lst
-        packages-clus.lst)
+        packages-clus.lst
+        packages-data.lst)
 
 package_meta-unexicon() {
   pkgdesc="A meta package for unexicon (remove me)"
@@ -101,7 +104,7 @@ package_meta-unexicon-arch() {
 }
 
 package_meta-unexicon-xtra() {
-  pkgdesc="Packages that were to big for the live system"
+  pkgdesc="Packages that were too big for the live system"
   depends=('meta-unexicon' `cat packages-xtra.lst|sed -r 's,[[:space:]]*#.*,,'`)
   install -Dm644 packages-xtra.lst "$pkgdir/usr/share/unexicon/installed/meta-unexicon-xtra"
 }
@@ -195,13 +198,19 @@ package_meta-unexicon-clus() {
   install -Dm644 packages-clus.lst "$pkgdir/usr/share/unexicon/installed/meta-unexicon-clus"
 }
 
+package_meta-unexicon-data() {
+  pkgdesc="Packages for Data search and visualization."
+  depends=('meta-unexicon' `cat packages-data.lst|sed -r 's,[[:space:]]*#.*,,'`)
+  install -Dm644 packages-data.lst "$pkgdir/usr/share/unexicon/installed/meta-unexicon-data"
+}
+
 md5sums=('d76b5d7192135001bd261fec983c9cdd'
          '0d828f39c582a566e25efaebd24938cc'
          '02b8c01406acf4840ecc8fd603e52d45'
          '8def2fbb05b1bc14e736faddcaa6ecda'
-         '2ff3cd9b9d7296b57896436e16f68023'
+         '665f784d5e06aba38f63feb8eb9d8c3b'
          '25cc2d408b319e9fce6e57faae13b2b3'
-         'cde526130769abd308fa77c2ecb2c8cb'
+         'b4235120e68b7bf41cc63db660c0bd87'
          'e5919073865fc184e9d0fbe57f11d612'
          'b17a8d069ecc206adcfc56f38e6f72c7'
          '1d3264a4752df8703817bee9c5de8d38'
@@ -212,5 +221,6 @@ md5sums=('d76b5d7192135001bd261fec983c9cdd'
          'd275ada02a4fd3a4479359b85a7c2314'
          'd000feb334312565b285a40b2ae17a8c'
          'b4678c1aacbcd233ad802bcf07e117e2'
-         '3c3881178642ec1685070864d3b18c62'
-         '541860919ee5151ef6576bcfe2846fc5')
+         '10a3c0e4acb9a361135e455a439eedf5'
+         '541860919ee5151ef6576bcfe2846fc5'
+         'de0f113ed4011960a949c8923db8f03c')

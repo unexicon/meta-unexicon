@@ -49,6 +49,7 @@ nano		# another editor
 nmap		# massive, pulls in lua
 snort		# massive, 16M
 ettercap-gtk	# not so big
+wireshark-qt	# massive, pulls in QT
 
 ocserv		# pulls in guile
 
@@ -159,6 +160,7 @@ gsmartcontrol
 ipset
 pmount
 putty
+rclone
 
 xcolorsel
 

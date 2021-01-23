@@ -1,0 +1,17 @@
+elasticsearch
+kibana
+filebeat
+heartbeat-elastic
+journalbeat
+metricbeat
+packetbeat
+curator
+dovecot-fts-elastic
+python-elasticsearch
+python-elasticsearch-curator
+cerebro-elasticsearch
+fluent-bit
+graylog
+sentinl
+topbeat-bin
+sonic
