@@ -1298,7 +1298,7 @@ kinit
 # Video Convferencing and Voice Communications
 teams
 zoom
-skype
+#skype
 toxcore
 qtox
 toxic
