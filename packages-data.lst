@@ -13,5 +13,6 @@ cerebro-elasticsearch
 fluent-bit
 graylog
 sentinl
-topbeat-bin
+# conflicts with metricbeat
+#topbeat-bin
 sonic
