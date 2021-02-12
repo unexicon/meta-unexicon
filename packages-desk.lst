@@ -1124,20 +1124,18 @@ dillo
 #Depends On     : fltk  libjpeg  perl  openssl  libpng  gcc-libs  libxcursor  libxi  libxinerama
 #Download Size  : 317.37 KiB
 #Installed Size : 1161.00 KiB
-#firefox-esr-gtk2
-#Depends On      : gtk2  mozilla-common  libxt  startup-notification  mime-types  dbus-glib  alsa-lib  ffmpeg  libvpx  libevent  nss  hunspell  sqlite  ttf-font  icu
-#Download Size   : 69.83 MiB
-#Installed Size  : 223.44 MiB
+firefox
+#Depends On      : gtk3  libxt  mime-types  dbus-glib  ffmpeg  nss  ttf-font  libpulse
+#Download Size   : 59.63 MiB
+#Installed Size  : 214.55 MiB
 seamonkey
-#seamonkey-gtk2
-#Depends On      : alsa-lib  dbus-glib  desktop-file-utils  gtk2  hunspell  libevent  libnotify  libvpx  libxt  mime-types  mozilla-common  nss  sqlite  startup-notification  libpulse  icu  gconf
-#Download Size   : 43.48 MiB
-#Installed Size  : 118.79 MiB
+#Depends On      : dbus-glib  gtk3  hunspell  icu  libevent  libpulse  libvpx  libxt  mime-types  nss  sqlite  startup-notification
+#Download Size   : 37.60 MiB
+#Installed Size  : 135.63 MiB
 chromium
-#chromium-gtk2
-#Depends On      : gtk2  nss  alsa-lib  xdg-utils  libxss  libcups  libgcrypt  ttf-font  systemd  dbus  libpulse  pciutils  json-glib  desktop-file-utils  hicolor-icon-theme  flac  ffmpeg  fontconfig  icu  opus  minizip  libxml2  harfbuzz  libxslt  freetype2  re2  libwebp  libjpeg  snappy
-#Download Size   : 46.20 MiB
-#Installed Size  : 164.65 MiB
+#Depends On      : gtk3  nss  alsa-lib  xdg-utils  libxss  libcups  libgcrypt  ttf-liberation  systemd  dbus  libpulse  pciutils  desktop-file-utils  hicolor-icon-theme  fontconfig  libjpeg  icu  flac  snappy  libxml2  ffmpeg  libwebp  minizip  opus  harfbuzz  re2  libxslt  libpng  freetype2
+#Download Size   : 65.99 MiB
+#Installed Size  : 210.34 MiB
 pepper-flash
 #Depends On      : gcc-libs
 #Download Size   : 7.32 MiB
