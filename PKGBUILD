@@ -25,7 +25,7 @@ pkgname=(
     'meta-unexicon-data')
 pkgbase='meta-unexicon'
 pkgver=1.10
-pkgrel=8
+pkgrel=9
 pkgdesc="A collection of meta packages for the unexicon distribution"
 arch=('any')
 url="http://www.unexicon.com"
@@ -204,8 +204,8 @@ package_meta-unexicon-data() {
   install -Dm644 packages-data.lst "$pkgdir/usr/share/unexicon/installed/meta-unexicon-data"
 }
 
-md5sums=('d76b5d7192135001bd261fec983c9cdd'
-         '0d828f39c582a566e25efaebd24938cc'
+md5sums=('a85e8851773826ca053e924af4466ea7'
+         '353c1c4a39f4916c83e8a6eaa222c5a7'
          '02b8c01406acf4840ecc8fd603e52d45'
          '8def2fbb05b1bc14e736faddcaa6ecda'
          '665f784d5e06aba38f63feb8eb9d8c3b'
@@ -216,7 +216,7 @@ md5sums=('d76b5d7192135001bd261fec983c9cdd'
          '1d3264a4752df8703817bee9c5de8d38'
          'f4a6f7bb10d1089ea2c4f4da23b2d99a'
          '828b607f5a5a7713b00a61214ff74906'
-         '3f0c382687c73178bcb8ac47ed62f730'
+         'd1f19a12dab0ddaf6799c9094a889655'
          '6625e6e9c5389767f6e2506f23aed512'
          'd275ada02a4fd3a4479359b85a7c2314'
          'd000feb334312565b285a40b2ae17a8c'

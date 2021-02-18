@@ -30,8 +30,10 @@ linux-lts-headers
 #virtualbox-host-modules-arch
 #virtualbox-guest-dkms
 #virtualbox-host-dkms
-VIRTUALBOX-GUEST-MODULES-LTS
-VIRTUALBOX-HOST-MODULES-LTS
+#VIRTUALBOX-GUEST-MODULES-LTS
+#VIRTUALBOX-HOST-MODULES-LTS
+VIRTUALBOX-GUEST-MODULES
+VIRTUALBOX-HOST-MODULES
 
 remotebox
 # optional depedencies for remotebox

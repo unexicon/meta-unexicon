@@ -173,9 +173,9 @@ memtest86+
 #menutray
 mime-archpkg
 minicom
-mkinitcpio-kms
-mkinitcpio-lvm2c
-mkinitcpio-nfs-utils
+#mkinitcpio-kms
+#mkinitcpio-lvm2c
+#mkinitcpio-nfs-utils
 mlocate
 mrouted
 msmtp-mta
