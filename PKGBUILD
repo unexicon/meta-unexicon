@@ -25,7 +25,7 @@ pkgname=(
     'meta-unexicon-data')
 pkgbase='meta-unexicon'
 pkgver=1.10
-pkgrel=9
+pkgrel=10
 pkgdesc="A collection of meta packages for the unexicon distribution"
 arch=('any')
 url="http://www.unexicon.com"
@@ -221,6 +221,6 @@ md5sums=('a85e8851773826ca053e924af4466ea7'
          'd275ada02a4fd3a4479359b85a7c2314'
          'd000feb334312565b285a40b2ae17a8c'
          'b4678c1aacbcd233ad802bcf07e117e2'
-         '840337d654dd0cb6d882295bc97b05ae'
+         '14953118bc271bf15c5eb2e63b4a7257'
          '541860919ee5151ef6576bcfe2846fc5'
          'a50c3aa32e69fc1c467ff920a23b57f7')
