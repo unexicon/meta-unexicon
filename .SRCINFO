@@ -1,7 +1,7 @@
 pkgbase = meta-unexicon
 	pkgdesc = A collection of meta packages for the unexicon distribution
 	pkgver = 1.10
-	pkgrel = 10
+	pkgrel = 11
 	url = http://www.unexicon.com
 	arch = any
 	groups = unexicon
@@ -45,7 +45,7 @@ pkgbase = meta-unexicon
 	md5sums = b4678c1aacbcd233ad802bcf07e117e2
 	md5sums = 14953118bc271bf15c5eb2e63b4a7257
 	md5sums = 541860919ee5151ef6576bcfe2846fc5
-	md5sums = a50c3aa32e69fc1c467ff920a23b57f7
+	md5sums = 8f67ce3bdfc410d7a1804b9368a89775
 
 pkgname = meta-unexicon
 	pkgdesc = A meta package for unexicon (remove me)
@@ -2148,4 +2148,12 @@ pkgname = meta-unexicon-data
 	depends = graylog
 	depends = sentinl
 	depends = sonic
+	depends = grafana
+	depends = loki
+	depends = logcli
+	depends = promtail
+	depends = prometheus
+	depends = prometheus-blackbox-exporter
+	depends = prometheus-node-exporter
+	depends = prometheus-bird-exporter
 

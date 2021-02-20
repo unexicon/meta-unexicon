@@ -1,3 +1,4 @@
+# Elasticsearch
 elasticsearch
 kibana
 filebeat
@@ -16,3 +17,15 @@ sentinl
 # conflicts with metricbeat
 #topbeat-bin
 sonic
+
+# Prometheus
+grafana
+loki
+logcli
+promtail
+prometheus
+prometheus-blackbox-exporter
+#prometheus-memcached-exporter
+#prometheus-mysqld-exporter
+prometheus-node-exporter
+prometheus-bird-exporter
