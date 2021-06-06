@@ -1209,7 +1209,6 @@ gst-plugins-ugly
 gstreamer0.10-ffmpeg
 gstreamer0.10-good
 libcanberra
-libcanberra-gstreamer
 
 # Music players
 #
