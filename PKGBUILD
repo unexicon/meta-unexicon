@@ -23,9 +23,10 @@ pkgname=(
     'meta-unexicon-adev'
     'meta-unexicon-clus'
     'meta-unexicon-data'
-    'meta-unexicon-audi')
+    'meta-unexicon-audi'
+    'meta-unexicon-kern')
 pkgbase='meta-unexicon'
-pkgver=1.11
+pkgver=1.12
 pkgrel=1
 pkgdesc="A collection of meta packages for the unexicon distribution"
 arch=('any')
@@ -52,7 +53,8 @@ depends=(`cat packages-inst.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-adev.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-clus.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-data.lst|sed -r 's,[[:space:]]*#.*,,'`
-         `cat packages-audi.lst|sed -r 's,[[:space:]]*#.*,,'`)
+         `cat packages-audi.lst|sed -r 's,[[:space:]]*#.*,,'`
+         `cat packages-kern.lst|sed -r 's,[[:space:]]*#.*,,'`)
 depends=()
 source=(packages-inst.lst
         packages-live.lst
@@ -74,7 +76,8 @@ source=(packages-inst.lst
         packages-adev.lst
         packages-clus.lst
         packages-data.lst
-        packages-audi.lst)
+        packages-audi.lst
+        packages-kern.lst)
 
 package_meta-unexicon() {
   pkgdesc="A meta package for unexicon (remove me)"
@@ -213,6 +216,12 @@ package_meta-unexicon-audi() {
   install -Dm644 packages-audi.lst "$pkgdir/usr/share/unexicon/installed/meta-unexicon-audi"
 }
 
+package_meta-unexicon-kern() {
+  pkgdesc="Packages for Kernel Development."
+  depends=('meta-unexicon' `cat packages-kern.lst|sed -r 's,[[:space:]]*#.*,,'`)
+  install -Dm644 packages-kern.lst "$pkgdir/usr/share/unexicon/installed/meta-unexicon-kern"
+}
+
 md5sums=('8c64fcb5ed134cb67f83063429d7fe47'
          '6a0f601e18f40804dbbd7abe5bfca526'
          '02b8c01406acf4840ecc8fd603e52d45'
@@ -227,10 +236,11 @@ md5sums=('8c64fcb5ed134cb67f83063429d7fe47'
          '828b607f5a5a7713b00a61214ff74906'
          'b3abb520a24c02a14906b7954cc8140c'
          '5dbffee2767fc7677d8cd46ad85ce877'
-         '2a1be4c76854fc64c7522b7041e5bb31'
+         'f713b76059cd8166a61e62ffe9ce7f3f'
          'd000feb334312565b285a40b2ae17a8c'
          'b4678c1aacbcd233ad802bcf07e117e2'
-         '9782734633602bbe6006360eb9e803db'
+         '22c8da5dfbd5317ab16181d46a55030c'
          '6140680e9e98f9a00b96a24096a9b8d5'
          '6662268a04df351c6b5a56b9019d22bf'
-         '10ff295aec8431637f5b7c48673f1e09')
+         '10ff295aec8431637f5b7c48673f1e09'
+         'bdfe5bd3c9ef29bfae258cac93d6e96d')

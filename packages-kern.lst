@@ -1,0 +1,14 @@
+# Additional kernels (mostly for OpenSS7)
+#
+#linux-lts316
+#linux-lts316-headers
+linux-lts44
+linux-lts44-headers
+linux-lts49
+linux-lts49-headers
+linux-lts414
+linux-lts414-headers
+linux-lts419
+linux-lts419-headers
+#linux-lts54
+#linux-lts54-headers
