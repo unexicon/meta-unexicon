@@ -631,6 +631,11 @@ xss-lock
 # Liberation fonts almost exclusively with the exception of
 # the basic Adobe font set.
 #
+acroread-fonts-systemwide
+adobe-base-14-fonts
+adobe-source-sans-fonts
+adobe-source-serif-fonts
+#
 bdf-unifont
 #Depends On     : fontconfig  xorg-fonts-encodings  xorg-font-utils
 #Download Size  : 800.85 KiB

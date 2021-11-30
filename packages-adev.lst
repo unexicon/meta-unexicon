@@ -45,8 +45,6 @@ mksh
 nasm
 ncompress
 ntop
-openafs
-openafs-modules
 optipng
 pacana
 pax-utils
@@ -56,7 +54,6 @@ pkgbuild-introspection
 podofo
 spampd
 unarchiver
-unison
 wmidump-git
 enchant1.6
 fontforge

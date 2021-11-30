@@ -1,0 +1,8 @@
+# Audio packages
+pro-audio
+lv2-plugins
+
+flite
+flite-voices
+
+espeak

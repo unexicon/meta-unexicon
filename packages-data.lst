@@ -1,6 +1,6 @@
 # Elasticsearch
-elasticsearch
-kibana
+elasticsearch-xpack
+kibana-xpack
 filebeat
 heartbeat-elastic
 journalbeat
@@ -29,3 +29,10 @@ prometheus-blackbox-exporter
 #prometheus-mysqld-exporter
 prometheus-node-exporter
 prometheus-bird-exporter
+
+# database tools
+dbeaver
+dbeaver-plugin-sshj
+dbeaver-plugin-office
+dbeaver-plugin-svg-format
+

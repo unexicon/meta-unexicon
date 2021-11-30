@@ -14,3 +14,8 @@ bird
 coda
 ntop
 httping
+# clustered file systems
+glusterfs
+openafs
+openafs-modules-dkms
+unison

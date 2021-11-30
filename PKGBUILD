@@ -22,10 +22,11 @@ pkgname=(
     'meta-unexicon-dcam'
     'meta-unexicon-adev'
     'meta-unexicon-clus'
-    'meta-unexicon-data')
+    'meta-unexicon-data'
+    'meta-unexicon-audi')
 pkgbase='meta-unexicon'
-pkgver=1.10
-pkgrel=16
+pkgver=1.11
+pkgrel=1
 pkgdesc="A collection of meta packages for the unexicon distribution"
 arch=('any')
 url="http://www.unexicon.com"
@@ -50,7 +51,8 @@ depends=(`cat packages-inst.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-dcam.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-adev.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-clus.lst|sed -r 's,[[:space:]]*#.*,,'`
-         `cat packages-data.lst|sed -r 's,[[:space:]]*#.*,,'`)
+         `cat packages-data.lst|sed -r 's,[[:space:]]*#.*,,'`
+         `cat packages-audi.lst|sed -r 's,[[:space:]]*#.*,,'`)
 depends=()
 source=(packages-inst.lst
         packages-live.lst
@@ -71,7 +73,8 @@ source=(packages-inst.lst
         packages-dcam.lst
         packages-adev.lst
         packages-clus.lst
-        packages-data.lst)
+        packages-data.lst
+        packages-audi.lst)
 
 package_meta-unexicon() {
   pkgdesc="A meta package for unexicon (remove me)"
@@ -204,13 +207,19 @@ package_meta-unexicon-data() {
   install -Dm644 packages-data.lst "$pkgdir/usr/share/unexicon/installed/meta-unexicon-data"
 }
 
+package_meta-unexicon-audi() {
+  pkgdesc="Packages for Audio Development."
+  depends=('meta-unexicon' `cat packages-audi.lst|sed -r 's,[[:space:]]*#.*,,'`)
+  install -Dm644 packages-audi.lst "$pkgdir/usr/share/unexicon/installed/meta-unexicon-audi"
+}
+
 md5sums=('8c64fcb5ed134cb67f83063429d7fe47'
          '6a0f601e18f40804dbbd7abe5bfca526'
          '02b8c01406acf4840ecc8fd603e52d45'
          '8def2fbb05b1bc14e736faddcaa6ecda'
          '665f784d5e06aba38f63feb8eb9d8c3b'
-         '25cc2d408b319e9fce6e57faae13b2b3'
-         '2b65133c03d990cab790d57aee851e56'
+         '843dbb9698c3749a6b1d1d6802200964'
+         '8f00699af95f892c17a868d3a72a4a8a'
          'e5919073865fc184e9d0fbe57f11d612'
          'b17a8d069ecc206adcfc56f38e6f72c7'
          '1d3264a4752df8703817bee9c5de8d38'
@@ -221,6 +230,7 @@ md5sums=('8c64fcb5ed134cb67f83063429d7fe47'
          '2a1be4c76854fc64c7522b7041e5bb31'
          'd000feb334312565b285a40b2ae17a8c'
          'b4678c1aacbcd233ad802bcf07e117e2'
-         '14953118bc271bf15c5eb2e63b4a7257'
-         '541860919ee5151ef6576bcfe2846fc5'
-         '8f67ce3bdfc410d7a1804b9368a89775')
+         '9782734633602bbe6006360eb9e803db'
+         '6140680e9e98f9a00b96a24096a9b8d5'
+         '6662268a04df351c6b5a56b9019d22bf'
+         '10ff295aec8431637f5b7c48673f1e09')
