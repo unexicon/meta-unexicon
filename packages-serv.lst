@@ -7,3 +7,6 @@ dhcp-helper
 dhcping
 ypserv
 autofs
+apache
+imap
+dovecot

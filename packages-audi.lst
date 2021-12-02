@@ -3,6 +3,7 @@
 #lv2-plugins
 
 snd
+vorbis-tools
 sweep
 
 rnnoise

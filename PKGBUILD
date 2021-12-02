@@ -29,7 +29,7 @@ pkgname=(
     'meta-unexicon-mesg')
 pkgbase='meta-unexicon'
 pkgver=1.14
-pkgrel=4
+pkgrel=5
 pkgdesc="A collection of meta packages for the unexicon distribution"
 arch=('any')
 url="http://www.unexicon.com"
@@ -257,10 +257,10 @@ md5sums=('9bc5a3a83d0f1f00bf331b1eb018e51e'
          'f1cf3d15258e8936a79aecfa6232f799'
          'd000feb334312565b285a40b2ae17a8c'
          'b4678c1aacbcd233ad802bcf07e117e2'
-         '9f99100a95366ac46a4f945fe2d7814b'
+         'c6f938d3fb6229bc78282fda2fe41557'
          '49254abf565e91bbc0239606775cc9bf'
          '05c1cae2cdbd2e65351495e3fb78dea2'
-         'b8e096091d103072e61f883b77c434af'
+         'd1468a42de263426828ee849aff22d9c'
          'bdfe5bd3c9ef29bfae258cac93d6e96d'
-         '86a01e1ceeca278d5b81c201235468d6'
+         '9ec4acba2489eac87236a47b44a8a5e2'
          'e526a595bf7b9bf099386c4c15940565')
