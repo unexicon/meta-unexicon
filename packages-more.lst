@@ -108,11 +108,12 @@ openshot
 shotcut
 pulseaudio
 pulseaudio-alsa
-pulseaudio-bluetooth
-pulseaudio-equalizer
-pulseaudio-equalizer-ladspa
-pulseaudio-jack
-pulseaudio-rtp
+# one of these is breaking audio
+#pulseaudio-bluetooth
+#pulseaudio-equalizer
+#pulseaudio-equalizer-ladspa
+#pulseaudio-jack
+#pulseaudio-rtp
 pulsemixer
 youtube-dl
 # lash - no longer in community (sun rpc)
