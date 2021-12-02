@@ -256,6 +256,8 @@ larswm-git
 #Download Size  :  55.70 KiB
 #Installed Size : 188.00 KiB
 
+ratpoison
+
 #lxde
 gpicview
 #Depends On     : gtk2  desktop-file-utils  xdg-utils

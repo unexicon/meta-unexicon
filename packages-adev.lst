@@ -35,6 +35,7 @@ ncompress
 ntop
 optipng
 pacana
+pacman-utils
 pax-utils
 phonon-qt4-gstreamer
 phonon-qt4-vlc
@@ -82,3 +83,6 @@ docbook-to-man
 lemon
 libnetconf2
 sysrepo
+rcs-fast-export-git
+rcs-fast-import
+sipgrep

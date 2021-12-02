@@ -25,9 +25,10 @@ pkgname=(
     'meta-unexicon-data'
     'meta-unexicon-audi'
     'meta-unexicon-kern'
-    'meta-unexicon-serv')
+    'meta-unexicon-serv'
+    'meta-unexicon-mesg')
 pkgbase='meta-unexicon'
-pkgver=1.13
+pkgver=1.14
 pkgrel=1
 pkgdesc="A collection of meta packages for the unexicon distribution"
 arch=('any')
@@ -56,7 +57,8 @@ depends=(`cat packages-inst.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-data.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-audi.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-kern.lst|sed -r 's,[[:space:]]*#.*,,'`
-         `cat packages-serv.lst|sed -r 's,[[:space:]]*#.*,,'`)
+         `cat packages-serv.lst|sed -r 's,[[:space:]]*#.*,,'`
+         `cat packages-mesg.lst|sed -r 's,[[:space:]]*#.*,,'`)
 depends=()
 source=(packages-inst.lst
         packages-live.lst
@@ -80,7 +82,8 @@ source=(packages-inst.lst
         packages-data.lst
         packages-audi.lst
         packages-kern.lst
-        packages-serv.lst)
+        packages-serv.lst
+        packages-mesg.lst)
 
 package_meta-unexicon() {
   pkgdesc="A meta package for unexicon (remove me)"
@@ -231,26 +234,33 @@ package_meta-unexicon-serv() {
   install -Dm644 packages-serv.lst "$pkgdir/usr/share/unexicon/installed/meta-unexicon-serv"
 }
 
+package_meta-unexicon-mesg() {
+  pkgdesc="Packages for Messaging Applications."
+  depends=('meta-unexicon' `cat packages-mesg.lst|sed -r 's,[[:space:]]*#.*,,'`)
+  install -Dm644 packages-mesg.lst "$pkgdir/usr/share/unexicon/installed/meta-unexicon-mesg"
+}
+
 md5sums=('9bc5a3a83d0f1f00bf331b1eb018e51e'
-         '0703f1b94f1d170e5f31b3a3da756158'
+         'ce3b9fe2df65fb034898dd25cc49f6f7'
          '02b8c01406acf4840ecc8fd603e52d45'
-         '1d16b3d17911da1596c10aec13b94259'
+         'cd773b2e56c4f37e98f1596a70fcd2f5'
          '665f784d5e06aba38f63feb8eb9d8c3b'
          '843dbb9698c3749a6b1d1d6802200964'
-         'febbfcce2ad103eadfaae4e3a9d86037'
+         '2854fd31950f0c9968a29661c3d17de1'
          'e5919073865fc184e9d0fbe57f11d612'
          'b17a8d069ecc206adcfc56f38e6f72c7'
-         '1d3264a4752df8703817bee9c5de8d38'
+         '79c4c2e70a3b95097545fc66c24c995e'
          'f4a6f7bb10d1089ea2c4f4da23b2d99a'
          '828b607f5a5a7713b00a61214ff74906'
          'b3abb520a24c02a14906b7954cc8140c'
-         'bfbfcefc3bef444050d3c66a13f84bd3'
+         '180236790096365a5eb96cedae13df19'
          'f1cf3d15258e8936a79aecfa6232f799'
          'd000feb334312565b285a40b2ae17a8c'
          'b4678c1aacbcd233ad802bcf07e117e2'
-         'b30d284e2b83cfbd10b598ae4c86d3c2'
+         '9f99100a95366ac46a4f945fe2d7814b'
          '49254abf565e91bbc0239606775cc9bf'
          '89b15080b7d4304608929d05963dfca9'
-         'ba42fc8ade6c1af627ad3a08d1560aba'
+         '5d7a751f7c56a735119d0b2cadd258c2'
          'bdfe5bd3c9ef29bfae258cac93d6e96d'
-         '86a01e1ceeca278d5b81c201235468d6')
+         '86a01e1ceeca278d5b81c201235468d6'
+         '8f967c6f0336cbfa27c9d9b9e62e5119')
