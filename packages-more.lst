@@ -108,12 +108,11 @@ openshot
 shotcut
 pulseaudio
 pulseaudio-alsa
-# one of these is breaking audio
-#pulseaudio-bluetooth
-#pulseaudio-equalizer
-#pulseaudio-equalizer-ladspa
-#pulseaudio-jack
-#pulseaudio-rtp
+pulseaudio-bluetooth
+pulseaudio-equalizer
+pulseaudio-equalizer-ladspa
+pulseaudio-jack
+pulseaudio-rtp
 pulsemixer
 youtube-dl
 # lash - no longer in community (sun rpc)
@@ -200,7 +199,8 @@ pasystray-gtk2
 
 ssvnc-nojava
 xrdp
-pulseaudio-module-xrdp
+# one of these is breaking audio
+#pulseaudio-module-xrdp
 
 # backup
 deja-dup
