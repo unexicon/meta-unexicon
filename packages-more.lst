@@ -191,6 +191,7 @@ pasystray-gtk2
 
 ssvnc-nojava
 xrdp
+pulseaudio-module-xrdp
 
 # backup
 deja-dup

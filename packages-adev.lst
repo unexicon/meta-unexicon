@@ -78,3 +78,7 @@ httpie
 curlie
 openapi-generator
 yaml2json
+docbook-to-man
+lemon
+libnetconf2
+sysrepo

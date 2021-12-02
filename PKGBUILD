@@ -27,7 +27,7 @@ pkgname=(
     'meta-unexicon-kern')
 pkgbase='meta-unexicon'
 pkgver=1.12
-pkgrel=1
+pkgrel=3
 pkgdesc="A collection of meta packages for the unexicon distribution"
 arch=('any')
 url="http://www.unexicon.com"
@@ -222,25 +222,25 @@ package_meta-unexicon-kern() {
   install -Dm644 packages-kern.lst "$pkgdir/usr/share/unexicon/installed/meta-unexicon-kern"
 }
 
-md5sums=('8c64fcb5ed134cb67f83063429d7fe47'
-         '6a0f601e18f40804dbbd7abe5bfca526'
+md5sums=('9bc5a3a83d0f1f00bf331b1eb018e51e'
+         '9343d5a692e1fdd5f339e4dcfd603360'
          '02b8c01406acf4840ecc8fd603e52d45'
          '8def2fbb05b1bc14e736faddcaa6ecda'
          '665f784d5e06aba38f63feb8eb9d8c3b'
          '843dbb9698c3749a6b1d1d6802200964'
-         '8f00699af95f892c17a868d3a72a4a8a'
+         'febbfcce2ad103eadfaae4e3a9d86037'
          'e5919073865fc184e9d0fbe57f11d612'
          'b17a8d069ecc206adcfc56f38e6f72c7'
          '1d3264a4752df8703817bee9c5de8d38'
          'f4a6f7bb10d1089ea2c4f4da23b2d99a'
          '828b607f5a5a7713b00a61214ff74906'
          'b3abb520a24c02a14906b7954cc8140c'
-         '5dbffee2767fc7677d8cd46ad85ce877'
-         'f713b76059cd8166a61e62ffe9ce7f3f'
+         'bfbfcefc3bef444050d3c66a13f84bd3'
+         'f1cf3d15258e8936a79aecfa6232f799'
          'd000feb334312565b285a40b2ae17a8c'
          'b4678c1aacbcd233ad802bcf07e117e2'
-         '22c8da5dfbd5317ab16181d46a55030c'
-         '6140680e9e98f9a00b96a24096a9b8d5'
-         '6662268a04df351c6b5a56b9019d22bf'
-         '10ff295aec8431637f5b7c48673f1e09'
+         'd89f1506da96b4229f818b0fffc06837'
+         'db54a82e3e6673b0a09e77a0f1586166'
+         '28bb55a89404b1d002f08ac424fc961b'
+         'aa8b890ac25de4c6a58a50e7957d54ba'
          'bdfe5bd3c9ef29bfae258cac93d6e96d')

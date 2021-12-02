@@ -17,5 +17,7 @@ httping
 # clustered file systems
 glusterfs
 openafs
-openafs-modules-dkms
+openafs-modules
+openafs-modules-lts
+#openafs-modules-dkms
 unison

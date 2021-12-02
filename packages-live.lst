@@ -54,6 +54,7 @@ bsdiff
 bubblemon-dockapp
 bvi
 bviplus
+cabextract
 calcoo
 #Depends On     : cairo  gtk2
 #Download Size  :  29.54 KiB
@@ -69,6 +70,7 @@ cryptsetup
 cwm
 darkhttpd
 darkstat
+dash
 dbm
 ddrescue
 #dhcpcd-hook-openvpn
@@ -360,6 +362,7 @@ vbindiff
 vi
 vim-fluxkeys
 vim-systemd
+yang-vim
 vlan
 vnstat
 volume-app

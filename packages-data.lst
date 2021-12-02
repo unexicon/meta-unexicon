@@ -17,6 +17,7 @@ sentinl
 # conflicts with metricbeat
 #topbeat-bin
 sonic
+elasticdump
 
 # Prometheus
 grafana
@@ -36,3 +37,5 @@ dbeaver-plugin-sshj
 dbeaver-plugin-office
 dbeaver-plugin-svg-format
 
+# postman
+postman-bin

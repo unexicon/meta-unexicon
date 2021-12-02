@@ -10,12 +10,14 @@ powertop
 tlp
 acpi_call	 # ThinkPad battery functions, Sandy Bridge and newer
 acpi_call-lts	 # ThinkPad battery functions, Sandy Bridge and newer (allow acpi_call-dkms)
+#acpi_call-dkms
 bash-completion  # Bash completion
 ethtool		 # Disable Wake On Lan
 lsb-release	 # Display LSB release version in tlp-stat
 smartmontools	 # Display S.M.A.R.T. data in tlp-stat
 tp_smapi	 # ThinkPad battery functions
 tp_smapi-lts	 # ThinkPad battery functions
+#tp_smapi-dkms
 tpacpi-bat
 x86_energy_perf_policy	# Set energy versus performance policy on x86 processors
 upower
