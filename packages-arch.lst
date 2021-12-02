@@ -22,6 +22,7 @@ gptfdisk
 grml-zsh-config
 # grub		    # we use older grub-*-2.00
 hdparm
+inetutils
 ipw2100-fw
 ipw2200-fw
 irssi

@@ -132,6 +132,7 @@ icewm2
 ifenslave
 ifplugd
 iftop
+inetutils
 igmpproxy
 inotify-tools
 inxi

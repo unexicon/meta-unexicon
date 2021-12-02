@@ -1,0 +1,9 @@
+# packages for OpenSS7 servers
+#
+sendmail
+dhcp
+ntp
+dhcp-helper
+dhcping
+ypserv
+autofs

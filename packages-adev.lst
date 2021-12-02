@@ -62,7 +62,7 @@ libsvgtiny
 classpath
 smem
 python-matplotlib	# optional for smem
-#eclipse-jee
+eclipse-jee
 eric
 bzrtools
 maven

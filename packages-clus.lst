@@ -21,3 +21,6 @@ openafs-modules
 openafs-modules-lts
 #openafs-modules-dkms
 unison
+ceph
+ceph-libs
+ceph-mgr

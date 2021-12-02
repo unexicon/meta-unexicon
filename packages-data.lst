@@ -1,6 +1,10 @@
 # Elasticsearch
-elasticsearch-xpack
-kibana-xpack
+elasticsearch
+#elasticsearch-xpack
+kibana
+#kibana-xpack
+logstash
+#logstash-xpack
 filebeat
 heartbeat-elastic
 journalbeat
@@ -36,6 +40,7 @@ dbeaver
 dbeaver-plugin-sshj
 dbeaver-plugin-office
 dbeaver-plugin-svg-format
+dbf
 
 # postman
 postman-bin
