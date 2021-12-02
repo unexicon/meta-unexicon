@@ -1,7 +1,9 @@
 gimp
 krita
 xpaint
-# mypaint   # conflicts with gimp at the moment
+mypaint
+mypaint-brushes
+mypaint-brushes1
 gimp-help-en
 gimp-plugin-fblur
 gimp-plugin-gmic

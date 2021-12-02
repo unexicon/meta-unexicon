@@ -3,6 +3,9 @@
 #lv2-plugins
 
 snd
+sweep
+
+rnnoise
 
 ubuntu-sounds
 linux-a11y-sound-theme

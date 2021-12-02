@@ -99,6 +99,7 @@ jack-rack
 paprefs
 paman
 pavucontrol-gtk2
+pamixer
 # kdenlive works better with these
 movit
 frei0r-plugins
@@ -107,6 +108,12 @@ openshot
 shotcut
 pulseaudio
 pulseaudio-alsa
+pulseaudio-bluetooth
+pulseaudio-equalizer
+pulseaudio-equalizer-ladspa
+pulseaudio-jack
+pulseaudio-rtp
+pulsemixer
 youtube-dl
 # lash - no longer in community (sun rpc)
 pavumeter
