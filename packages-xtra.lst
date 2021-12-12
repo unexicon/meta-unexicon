@@ -5,7 +5,7 @@ feh		# nice lightweight image viewer
 fontviewer	# tcl/tk font viewer
 gfontview	# a good font viewer
 mount-gtk2	# simple but pulls in udisks2
-geeqie		# image viewer
+geeqie-gtk2	# image viewer
 gqview		# image viewer
 xv		# image viewer
 icewm-themes
