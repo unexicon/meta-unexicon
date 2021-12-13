@@ -1,13 +1,15 @@
+amd-ucode
 btrfs-progs
 clonezilla
 dhclient
 dialog
 dmraid
+edk2-shell
 elinks
 f2fs-tools
 grml-zsh-config
-grub-common
 grub-bios
+grub-common
 # grub-efi-i386
 grub-efi-x86_64
 intel-ucode
@@ -24,6 +26,7 @@ partimage
 rtorrent
 speedtouch
 usb_modeswitch
+vbetool
 wvdial
 zsh
 

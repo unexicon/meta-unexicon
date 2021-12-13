@@ -1263,10 +1263,11 @@ libreoffice-still
 #Download Size  : 247.64 KiB
 #Installed Size : 1036.00 KiB
 
-# Video players
+# Video players and capture
 totem
 grilo-plugins
 mpv
+xvidcap
 
 # Document processing
 dblatex

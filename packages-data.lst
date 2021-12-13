@@ -45,3 +45,11 @@ dbf
 # postman
 postman-bin
 grpcui-bin
+
+# some csv tools
+csv2xls
+libcsv
+perl-text-csv
+perl-text-csv-xs
+perl-xls2csv
+perl-berkeleydb
