@@ -3,6 +3,7 @@ archiso
 asp
 autoconf-archive
 aws-cli
+aws-scripts
 bird
 chrpath
 cloc
@@ -16,6 +17,7 @@ gnome-menus2
 granite
 hwinfo
 imap
+intel-gpu-tools
 jdk-openjdk
 intel-media-sdk
 libva-intel-driver

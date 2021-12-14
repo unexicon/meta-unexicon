@@ -29,7 +29,7 @@ pkgname=(
     'meta-unexicon-mesg')
 pkgbase='meta-unexicon'
 pkgver=1.14
-pkgrel=8
+pkgrel=9
 pkgdesc="A collection of meta packages for the unexicon distribution"
 arch=('any')
 url="http://www.unexicon.com"
@@ -246,19 +246,19 @@ md5sums=('9bc5a3a83d0f1f00bf331b1eb018e51e'
          'cd773b2e56c4f37e98f1596a70fcd2f5'
          '06732463c8dd65744a2f3d911de8606e'
          '843dbb9698c3749a6b1d1d6802200964'
-         '48729f0930dd3cea010b997b4703b620'
+         '77ca25c3b0bcadef86ed52735dfd8c82'
          '717e734ff16aff9a015d4269ed875b00'
          'b17a8d069ecc206adcfc56f38e6f72c7'
          '29d5990fb7e2437aba26ef3405143c60'
-         'f4a6f7bb10d1089ea2c4f4da23b2d99a'
+         'a8f309f924727faefea814b7cdaee982'
          '828b607f5a5a7713b00a61214ff74906'
          'b3abb520a24c02a14906b7954cc8140c'
-         '765f135c094070b3e3c0dcad7a8ad931'
+         '255a0068f7c73799722d11cecd430cd7'
          'f1cf3d15258e8936a79aecfa6232f799'
          'd000feb334312565b285a40b2ae17a8c'
          'b4678c1aacbcd233ad802bcf07e117e2'
-         '79e132ef5cacea250610ce3b6a680893'
-         '49254abf565e91bbc0239606775cc9bf'
+         'ab0b0964491eaa641da8fcebd809a334'
+         'a52216848da830e52ab6977e2ef755e9'
          '63b23bbd57367aa8d5782bfd61e7af44'
          'd1468a42de263426828ee849aff22d9c'
          'bdfe5bd3c9ef29bfae258cac93d6e96d'

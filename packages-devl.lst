@@ -125,3 +125,15 @@ perl-xml-descent
 perl-xml-tokeparser
 perl-xs-object-magic
 perl-yaml-tiny
+#
+# Some jekyll stuff for gh-pages development
+#
+jekyll
+ruby-jekyll-feed
+ruby-jekyll-gist
+ruby-jekyll-paginate
+ruby-jekyll-sass-converter
+ruby-jekyll-seo-tag
+ruby-jekyll-theme-minimal
+ruby-jekyll-watch
+ruby-minima

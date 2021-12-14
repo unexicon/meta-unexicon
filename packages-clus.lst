@@ -6,6 +6,7 @@ nextcloud
 nextcloud-app-deck
 ec2-metadata
 aws-cli
+aws-scripts
 fence-agents
 resource-agents
 gdnsd

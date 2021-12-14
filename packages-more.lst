@@ -215,3 +215,14 @@ systemd-ui-git
 yaourt-gui
 cpupower
 hal
+# linux-tools group
+bootconfig
+bpf
+cgroup_event_listener
+cpupower
+hyperv
+perf
+tmon
+turbostat
+usbip
+x86_energy_perf_policy

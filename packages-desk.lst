@@ -560,6 +560,8 @@ gtk-engines
 #Download Size  : 217.46 KiB
 #Installed Size : 1320.00 KiB
 gnome-themes-standard
+# I think gdk-pixbuf needs this to render svg icons
+libsvg-cairo
 
 # XDE Themes
 #
@@ -1032,6 +1034,8 @@ rdesktop
 #Installed Size : 398.00 KiB
 x2goclient
 nxagent
+tsclient2
+vinagre
 
 # Additional terminals
 #
