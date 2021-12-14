@@ -23,7 +23,8 @@ deepin-sound-theme
 flite
 flite-voices
 
-espeak
+# espeak (replaced by espeak-ng and espeak-ng-espeak)
+espeak-ng-espeak
 espeak-ng
 gst-plugins-espeak
 

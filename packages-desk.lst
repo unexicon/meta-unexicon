@@ -562,6 +562,8 @@ gtk-engines
 gnome-themes-standard
 # I think gdk-pixbuf needs this to render svg icons
 libsvg-cairo
+# pango needs this to render X system fonts
+pangox-compat
 
 # XDE Themes
 #
