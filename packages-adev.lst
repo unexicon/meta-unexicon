@@ -87,3 +87,4 @@ rcs-fast-export-git
 rcs-fast-import
 sipgrep
 gitg
+jsonrpc-glib
