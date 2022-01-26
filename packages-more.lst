@@ -158,8 +158,9 @@ eterm
 tcsh
 
 # file systems
-fuse-exfat
-exfat-utils
+exfatprogs
+#fuse-exfat # exfatprogs is enough now
+#exfat-utils # exfatprogs is enough now
 mdbtools-git
 rpmextract
 
