@@ -34,6 +34,9 @@ prometheus-blackbox-exporter
 #prometheus-mysqld-exporter
 prometheus-node-exporter
 prometheus-bird-exporter
+prometheus-systemd-exporter
+prometheus-process-exporter
+prometheus-snmp-exporter
 
 # database tools
 dbeaver
