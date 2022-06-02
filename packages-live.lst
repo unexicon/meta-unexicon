@@ -219,7 +219,7 @@ pcmanfm
 pdnsd
 peksystray
 pekwm
-perl-alpm
+#perl-alpm
 perl-anyevent-snmp
 perl-audio-mixer
 #perl-coro
