@@ -127,7 +127,7 @@ hwdetect
 #i3status
 ibam
 #icewm2
-ifenslave
+#ifenslave
 ifplugd
 iftop
 igmpproxy
