@@ -7,6 +7,8 @@ asciidoc
 astyle
 bin86
 #bzrtools
+check
+check-docs
 clang
 cmake
 cscope

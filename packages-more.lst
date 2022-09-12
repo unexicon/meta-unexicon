@@ -52,7 +52,7 @@ mplayer
 recordmydesktop
 txt2man
 typespeed
-urlgrabber
+python2-urlgrabber
 urlview
 webalizer-xtended
 xfe-arch
