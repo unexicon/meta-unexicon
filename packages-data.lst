@@ -20,7 +20,8 @@ graylog
 sentinl
 # conflicts with metricbeat
 #topbeat-bin
-sonic
+# conflicts with libsonic
+#sonic
 elasticdump
 
 # Prometheus
@@ -37,6 +38,13 @@ prometheus-bird-exporter
 prometheus-systemd-exporter
 prometheus-process-exporter
 prometheus-snmp-exporter
+
+# Zabbix
+zabbix-agent
+zabbix-agent2
+zabbix-proxy
+zabbix-server
+grafana-zabbix
 
 # database tools
 dbeaver
