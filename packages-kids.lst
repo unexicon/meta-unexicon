@@ -3,7 +3,7 @@
 #Depends On     : qt4  sdl_image  libvorbis  libxml2  inotify-tools
 #Download Size  : 2119.64 KiB
 #Installed Size : 4014.00 KiB
-# konstruktor
+konstruktor
 leocad
 #Depends On     : kdebase-runtime  glu  povray  ldraw-parts-library
 #Download Size  : 384.36 KiB
