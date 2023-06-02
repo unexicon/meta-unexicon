@@ -180,3 +180,7 @@ fetchmail
 #Download Size  : 177.76 KiB
 #Installed Size : 558.00 KiB
 
+# Additional firmware
+upd72020x-fw
+ast-firmware
+
