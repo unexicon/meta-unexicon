@@ -1283,10 +1283,10 @@ help2man
 texlive-bibtexextra
 texlive-core
 texlive-formatsextra
-texlive-genericextra
+#texlive-genericextra # part of texlive-core
 texlive-latexextra
 texlive-pictures
-texlive-plainextra
+#texlive-plainextra # part of texlive-core
 texlive-pstricks
 texlive-publishers
 xmlto
