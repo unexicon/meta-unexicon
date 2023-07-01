@@ -55,14 +55,14 @@ opensearch-transport-nio-plugin
 #journalbeat
 #metricbeat
 #packetbeat
-curator
+#curator
 #dovecot-fts-elastic
 #python-elasticsearch
 #python-elasticsearch-curator
 #cerebro-elasticsearch
 fluent-bit
 graylog
-sentinl
+#sentinl
 # conflicts with metricbeat
 #topbeat-bin
 # conflicts with libsonic
