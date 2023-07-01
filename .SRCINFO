@@ -1,7 +1,7 @@
 pkgbase = meta-unexicon
 	pkgdesc = A collection of meta packages for the unexicon distribution
 	pkgver = 1.14
-	pkgrel = 24
+	pkgrel = 25
 	url = http://www.unexicon.com
 	arch = any
 	groups = unexicon
@@ -48,7 +48,7 @@ pkgbase = meta-unexicon
 	md5sums = d000feb334312565b285a40b2ae17a8c
 	md5sums = b4678c1aacbcd233ad802bcf07e117e2
 	md5sums = ab0b0964491eaa641da8fcebd809a334
-	md5sums = a52216848da830e52ab6977e2ef755e9
+	md5sums = bed2d15d2126a56bcf90f694aaf80c38
 	md5sums = 813a22b04120801446a39823f2bfdd75
 	md5sums = 8f49917513992026329e3aecadd4f853
 	md5sums = bdfe5bd3c9ef29bfae258cac93d6e96d
@@ -2204,7 +2204,6 @@ pkgname = meta-unexicon-clus
 	depends = unison
 	depends = ceph
 	depends = ceph-libs
-	depends = ceph-mgr
 
 pkgname = meta-unexicon-data
 	pkgdesc = Packages for Data search and visualization.

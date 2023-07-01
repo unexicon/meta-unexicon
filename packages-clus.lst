@@ -24,4 +24,4 @@ openafs-modules-lts
 unison
 ceph
 ceph-libs
-ceph-mgr
+#ceph-mgr
