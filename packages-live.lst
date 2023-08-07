@@ -11,7 +11,8 @@ libwrap
 perl-gnome2-wnck+
 perl-net-dbus
 slim-xdm
-gvim-gtk2
+gvim
+#gvim-gtk2
 volumeicon-gtk2
 xorg-xdm-xlogin
 xqproxy-git

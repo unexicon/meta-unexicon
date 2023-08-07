@@ -29,7 +29,7 @@ pkgname=(
     'meta-unexicon-mesg')
 pkgbase='meta-unexicon'
 pkgver=1.14
-pkgrel=28
+pkgrel=29
 pkgdesc="A collection of meta packages for the unexicon distribution"
 arch=('any')
 url="http://www.unexicon.com"
@@ -240,8 +240,8 @@ package_meta-unexicon-mesg() {
   install -Dm644 packages-mesg.lst "$pkgdir/usr/share/unexicon/installed/meta-unexicon-mesg"
 }
 
-md5sums=('0f72a058902dc4c56b39c9a3db3df8f7'
-         '3999c7ff64b2746532e540abb48c8ccb'
+md5sums=('9d0a3bfbd1fb0b958ee55a99b3e0ab6f'
+         '67f95d287ac337d7f89e3aab762a1c11'
          '0ecbcce493a2d6c2e07c74bca586b6cf'
          'cd773b2e56c4f37e98f1596a70fcd2f5'
          'e662234b987c635cae465e5503bed528'
