@@ -110,7 +110,7 @@ alsa-plugins
 lshw
 lshwd
 
-rp-pppoe-gui
+#rp-pppoe-gui doesn't work anymore
 
 #libosip2
 #Depends On     : glibc
