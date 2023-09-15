@@ -448,6 +448,7 @@ wmmail
 #Depends On     : windowmaker
 #Download Size  :  77.67 KiB
 #Installed Size : 325.00 KiB
+libtiff5
 wmweather+
 #Depends On     : pcre  libxpm  curl  windowmaker
 #Download Size  :  49.49 KiB

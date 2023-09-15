@@ -72,6 +72,7 @@ fvwm		# a little big
 windowmaker-crm-git
 windowmaker-extra
 wmmail
+libtiff5
 wmweather+
 
 #bubblemon-dockapp  # pulls in gtk (not any more)
