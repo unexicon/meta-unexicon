@@ -28,7 +28,7 @@ pkgname=(
     'meta-unexicon-serv'
     'meta-unexicon-mesg')
 pkgbase='meta-unexicon'
-pkgver=1.14
+pkgver=1.15
 pkgrel=31
 pkgdesc="A collection of meta packages for the unexicon distribution"
 arch=('any')
@@ -253,11 +253,11 @@ md5sums=('9d0a3bfbd1fb0b958ee55a99b3e0ab6f'
          '950261485e4badec547ad2a7fec4294d'
          '828b607f5a5a7713b00a61214ff74906'
          'b3abb520a24c02a14906b7954cc8140c'
-         '2a2569c3c203601c85ba41108f92141f'
+         '92dffb98382d9f167041561dbdf812a4'
          'f1cf3d15258e8936a79aecfa6232f799'
          'd000feb334312565b285a40b2ae17a8c'
          'b4678c1aacbcd233ad802bcf07e117e2'
-         'ab0b0964491eaa641da8fcebd809a334'
+         '50af355d426ad229950fe5a692ea59be'
          'a52216848da830e52ab6977e2ef755e9'
          '73fe82eda15458c8eb66604b95bd8716'
          '8f49917513992026329e3aecadd4f853'

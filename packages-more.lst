@@ -1,6 +1,6 @@
 # some mail programs
 mutt
-alpine-git
+alpine
 claws-mail-gtk2
 libytnef		# optional for claws-mail
 poppler-glib		# optional for claws-mail
