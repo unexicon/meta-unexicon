@@ -1007,7 +1007,7 @@ g3dviewer
 #
 # Note that tightvnc and tigervnc conflict with each other.
 #
-remmina-gtk2
+remmina
 #Depends On     : libssh  libgnome-keyring  vte  telepathy-glib  freerdp  hicolor-icon-theme
 #Download Size  : 315.88 KiB
 #Installed Size : 1461.00 KiB
