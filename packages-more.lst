@@ -220,7 +220,7 @@ hal
 # linux-tools group
 bootconfig
 bpf
-cgroup_event_listener
+#cgroup_event_listener
 cpupower
 hyperv
 perf
