@@ -48,7 +48,8 @@ b43-fwcutter
 beep
 bfa-firmware
 bftpd
-bind-tools
+#bind-tools
+bind
 #blackboxwm
 bridge-utils
 bsdiff
