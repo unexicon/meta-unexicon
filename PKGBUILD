@@ -26,7 +26,9 @@ pkgname=(
     'meta-unexicon-audi'
     'meta-unexicon-kern'
     'meta-unexicon-serv'
-    'meta-unexicon-mesg')
+    'meta-unexicon-mesg'
+    'meta-unexicon-cons'
+    'meta-unexicon-yubi')
 pkgbase='meta-unexicon'
 pkgver=1.15
 pkgrel=35
@@ -58,7 +60,9 @@ depends=(`cat packages-inst.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-audi.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-kern.lst|sed -r 's,[[:space:]]*#.*,,'`
          `cat packages-serv.lst|sed -r 's,[[:space:]]*#.*,,'`
-         `cat packages-mesg.lst|sed -r 's,[[:space:]]*#.*,,'`)
+         `cat packages-mesg.lst|sed -r 's,[[:space:]]*#.*,,'`
+         `cat packages-cons.lst|sed -r 's,[[:space:]]*#.*,,'`
+         `cat packages-yubi.lst|sed -r 's,[[:space:]]*#.*,,'`)
 depends=()
 source=(packages-inst.lst
         packages-live.lst
@@ -83,7 +87,9 @@ source=(packages-inst.lst
         packages-audi.lst
         packages-kern.lst
         packages-serv.lst
-        packages-mesg.lst)
+        packages-mesg.lst
+        packages-cons.lst
+        packages-yubi.lst)
 
 package_meta-unexicon() {
   pkgdesc="A meta package for unexicon (remove me)"
@@ -238,6 +244,18 @@ package_meta-unexicon-mesg() {
   pkgdesc="Packages for Messaging Applications."
   depends=('meta-unexicon' `cat packages-mesg.lst|sed -r 's,[[:space:]]*#.*,,'`)
   install -Dm644 packages-mesg.lst "$pkgdir/usr/share/unexicon/installed/meta-unexicon-mesg"
+}
+
+package_meta-unexicon-cons() {
+  pkgdesc="Packages for Consulting Tools."
+  depends=('meta-unexicon' `cat packages-cons.lst|sed -r 's,[[:space:]]*#.*,,'`)
+  install -Dm644 packages-cons.lst "$pkgdir/usr/share/unexicon/installed/meta-unexicon-cons"
+}
+
+package_meta-unexicon-yubi() {
+  pkgdesc="Packages for Consulting Tools."
+  depends=('meta-unexicon' `cat packages-yubi.lst|sed -r 's,[[:space:]]*#.*,,'`)
+  install -Dm644 packages-yubi.lst "$pkgdir/usr/share/unexicon/installed/meta-unexicon-yubi"
 }
 
 md5sums=('c8b2723b9b9876dc408106a0a66d2cf5'

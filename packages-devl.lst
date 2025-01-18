@@ -1,10 +1,13 @@
+base-devel
 #
 # Software development packages (over and above base-devel)
 #
 gnulib-git
 #
+adns
 asciidoc
 astyle
+bcunit
 bin86
 #bzrtools
 check

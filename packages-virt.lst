@@ -20,7 +20,7 @@ qt4
 vde2
 virtualbox-guest-utils
 virtualbox-guest-iso
-#virtualbox-ext-vnc
+virtualbox-ext-vnc
 virtualbox-ext-oracle
 virtualbox-sdk
 net-tools
