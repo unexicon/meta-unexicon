@@ -31,7 +31,7 @@ pkgname=(
     'meta-unexicon-yubi')
 pkgbase='meta-unexicon'
 pkgver=1.15
-pkgrel=35
+pkgrel=36
 pkgdesc="A collection of meta packages for the unexicon distribution"
 arch=('any')
 url="http://www.unexicon.com"
@@ -258,9 +258,9 @@ package_meta-unexicon-yubi() {
   install -Dm644 packages-yubi.lst "$pkgdir/usr/share/unexicon/installed/meta-unexicon-yubi"
 }
 
-md5sums=('c8b2723b9b9876dc408106a0a66d2cf5'
-         '3abf0ca7a43f833ca58c634ebb35273d'
-         '0ecbcce493a2d6c2e07c74bca586b6cf'
+md5sums=('fa06a2491c4d835cb786c67e3ff2b972'
+         'a5a8294f53ad0bcb71e6cbc1cffd8e84'
+         '4d5f46cf8e1d1e487caad8f04c1b475a'
          'cd773b2e56c4f37e98f1596a70fcd2f5'
          '5a3241dfdba461d164204c34cbdda1b4'
          '843dbb9698c3749a6b1d1d6802200964'
@@ -268,11 +268,11 @@ md5sums=('c8b2723b9b9876dc408106a0a66d2cf5'
          '717e734ff16aff9a015d4269ed875b00'
          'b17a8d069ecc206adcfc56f38e6f72c7'
          '4c4ec7656768eaae418ca94483dab109'
-         '950261485e4badec547ad2a7fec4294d'
+         '381ab4faabc51806adc701a60e67b601'
          '828b607f5a5a7713b00a61214ff74906'
-         'b3abb520a24c02a14906b7954cc8140c'
+         '5cf06231e3fec2e7c5aac197a143cee0'
          '8df6d1c16967e817f2ceddabcac6cfc1'
-         'f1cf3d15258e8936a79aecfa6232f799'
+         'cdb993cba9c5c8ccd79692bf12bff26f'
          'd000feb334312565b285a40b2ae17a8c'
          'b4678c1aacbcd233ad802bcf07e117e2'
          '50af355d426ad229950fe5a692ea59be'
@@ -280,5 +280,7 @@ md5sums=('c8b2723b9b9876dc408106a0a66d2cf5'
          '73fe82eda15458c8eb66604b95bd8716'
          '8f49917513992026329e3aecadd4f853'
          'bdfe5bd3c9ef29bfae258cac93d6e96d'
-         'dacb9f9b3be318adc62b9e145a10d7a6'
-         '1061eeb50b892fe423b2b6dfa7669dc2')
+         'f11fb2fc9873e251747153f940b2df71'
+         '1061eeb50b892fe423b2b6dfa7669dc2'
+         '4b0d29639e2f9925691b7f8c491ff5a6'
+         'f453690db05ce27b2ac4be9e3e06e9f5')
