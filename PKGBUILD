@@ -31,7 +31,7 @@ pkgname=(
     'meta-unexicon-yubi')
 pkgbase='meta-unexicon'
 pkgver=1.15
-pkgrel=37
+pkgrel=38
 pkgdesc="A collection of meta packages for the unexicon distribution"
 arch=('any')
 url="http://www.unexicon.com"
@@ -277,7 +277,7 @@ md5sums=('fa06a2491c4d835cb786c67e3ff2b972'
          'b4678c1aacbcd233ad802bcf07e117e2'
          '50af355d426ad229950fe5a692ea59be'
          'a52216848da830e52ab6977e2ef755e9'
-         '43eb53efd820190f7ff374cc35b8152c'
+         'd9f5211eb91551daf0a9b938c7a0f8bd'
          '8f49917513992026329e3aecadd4f853'
          'bdfe5bd3c9ef29bfae258cac93d6e96d'
          'f11fb2fc9873e251747153f940b2df71'
