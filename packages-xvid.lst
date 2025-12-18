@@ -282,7 +282,7 @@ xorg-xwud
 # dri
 mesa
 mesa-utils
-mesa-vdpau
+#mesa-vdpau		# now part of mesa
 libva-mesa-driver
 
 

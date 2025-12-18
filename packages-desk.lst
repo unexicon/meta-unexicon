@@ -560,7 +560,9 @@ gtk-engines
 #Depends On     : gtk2>=2.22.0
 #Download Size  : 217.46 KiB
 #Installed Size : 1320.00 KiB
-gnome-themes-standard
+## gnome-themes-standard
+gnome-themes-extra
+gnome-themes-extra-gtk2
 # I think gdk-pixbuf needs this to render svg icons
 libsvg-cairo
 # pango needs this to render X system fonts
