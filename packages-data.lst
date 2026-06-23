@@ -111,3 +111,10 @@ perl-text-csv
 perl-text-csv-xs
 perl-xls2csv
 perl-berkeleydb
+python-xlsx2csv
+csvkit
+visidata
+perl-text-unidecode
+perl-cpanel-json-xs
+perl-json-maybexs
+git-filter-repo

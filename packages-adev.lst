@@ -90,3 +90,4 @@ rcs-fast-import
 sipgrep
 gitg
 jsonrpc-glib
+vim-jsx-pretty
