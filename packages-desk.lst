@@ -1292,6 +1292,7 @@ texlive-pictures
 #texlive-plainextra # part of texlive-core
 texlive-pstricks
 texlive-publishers
+texlive-binextra
 xmlto
 svg2pdf-git
 pdf2svg
