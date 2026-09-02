@@ -682,5 +682,5 @@ amd-ucode
 af9005-firmware
 af9015-firmware
 b43-firmware
-broadcom-wl
+broadcom-wl-dkms
 x86info

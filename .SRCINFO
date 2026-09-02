@@ -1,7 +1,7 @@
 pkgbase = meta-unexicon
 	pkgdesc = A collection of meta packages for the unexicon distribution
 	pkgver = 1.15
-	pkgrel = 43
+	pkgrel = 44
 	url = http://www.unexicon.com
 	arch = any
 	groups = unexicon
@@ -33,7 +33,7 @@ pkgbase = meta-unexicon
 	source = packages-cons.lst
 	source = packages-yubi.lst
 	md5sums = fa06a2491c4d835cb786c67e3ff2b972
-	md5sums = a5a8294f53ad0bcb71e6cbc1cffd8e84
+	md5sums = d937a2843274ea8e05fbc01b947475d4
 	md5sums = 4d5f46cf8e1d1e487caad8f04c1b475a
 	md5sums = cd773b2e56c4f37e98f1596a70fcd2f5
 	md5sums = 5a3241dfdba461d164204c34cbdda1b4
@@ -839,7 +839,7 @@ pkgname = meta-unexicon-live
 	depends = af9005-firmware
 	depends = af9015-firmware
 	depends = b43-firmware
-	depends = broadcom-wl
+	depends = broadcom-wl-dkms
 	depends = x86info
 
 pkgname = meta-unexicon-plus
