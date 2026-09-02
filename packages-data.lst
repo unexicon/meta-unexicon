@@ -94,9 +94,9 @@ grafana-zabbix
 # database tools
 dbeaver
 #dbeaver-plugin-apache-poi
-dbeaver-plugin-batik
+#dbeaver-plugin-batik
 #dbeaver-plugin-office
-dbeaver-plugin-svg-format
+#dbeaver-plugin-svg-format
 #dbeaver-plugin-sshj
 dbf
 

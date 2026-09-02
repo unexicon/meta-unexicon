@@ -9,7 +9,7 @@ gimp-plugin-fblur
 gimp-plugin-gmic
 gimp-plugin-wavelet-denoise
 gimp-refocus
-gimp-nufraw
+#gimp-nufraw
 gimp-paint-studio
 kolourpaint
 cinepaint
