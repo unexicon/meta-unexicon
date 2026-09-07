@@ -1,4 +1,5 @@
-cbatticon-gtk2
+#cbatticon-gtk2
+cbatticon
 #Depends On      : libnotify  gtk2
 #Download Size   : 16.69 KiB
 #Installed Size  : 130.00 KiB
@@ -57,3 +58,7 @@ ltunify
 #
 libmbim
 modem-manager-gui
+#
+# package updater
+#
+pamac

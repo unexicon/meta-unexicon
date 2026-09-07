@@ -328,7 +328,8 @@ lxtask
 #Depends On     : gtk2
 #Download Size  :  42.58 KiB
 #Installed Size : 181.00 KiB
-lxterminal-gtk2
+#lxterminal-gtk2
+lxterminal
 #Depends On     : fontconfig  libx11  glib2  vte  gtk2
 #Download Size  :  69.52 KiB
 #Installed Size : 980.00 KiB
@@ -1025,7 +1026,8 @@ x11vnc-git
 #Depends On     : libjpeg  zlib  libxaw  libxp  xorg-xauth  perl
 #Download Size  : 727.78 KiB
 #Installed Size : 2044.00 KiB
-gtk-vnc-gtk2
+#gtk-vnc-gtk2
+gtk-vnc
 #Depends On     : libgcrypt  gtk2
 #Download Size  : 118.73 KiB
 #Installed Size : 961.00 KiB
@@ -1161,7 +1163,8 @@ midori-gtk2
 #Depends On      : webkitgtk2  libxss  gcr
 #Download Size   : 1102.18 KiB
 #Installed Size  : 5869.00 KiB
-vimb-gtk2
+#vimb-gtk2
+vimb
 #Depends On     : webkitgtk2
 #Download Size  :  58.84 KiB
 #Installed Size : 175.00 KiB
@@ -1192,7 +1195,8 @@ fltk-editor
 #
 fluff
 rox
-spacefm-gtk2
+#spacefm-gtk2
+spacefm
 thunar
 thunar-volman
 thunar-media-tags-plugin

@@ -1,7 +1,8 @@
 # some mail programs
 mutt
 alpine
-claws-mail-gtk2
+#claws-mail-gtk2
+claws-mail
 libytnef		# optional for claws-mail
 poppler-glib		# optional for claws-mail
 ghostscript		# optional for claws-mail
@@ -12,7 +13,8 @@ spamassassin		# optional for claws-mail
 bogofilter		# optional for claws-mail
 libgdata		# optional for claws-mail
 clawsker
-balsa-gtk2
+#balsa-gtk2
+balsa
 checkgmail
 mailutils
 #thunderbird-gtk2
@@ -36,7 +38,8 @@ glchess
 xmahjongg
 
 # documents and media and desktop productivity
-abiword-gtk2
+#abiword-gtk2
+abiword
 brasero2
 dia
 evolution-data-server
@@ -99,7 +102,8 @@ jack2
 jack-rack
 paprefs
 paman
-pavucontrol-gtk2
+#pavucontrol-gtk2
+pavucontrol
 pamixer
 # kdenlive works better with these
 movit
@@ -194,10 +198,12 @@ xsettingsd
 xtoolwait-git
 
 #systray
-cpp-alsa-volume-gtk2
+#cpp-alsa-volume-gtk2
+cpp-alsa-volume
 vattery
 trayclock
-pasystray-gtk2
+#pasystray-gtk2
+pasystray
 
 ssvnc-nojava
 xrdp

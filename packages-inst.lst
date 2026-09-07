@@ -3,9 +3,11 @@ lsof
 xorg-xrdb-mcpp
 gksu-polkit-git
 gnome-vfs-nosmb
-avahi-gtk2
+#avahi-gtk2
+avahi
 gconf-gtk2
-gxmessage-gtk2
+#gxmessage-gtk2
+gxmessage
 libwnck+-git
 libwrap
 perl-gnome2-wnck+
@@ -14,6 +16,7 @@ slim-xdm
 gvim
 #gvim-gtk2
 #volumeicon-gtk2
+volumeicon
 xorg-xdm-xlogin
 xqproxy-git
 x11vnc-git
@@ -118,7 +121,8 @@ gptfdisk
 gtk-chtheme
 gtk-engines
 gtk-theme-switch2
-gtk-vnc-gtk2
+#gtk-vnc-gtk2
+gtk-vnc
 gtkdialog
 # gummiboot	    # included in systemd 220+ (bootctl)
 haveged
@@ -166,7 +170,8 @@ lvm2
 #lxpolkit-git	# now part of lxsession
 #lxrandr
 #lxtask
-#lxterminal-gtk2
+##lxterminal-gtk2
+#lxterminal
 lzop
 #mailtc
 man-db
@@ -276,7 +281,8 @@ quota-tools
 radvd
 reiserfsprogs
 #retrovol
-roxterm-gtk2
+#roxterm-gtk2
+roxterm
 rp-pppoe
 rsync
 s-nail
@@ -415,7 +421,8 @@ wireless_tools
 iwd
 wpa_actiond
 x11-ssh-askpass
-xarchiver-gtk2
+#xarchiver-gtk2
+xarchiver
 xdelta3
 xde-ctools
 xde-session
@@ -663,7 +670,8 @@ xpaint
 
 xbrightness
 xrestop
-xsensors-gtk2
+#xsensors-gtk2
+xsensors
 xtrlock
 xxkb
 xzgv

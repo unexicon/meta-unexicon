@@ -72,6 +72,15 @@ xmltoman
 xscope
 
 #
+# Some gui development stuff
+#
+awf-gtk2
+awf-gtk3
+awf-gtk4
+gtk3-demos
+gtk4-demos
+
+#
 # A lot of perl stuff
 #
 perl-anyevent

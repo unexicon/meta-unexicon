@@ -4,8 +4,10 @@ flmusic		# CD audio player
 feh		# nice lightweight image viewer
 fontviewer	# tcl/tk font viewer
 gfontview	# a good font viewer
-mount-gtk2	# simple but pulls in udisks2
-geeqie-gtk2	# image viewer
+#mount-gtk2	# simple but pulls in udisks2
+mount-gtk	# simple but pulls in udisks2
+#geeqie-gtk2	# image viewer
+geeqie		# image viewer
 gqview		# image viewer
 xv		# image viewer
 icewm-themes
@@ -93,7 +95,8 @@ xde-theme-radar
 zenity-gtk2	# 5.812 MiB
 
 packagekit
-notification-daemon-gtk2
+#notification-daemon-gtk2
+notification-daemon
 
 lxde-common
 lxde-icon-theme	# pulled in by lxde-common
