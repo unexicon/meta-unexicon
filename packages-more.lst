@@ -102,8 +102,7 @@ jack2
 jack-rack
 paprefs
 paman
-#pavucontrol-gtk2
-pavucontrol
+pavucontrol-gtk2    # all other versions suck
 pamixer
 # kdenlive works better with these
 movit
@@ -202,8 +201,7 @@ xtoolwait-git
 cpp-alsa-volume
 vattery
 trayclock
-#pasystray-gtk2
-pasystray
+pasystray-gtk2	    # all other versions suck
 
 ssvnc-nojava
 xrdp

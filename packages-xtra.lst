@@ -95,8 +95,8 @@ xde-theme-radar
 zenity-gtk2	# 5.812 MiB
 
 packagekit
-#notification-daemon-gtk2
-notification-daemon
+notification-daemon-gtk2    # all the others suck
+dunst
 
 lxde-common
 lxde-icon-theme	# pulled in by lxde-common
